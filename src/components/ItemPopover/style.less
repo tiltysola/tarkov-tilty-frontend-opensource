@@ -1,0 +1,44 @@
+.item-popover {
+  position: relative;
+  display: inline-block;
+  &-modal {
+    position: absolute;
+    display: none;
+    padding: 12px;
+    width: 240px;
+    border: 1px solid #9a886668;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    box-shadow: 0 0 10px #0f0f0f;
+    &.visible {
+      display: flex;
+    }
+    > div:first-child {
+      width: calc(100% - 72px);
+      margin-right: 8px;
+      flex: 1;
+      * {
+        text-align: left;
+      }
+    }
+    > div:last-child {
+      width: 64px;
+      flex-shrink: 0;
+      img {
+        width: 100%;
+      }
+    }
+    &-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  &-trigger {
+    display: inline-block;
+  }
+  .font-size-12 {
+    font-size: 12px;
+  }
+}

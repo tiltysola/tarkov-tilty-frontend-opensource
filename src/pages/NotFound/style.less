@@ -1,0 +1,52 @@
+.notfound {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background-color: #1c1c1c;
+  overflow: auto;
+  z-index: 999;
+  &-flex {
+    width: calc(100% - 32px);
+    margin: auto;
+    padding: 32px 16px 64px 16px;
+    text-align: center;
+  }
+  &-logo {
+    display: inline-block;
+    width: 128px;
+    max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  &-header {
+    margin: 16px 0;
+    span {
+      font-size: 32px;
+      color: #ffffff;
+    }
+  }
+  &-describe {
+    span {
+      font-size: 16px;
+      color: #ffffff;
+    }
+  }
+  &-button {
+    margin-top: 32px;
+    .button-default {
+      color: #ffffff;
+      border: 1px dashed #ffffff28;
+      &:hover {
+        color: #ffffff;
+        border: 1px dashed #ffffff88;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.im-quicktools {
+  &-modal {
+    &-erasersetting {
+      width: 256px;
+      max-width: calc(100% - 38px);
+      max-height: calc(100% - 192px);
+      margin: 0 16px;
+      padding: 32px;
+      border: 3px solid #2c2c2c;
+      border-radius: 8px;
+      background-color: #1c1c1c;
+      overflow: auto;
+      &-title {
+        margin-bottom: 16px;
+        color: #ffffff;
+        &:not(:first-child) {
+          margin-top: 24px;
+        }
+      }
+      &-button {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding: 8px 16px;
+        border: 3px solid #2c2c2c;
+        border-radius: 8px;
+        color: #ffffff;
+        background-color: #1c1c1c;
+        text-align: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        &:not(:first-child) {
+          margin-top: 16px;
+        }
+        &:hover {
+          color: #888888;
+        }
+      }
+    }
+  }
+}

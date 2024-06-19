@@ -1,0 +1,23 @@
+{
+  "plugins": ["simple-import-sort", "react-hooks"],
+  "extends": "eslint-config-ali/typescript/react",
+  "rules": {
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          ["^react"],
+          ["^"],
+          ["^@"],
+          ["^@/pages", "^@/components"],
+          ["^\\."],
+          ["^\\u0000"]
+        ]
+      }
+    ],
+    "no-console": "off",
+    "react/no-danger": "off",
+    "react/prop-types": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}

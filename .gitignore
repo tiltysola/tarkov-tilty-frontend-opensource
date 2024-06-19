@@ -1,0 +1,20 @@
+# node
+node_modules
+package-lock.json
+pnpm-lock.yaml
+
+# build files
+dist
+
+# cache files
+cache
+*.dump
+
+# public
+logs
+
+# test files
+coverage
+
+# system
+.DS_Store

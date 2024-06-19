@@ -1,0 +1,33 @@
+.im-tooltip {
+  position: fixed;
+  padding: 8px 16px;
+  min-width: 64px;
+  max-width: 256px;
+  border: 3px solid #2c2c2c;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  word-break: keep-all;
+  background-color: #1c1c1c;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 6;
+  &.active {
+    opacity: 1;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 8px);
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top: 8px solid #2c2c2c;
+  }
+  * {
+    word-break: break-all;
+  }
+}

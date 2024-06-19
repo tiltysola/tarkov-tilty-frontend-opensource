@@ -1,0 +1,100 @@
+.im-mapinfo {
+  display: inline-block;
+  min-width: 128px;
+  padding: 16px;
+  border: 3px solid #2c2c2c88;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #1c1c1c88;
+  opacity: 0;
+  transition: all 0.3s;
+  &.active {
+    opacity: 1;
+  }
+  &-title {
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  &-item {
+    font-size: 14px;
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+    &.active {
+      .goon-alert {
+        color: #ffffff;
+        text-shadow: 0 0 2px #ffffff;
+        animation: goon-alert 16s linear infinite;
+      }
+    }
+    &-title {
+      display: inline-block;
+      width: 96px;
+      color: #888888;
+    }
+  }
+  .tarkov-time {
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+    &:last-child::before {
+      content: '/';
+      position: absolute;
+      top: 0;
+      right: 100%;
+      margin-right: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .im-mapinfo {
+    min-width: 128px;
+    padding: 16px;
+    &-title {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    &-item {
+      font-size: 12px;
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+      &-title {
+        width: 72px;
+      }
+    }
+    .tarkov-time {
+      width: 60px;
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+@keyframes goon-alert {
+  0% {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff;
+  }
+  17% {
+    color: #ff2828;
+    text-shadow: 0 0 2px #ff2828;
+  }
+  67% {
+    color: #ff2828;
+    text-shadow: 0 0 2px #ff2828;
+  }
+  83% {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff;
+  }
+  100% {
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff;
+  }
+}

@@ -1,0 +1,101 @@
+@import url('@/styles/color.less');
+
+.layout {
+  .header {
+    background-color: #000000;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .footer {
+    position: relative;
+    z-index: 9;
+  }
+  .background {
+    background-image: url(https://cdn.mahoutsukai.cn/uploads/tilty/gallery/28d4b7bb42b14b64b06bd6ae5a2ec1b4/28d4b7bb42b14b64b06bd6ae5a2ec1b4.webp);
+  }
+  &-container {
+    min-height: calc(100vh - 240px);
+    padding: 20px;
+  }
+  &-logo {
+    display: flex;
+    align-items: center;
+    img {
+      height: 56px;
+    }
+    span {
+      display: inline-block;
+      padding-left: 8px;
+      border-left: 1px solid #ffffff28;
+      color: #ffffff;
+    }
+  }
+  &-left {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 220px;
+    padding: 0 0 20px 20px;
+    height: calc(100vh - 80px);
+  }
+  &-content {
+    background-color: #000000d8 !important;
+    * {
+      color: @font-primary;
+    }
+  }
+  &-main {
+    display: block;
+    width: calc(100vw - 40px);
+  }
+  &-left + &-main {
+    padding-left: 240px;
+    width: calc(100vw - 288px);
+  }
+}
+
+@media screen and (max-height: 1079px) {
+  .layout {
+    &-container {
+      min-height: 960px;
+    }
+    &-left {
+      position: absolute;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: calc(100% - 64px) !important;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .layout {
+    .background {
+      background-position-x: 75%;
+    }
+    &-logo {
+      display: flex;
+      align-items: center;
+      img {
+        height: 32px;
+      }
+      span {
+        display: none;
+      }
+    }
+    &-left {
+      position: inherit;
+      margin-bottom: 32px;
+      padding: 0;
+      width: 100%;
+      height: auto;
+    }
+    &-left + &-main {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+}

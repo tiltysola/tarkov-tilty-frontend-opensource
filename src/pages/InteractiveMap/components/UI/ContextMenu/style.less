@@ -1,0 +1,40 @@
+.im-contextmenu {
+  position: fixed;
+  width: 192px;
+  padding: 6px 0;
+  border: 3px solid #2c2c2c;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #1c1c1c;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  z-index: 6;
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &-item {
+    padding: 8px 40px 8px 16px;
+    color: #ffffff;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: #888888;
+    }
+    &.active {
+      color: #288828;
+      border-color: #288828;
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-right: 8px solid #2c2c2c;
+  }
+}

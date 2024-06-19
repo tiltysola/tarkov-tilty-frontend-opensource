@@ -1,0 +1,53 @@
+.im-quicktools {
+  &-modal {
+    &-marker {
+      width: 320px;
+      max-width: calc(100% - 38px);
+      max-height: calc(100% - 192px);
+      margin: 0 16px;
+      padding: 16px;
+      border: 3px solid #2c2c2c;
+      border-radius: 8px;
+      background-color: #1c1c1c;
+      overflow: auto;
+      &-title {
+        margin-bottom: 16px;
+        color: #ffffff;
+        &:not(:first-child) {
+          margin-top: 24px;
+        }
+      }
+      &-block {
+        margin-bottom: 16px;
+        &-title {
+          margin-bottom: 16px;
+          font-size: 12px;
+          color: #888888;
+        }
+        &-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 16px;
+          img {
+            display: inline-block;
+            width: 32px;
+            transition: all 0.3s;
+            cursor: pointer;
+            &:hover {
+              opacity: 0.6;
+            }
+            &:not(.active) {
+              filter: grayscale(1);
+            }
+            &.active {
+              filter: drop-shadow(0 0 3px #288828);
+            }
+          }
+        }
+        &:last-child {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}

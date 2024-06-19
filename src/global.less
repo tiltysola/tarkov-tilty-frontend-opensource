@@ -1,0 +1,38 @@
+@import url('./styles/color.less');
+@import url('./styles/tarkov.less');
+@import url('./styles/rc-slider.less');
+@import url('./styles/rc-tooltip.less');
+
+html {
+  overscroll-behavior: none;
+}
+
+a {
+  color: @font-primary;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+* {
+  font-family:
+    JinBuTi,
+    -apple-system,
+    BlinkMacSystemFont,
+    'PingFang SC',
+    'Microsoft YaHei',
+    STXihei,
+    'Segoe UI',
+    'Helvetica Neue',
+    Helvetica,
+    'Hiragino Sans GB',
+    Arial,
+    sans-serif;
+}
+
+@font-face {
+  font-family: JinBuTi;
+  src: url('https://cdn.mahoutsukai.cn/assets/tilty/fonts/DingTalk-JinBuTi.woff2');
+}
