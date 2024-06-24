@@ -21,11 +21,7 @@ interface QuickToolsProps {
 }
 
 const Index = (
-  props: QuickToolsProps &
-  MarkerSelectProps &
-  DrawSettingProps &
-  EraserSettingProps &
-  SettingProps,
+  props: QuickToolsProps & MarkerSelectProps & DrawSettingProps & EraserSettingProps & SettingProps,
 ) => {
   const {
     mapInfoActive,

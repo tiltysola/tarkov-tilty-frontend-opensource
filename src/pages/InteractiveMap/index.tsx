@@ -297,7 +297,7 @@ const Index = () => {
   } else {
     return (
       <div className="im-loading">
-        <img src="https://cdn.mahoutsukai.cn/assets/tilty/images/tilty_logo_round_white.png" />
+        <img src="/images/tilty_logo_round_white.png" />
         <span>互动地图载入中...</span>
       </div>
     );

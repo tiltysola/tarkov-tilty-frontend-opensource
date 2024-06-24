@@ -184,7 +184,7 @@ export const loots: any = {
 };
 
 export const getIconCDN = (iconName: string) => {
-  return `https://cdn.mahoutsukai.cn/uploads/tarkov/map-icons/${icons[iconName]}.png`;
+  return `/mapIcons/${icons[iconName]}.png`;
 };
 
 export const getIconPath = (name: string) => {
@@ -316,7 +316,7 @@ export const mouseHoverEvent = {
   onMouseOver: () => {
     const stage = document.querySelector('.im-stage') as HTMLCanvasElement;
     if (stage) {
-      stage.style.cursor = 'url(\'https://cdn.mahoutsukai.cn/assets/tarkov/cursor/genshin-nahida-and-a-thousand-floating-dreams-cursor.png\'), pointer';
+      stage.style.cursor = 'url(\'/cursor/genshin-nahida-and-a-thousand-floating-dreams-cursor.png\'), pointer';
     }
   },
   onMouseLeave: () => {

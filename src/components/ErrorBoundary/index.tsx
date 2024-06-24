@@ -9,10 +9,7 @@ const fallbackRender = ({ error }: any) => {
     <div className="notfound">
       <div className="notfound-flex">
         <div className="notfound-logo">
-          <img
-            alt="logo"
-            src="https://cdn.mahoutsukai.cn/assets/tilty/images/tilty_logo_round_white.png"
-          />
+          <img alt="logo" src="/images/tilty_logo_round_white.png" />
         </div>
         <div className="notfound-header">
           <span>申し訳ありませんが</span>
