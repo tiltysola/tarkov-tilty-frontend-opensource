@@ -1,29 +1,31 @@
-# 逃离塔科夫·缇尔蒂助手 - 开源前端
+# Escape From Tarkov & Interactive Map
 
 ### Opensource Version. 1.0.0
 
-Copyright 2022-2024, YoumuKonpaku.
+Copyright 2022-2024, TiltySola.
 
-### 安装脚本
+![预览图片](https://github.com/tiltysola/tarkov-tilty-frontend-opensource/blob/master/git/tarkov-tilty-frontend-opensource.png?raw=true)
+
+### Installation scripts
 
 ```
-$ npm i --registry=https://registry.npmmirror.com
+$ npm i
 ```
 
-### 开发模式
+### Development mode
 
 ```
 $ npm run dev
 ```
 
-### 构建代码
+### Build scripts
 
 ```
 $ npm run build
 ```
 
-### 请注意，本项目以有限方式开源
+### Warning: Opensource & GPL v3
 
-严禁以任何方式伪造网站，获取其他用户个人信息。
+Please don't fake tilty's website in any way.
 
-详细内容请见 LICENSE.MD
+More details: LICENSE.MD
