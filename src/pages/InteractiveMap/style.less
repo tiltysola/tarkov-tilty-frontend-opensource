@@ -17,6 +17,19 @@
       gap: 16px;
     }
   }
+  &-right {
+    flex-direction: column;
+    align-items: end;
+    &-1 {
+      display: flex;
+      gap: 16px;
+    }
+    &-2 {
+      display: flex;
+      justify-content: end;
+      gap: 16px;
+    }
+  }
 }
 
 .im-footer {
@@ -61,6 +74,16 @@
       &-1 {
         flex-direction: column;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .im-header {
+    &-right {
+      flex-direction: row-reverse;
+      align-items: start;
+      gap: 0 !important;
     }
   }
 }

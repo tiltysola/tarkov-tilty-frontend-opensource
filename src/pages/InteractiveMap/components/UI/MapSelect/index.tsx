@@ -1,6 +1,10 @@
 import { useState } from 'react';
 
 import classNames from 'classnames';
+import { useRecoilState } from 'recoil';
+
+import useI18N from '@/i18n';
+import langState from '@/store/lang';
 
 import Icon from '@/components/Icon';
 
@@ -19,6 +23,10 @@ const Index = (props: MapSelectProps) => {
 
   const [mapSelectActive, setMapSelectActive] = useState(false);
   const [layerSelectActive, setLayerSelectActive] = useState(false);
+
+  const [lang] = useRecoilState(langState);
+
+  const { t } = useI18N(lang);
 
   const handleMapSelect = () => {
     setLayerSelectActive(false);
@@ -44,7 +52,7 @@ const Index = (props: MapSelectProps) => {
     <div className="im-mapselect">
       <div className="im-mapselect-base">
         <div className="im-mapselect-base-surface" onClick={handleMapSelect}>
-          <span>{activeMap.name || '选择地图'}</span>
+          <span>{activeMap.name || t('others.selectMap')}</span>
           <span className="im-mapselect-base-surface-arrow">
             {mapSelectActive ? (
               <Icon type="icon-arrow-drop-up-fill" />
@@ -76,7 +84,7 @@ const Index = (props: MapSelectProps) => {
       {activeMap.layers && (
         <div className="im-mapselect-layer">
           <div className="im-mapselect-layer-surface" onClick={handleLayerSelect}>
-            <span>{activeLayer || '表层'}</span>
+            <span>{activeLayer || t('others.surface')}</span>
             <span className="im-mapselect-base-surface-arrow">
               {layerSelectActive ? (
                 <Icon type="icon-arrow-drop-up-fill" />
@@ -96,7 +104,7 @@ const Index = (props: MapSelectProps) => {
               })}
               onClick={() => handleLayerChange('')}
             >
-              <span>表层</span>
+              <span>{t('others.surface')}</span>
             </div>
             {activeMap.layers.map((layer) => (
               <div

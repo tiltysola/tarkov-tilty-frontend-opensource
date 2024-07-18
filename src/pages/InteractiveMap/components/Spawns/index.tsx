@@ -9,6 +9,8 @@ import {
 
 import Image from '../Image';
 
+import './style.less';
+
 interface SpawnsProps {
   baseMap: InteractiveMap.Data;
   spawns: InteractiveMap.Spawn[];
@@ -34,16 +36,28 @@ const Index = (props: SpawnsProps & InteractiveMap.UtilProps) => {
     real2imagePos,
     show,
   } = props;
-  const bosses: { [key: string]: SpawnBoss } = {};
+  const bosses: { [key: string]: SpawnBoss[] } = {};
   baseMap.bosses?.forEach((boss) => {
     boss.spawnLocations.forEach((spawnLocation) => {
-      bosses[spawnLocation.spawnKey] = {
-        spawnKey: spawnLocation.spawnKey,
-        spawnChance: boss.spawnChance,
-        name: boss.boss.name,
-        normalizedName: boss.boss.normalizedName,
-        subSpawnChance: spawnLocation.chance,
-      };
+      if (bosses[spawnLocation.spawnKey]) {
+        bosses[spawnLocation.spawnKey].push({
+          spawnKey: spawnLocation.spawnKey,
+          spawnChance: boss.spawnChance,
+          name: boss.boss.name,
+          normalizedName: boss.boss.normalizedName,
+          subSpawnChance: spawnLocation.chance,
+        });
+      } else {
+        bosses[spawnLocation.spawnKey] = [
+          {
+            spawnKey: spawnLocation.spawnKey,
+            spawnChance: boss.spawnChance,
+            name: boss.boss.name,
+            normalizedName: boss.boss.normalizedName,
+            subSpawnChance: spawnLocation.chance,
+          },
+        ];
+      }
     });
   });
   if (baseMapStatus === 'loaded' && show.length > 0) {
@@ -64,9 +78,20 @@ const Index = (props: SpawnsProps & InteractiveMap.UtilProps) => {
                 {...mouseHoverEvent}
                 {...mouseClickEvent({
                   text: bosses[spawn.zoneName] ? (
-                    <span>
-                      {bosses[spawn.zoneName]?.name} ({bosses[spawn.zoneName].spawnChance * 100}%)
-                    </span>
+                    <div className="im-spawns-tooltip">
+                      {bosses[spawn.zoneName]
+                        ?.filter((boss) => {
+                          return (
+                            spawn.categories.includes('boss') ||
+                            ['cultist-priest'].includes(boss.normalizedName)
+                          );
+                        })
+                        .map((boss) => (
+                          <span>
+                            {boss.name} ({boss.spawnChance * 100}%)
+                          </span>
+                        ))}
+                    </div>
                   ) : (
                     `${spawn.zoneName}`
                   ),
@@ -87,7 +112,10 @@ const Index = (props: SpawnsProps & InteractiveMap.UtilProps) => {
                   width={24 / mapScale}
                   height={24 / mapScale}
                   imageSrc={getIconCDN(
-                    `spawn_${getSpawnType(spawn.categories, bosses[spawn.zoneName]?.normalizedName)}`,
+                    `spawn_${getSpawnType(
+                      spawn.categories,
+                      bosses[spawn.zoneName]?.map((boss) => boss.normalizedName),
+                    )}`,
                   )}
                 />
               </Group>

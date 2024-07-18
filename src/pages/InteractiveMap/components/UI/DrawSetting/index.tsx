@@ -1,6 +1,10 @@
 import { CirclePicker } from 'react-color';
 
 import Slider from 'rc-slider';
+import { useRecoilState } from 'recoil';
+
+import useI18N from '@/i18n';
+import langState from '@/store/lang';
 
 import { drawColorList } from '@/pages/InteractiveMap/utils';
 
@@ -16,10 +20,14 @@ export interface DrawSettingProps {
 const Index = (props: DrawSettingProps) => {
   const { strokeColor, strokeWidth, onStrokeColorChange, onStrokeWidthChange } = props;
 
+  const [lang] = useRecoilState(langState);
+
+  const { t } = useI18N(lang);
+
   return (
     <div className="im-quicktools-modal-drawsetting" onMouseDown={(e) => e.stopPropagation()}>
       <div className="im-quicktools-modal-drawsetting-title">
-        <span>颜色设置</span>
+        <span>{t('others.colorSetting')}</span>
       </div>
       <div className="im-quicktools-modal-drawsetting-block">
         <CirclePicker
@@ -29,7 +37,7 @@ const Index = (props: DrawSettingProps) => {
         />
       </div>
       <div className="im-quicktools-modal-drawsetting-title">
-        <span>笔刷宽度</span>
+        <span>{t('others.strokeWidth')}</span>
       </div>
       <div className="im-quicktools-modal-drawsetting-block">
         <Slider

@@ -184,7 +184,7 @@ export const loots: any = {
 };
 
 export const getIconCDN = (iconName: string) => {
-  return `/mapIcons/${icons[iconName]}.png`;
+  return `https://cdn.mahoutsukai.cn/uploads/tarkov/map-icons/${icons[iconName]}.png`;
 };
 
 export const getIconPath = (name: string) => {
@@ -231,13 +231,15 @@ export const getLootType = (value: string) => {
   return type;
 };
 
-export const getSpawnType = (types: string[] = [], normalizedName?: string) => {
-  if (normalizedName === 'rogue') {
+export const getSpawnType = (types: string[] = [], normalizedName?: string[]) => {
+  if (normalizedName?.includes('rogue')) {
     return 'rogue';
-  } else if (normalizedName === 'cultist-priest') {
+  } else if (normalizedName?.includes('cultist-priest') && normalizedName?.length === 1) {
     return 'cultist-priest';
   } else if (types.includes('boss')) {
     return 'boss';
+  } else if (normalizedName?.includes('cultist-priest')) {
+    return 'cultist-priest';
   } else if (types.includes('sniper')) {
     return 'sniper_scav';
   } else if (types.includes('bot')) {
@@ -316,7 +318,7 @@ export const mouseHoverEvent = {
   onMouseOver: () => {
     const stage = document.querySelector('.im-stage') as HTMLCanvasElement;
     if (stage) {
-      stage.style.cursor = 'url(\'/cursor/genshin-nahida-and-a-thousand-floating-dreams-cursor.png\'), pointer';
+      stage.style.cursor = 'url(\'https://cdn.mahoutsukai.cn/assets/tarkov/cursor/genshin-nahida-and-a-thousand-floating-dreams-cursor.png\'), pointer';
     }
   },
   onMouseLeave: () => {

@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
-import { Group, Path } from 'react-konva';
+import { Group, Path, Text } from 'react-konva';
 
 import dayjs from 'dayjs';
+
+import { quaternionToEulerAngles } from '@/utils/tarkov';
 
 import { getIconPath, mouseClickEvent, mouseHoverEvent } from '@/pages/InteractiveMap/utils';
 
@@ -19,6 +21,7 @@ interface iMPlayerLocation {
   x: number;
   y: number;
   z: number;
+  quaternion?: number[];
   name?: string;
   member: boolean;
   updatedAt: number;
@@ -50,6 +53,7 @@ const Index = (props: PlayerLocationProps & InteractiveMap.UtilProps) => {
           x: Number(location[1]),
           y: Number(location[2]),
           z: Number(location[3]),
+          quaternion: [location[4], location[5], location[6], location[7]].map((v) => Number(v)),
           mapId: activeMapId,
         };
         // onPlayerLocationChange?.(data);
@@ -90,7 +94,7 @@ const Index = (props: PlayerLocationProps & InteractiveMap.UtilProps) => {
                     text: (
                       <div className="im-playerlocation-tooltip">
                         <div className="im-playerlocation-tooltip-user">
-                          <span>{location.name || '游客'}</span>
+                          <span>{location.name || '本地'}</span>
                         </div>
                         <div className="im-playerlocation-tooltip-location">
                           <span>
@@ -115,6 +119,16 @@ const Index = (props: PlayerLocationProps & InteractiveMap.UtilProps) => {
                   opacity={active ? 1 : 0.1}
                   listening={active}
                 >
+                  {location.quaternion && (
+                    <Path
+                      x={real2imagePos.x(location.x)}
+                      y={real2imagePos.y(location.z) - 16 / mapScale}
+                      data={'M 0 0 L 30 80 L -30 80 L 0 0 Z'}
+                      fill={'#00000068'}
+                      rotation={quaternionToEulerAngles(location.quaternion)[0]}
+                      scale={{ x: 1 / mapScale, y: 1 / mapScale }}
+                    />
+                  )}
                   <Group
                     id={`im-playerlocation-path-${location.uuid}`}
                     x={real2imagePos.x(location.x) - 15 / mapScale}
@@ -122,9 +136,25 @@ const Index = (props: PlayerLocationProps & InteractiveMap.UtilProps) => {
                     scale={{ x: 0.03 / mapScale, y: 0.03 / mapScale }}
                   >
                     {getIconPath('location-fill').map((p) => {
-                      return <Path fill="#ffffff" data={p} shadowColor="#000000" shadowBlur={50} />;
+                      return <Path fill="#00ff00" data={p} shadowColor="#000000" shadowBlur={50} />;
                     })}
                   </Group>
+                  <Text
+                    id={`im-playerlocation-text-${location.uuid}`}
+                    x={real2imagePos.x(location.x)}
+                    y={real2imagePos.y(location.z)}
+                    fontFamily="JinBuTi"
+                    text="你的位置"
+                    fontSize={12 / mapScale}
+                    fill="#00ff00"
+                    width={600 / mapScale}
+                    offsetX={300 / mapScale}
+                    align="center"
+                    shadowColor="#000000"
+                    shadowBlur={12 / mapScale}
+                    offsetY={-6 / mapScale}
+                    listening={false}
+                  />
                 </Group>
               );
             } else {

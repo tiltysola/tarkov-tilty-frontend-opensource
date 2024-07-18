@@ -18,6 +18,7 @@ import Extracts from '../Extracts';
 import Hazards from '../Hazards';
 import Image from '../Image';
 import Labels from '../Labels';
+import Locks from '../Locks';
 import LootContainers from '../LootContainers';
 import PlayerLocation from '../PlayerLocation';
 import Ruler from '../Ruler';
@@ -31,6 +32,7 @@ interface CanvasProps {
   mapData: InteractiveMap.Data;
   activeLayer: InteractiveMap.Layer | undefined;
   markerExtracts: InteractiveMap.Faction[];
+  markerLocks: string[];
   markerLootKeys: string[];
   markerSpawns: string[];
   markerHazards: string[];
@@ -49,6 +51,7 @@ const Index = (props: CanvasProps & InteractiveMap.DrawProps) => {
     mapData,
     activeLayer,
     markerExtracts,
+    markerLocks,
     markerLootKeys,
     markerSpawns,
     markerHazards,
@@ -412,6 +415,10 @@ const Index = (props: CanvasProps & InteractiveMap.DrawProps) => {
 
   useEffect(() => {
     const keydown = (e: KeyboardEvent) => {
+      const { target } = e;
+      if (target instanceof HTMLElement) {
+        if (target.tagName === 'INPUT') return;
+      }
       const _mapMoveStatus = new Set(mapMoveStatus || []);
       if (!e.ctrlKey && e.key === 'w') {
         _mapMoveStatus.add('w');
@@ -460,7 +467,9 @@ const Index = (props: CanvasProps & InteractiveMap.DrawProps) => {
     if (mapMoveStatus?.has('d')) {
       _mapPosition.x += step;
     }
-    setMapPosition(_mapPosition);
+    if (mapMoveStatus && mapMoveStatus.size > 0) {
+      setMapPosition(_mapPosition);
+    }
   }, 1000 / 60);
 
   return (
@@ -508,6 +517,7 @@ const Index = (props: CanvasProps & InteractiveMap.DrawProps) => {
         <Spawns {...utils} baseMap={mapData} spawns={mapData.spawns} show={markerSpawns} />
         <Hazards {...utils} hazards={mapData.hazards} show={markerHazards} />
         <Extracts {...utils} extracts={mapData.extracts} show={markerExtracts} />
+        <Locks {...utils} locks={mapData.locks} show={markerLocks} />
         <PlayerLocation
           {...utils}
           activeMapId={mapData.id}

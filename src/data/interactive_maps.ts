@@ -484,12 +484,12 @@ export default [
       'Scav',
       '狙击手',
       'Kollontay',
-      ' 保镖 (Security)',
       ' 保镖 (Assault)',
+      ' 保镖 (Security)',
       'Kaban',
       'Kaban Guard',
-      ' 保镖',
-      ' 保镖',
+      ' 保镖 (Close1)',
+      ' 保镖 (Close2)',
     ],
     raidDuration: 50,
     players: '12-16',
@@ -502,7 +502,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/kollontay-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/kollontay-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneClimova',
@@ -524,7 +524,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/kaban-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/kaban-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneCarShowroom',
@@ -534,6 +534,7 @@ export default [
         ],
       },
     ],
+    nameId: 'TarkovStreets',
     spawns: [
       {
         zoneName: 'ZoneConcordia_1',
@@ -961,9 +962,9 @@ export default [
       {
         zoneName: '12bb197b-bc6b-449c-9cf1-54ed289a364b',
         position: {
-          x: 228.841,
-          y: 0.663,
-          z: 173.562,
+          x: 228.885,
+          y: 4.007,
+          z: 176.279,
         },
         sides: [
           'all',
@@ -1242,9 +1243,9 @@ export default [
       {
         zoneName: '1fa87642-c899-4952-b848-2401a677f05d',
         position: {
-          x: 228.391,
-          y: 0.642,
-          z: 171.365,
+          x: 227.794,
+          y: 3.945,
+          z: 174.694,
         },
         sides: [
           'all',
@@ -1298,9 +1299,9 @@ export default [
       {
         zoneName: '20a712ad-fd79-4983-89e4-5234075c9638',
         position: {
-          x: 221.194,
-          y: 0.646,
-          z: 170.919,
+          x: 221.598,
+          y: 3.94900012,
+          z: 175.266,
         },
         sides: [
           'all',
@@ -3706,9 +3707,9 @@ export default [
       {
         zoneName: '8eb7065a-df86-48c9-ace7-bc6e59372ad3',
         position: {
-          x: 226.448,
-          y: 0.696,
-          z: 171.106,
+          x: 214.21,
+          y: 3.99899983,
+          z: 172.474,
         },
         sides: [
           'all',
@@ -5198,8 +5199,8 @@ export default [
         zoneName: 'd86d8ead-2302-4817-858e-74fa428a244e',
         position: {
           x: 216.25,
-          y: 0.67,
-          z: 170.56,
+          y: 3.97299981,
+          z: 174.019,
         },
         sides: [
           'all',
@@ -6712,6 +6713,2335 @@ export default [
         bottom: -2.02602649,
       },
     ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '6582dc4b6ba9e979af6b79f4',
+          name: '内务部学院警卫室钥匙',
+          normalizedName: 'mvd-academy-entrance-hall-guard-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -250.476974,
+          y: 3.98400116,
+          z: 131.546,
+        },
+        outline: [
+          {
+            x: -250.652,
+            y: 3.98400116,
+            z: 130.666,
+          },
+          {
+            x: -250.301987,
+            y: 3.98400116,
+            z: 130.666,
+          },
+          {
+            x: -250.301987,
+            y: 3.98400116,
+            z: 131.406,
+          },
+          {
+            x: -250.652,
+            y: 3.98400116,
+            z: 131.406,
+          },
+        ],
+        top: 4.484001,
+        bottom: 3.48399925,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39f08cd6db0635c197600',
+          name: '酒店215房间钥匙',
+          normalizedName: 'pinewood-hotel-room-215-key',
+        },
+        needsPower: false,
+        position: {
+          x: -67.00622,
+          y: 6.024556,
+          z: 59.3249474,
+        },
+        outline: [
+          {
+            x: -67.97494,
+            y: 6.024556,
+            z: 59.3845749,
+          },
+          {
+            x: -67.34106,
+            y: 6.024556,
+            z: 59.2754936,
+          },
+          {
+            x: -67.30527,
+            y: 6.024556,
+            z: 59.4834862,
+          },
+          {
+            x: -67.93915,
+            y: 6.024556,
+            z: 59.5925674,
+          },
+        ],
+        top: 6.41148138,
+        bottom: 5.63763142,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '6582dbf0b8d7830efc45016f',
+          name: '休息间钥匙',
+          normalizedName: 'relaxation-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -208.164185,
+          y: 4.28889942,
+          z: 295.5338,
+        },
+        outline: [
+          {
+            x: -208.6657,
+            y: 4.28889942,
+            z: 294.761963,
+          },
+          {
+            x: -208.433578,
+            y: 4.28889942,
+            z: 294.644836,
+          },
+          {
+            x: -208.140732,
+            y: 4.28889942,
+            z: 295.225159,
+          },
+          {
+            x: -208.372849,
+            y: 4.28889942,
+            z: 295.3423,
+          },
+        ],
+        top: 4.78889942,
+        bottom: 3.78889942,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a3a93f8a56922e82001f5d',
+          name: '废弃工厂符号钥匙',
+          normalizedName: 'abandoned-factory-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: -133.4689,
+          y: 9.712829,
+          z: 272.9284,
+        },
+        outline: [
+          {
+            x: -133.718887,
+            y: 9.712829,
+            z: 272.0384,
+          },
+          {
+            x: -133.278885,
+            y: 9.712829,
+            z: 272.0384,
+          },
+          {
+            x: -133.2789,
+            y: 9.712829,
+            z: 272.6784,
+          },
+          {
+            x: -133.7189,
+            y: 9.712829,
+            z: 272.678375,
+          },
+        ],
+        top: 10.187829,
+        bottom: 9.237829,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39667c9b3aa4b61683e98',
+          name: '金融办公室钥匙',
+          normalizedName: 'financial-institution-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: -168.1108,
+          y: 7.11500072,
+          z: 230.025009,
+        },
+        outline: [
+          {
+            x: -168.2858,
+            y: 7.11500072,
+            z: 230.165009,
+          },
+          {
+            x: -167.935791,
+            y: 7.11500072,
+            z: 230.165009,
+          },
+          {
+            x: -167.935791,
+            y: 7.11500072,
+            z: 230.905014,
+          },
+          {
+            x: -168.285782,
+            y: 7.11500072,
+            z: 230.905014,
+          },
+        ],
+        top: 7.61500072,
+        bottom: 6.615,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a71ed21031ac76fe773c7f',
+          name: '金融办公室小房间钥匙',
+          normalizedName: 'financial-institution-small-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: -186.393311,
+          y: 3.72240162,
+          z: 229.271469,
+        },
+        outline: [
+          {
+            x: -186.253311,
+            y: 3.72240162,
+            z: 229.096466,
+          },
+          {
+            x: -185.5133,
+            y: 3.72240162,
+            z: 229.096466,
+          },
+          {
+            x: -185.5133,
+            y: 3.72240162,
+            z: 229.446457,
+          },
+          {
+            x: -186.253311,
+            y: 3.72240162,
+            z: 229.446472,
+          },
+        ],
+        top: 4.22240162,
+        bottom: 3.22240138,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '6398fd8ad3de3849057f5128',
+          name: '备用藏身处钥匙',
+          normalizedName: 'backup-hideout-key',
+        },
+        needsPower: false,
+        position: {
+          x: -130.730026,
+          y: 3.37588024,
+          z: 391.625732,
+        },
+        outline: [
+          {
+            x: -131.595016,
+            y: 3.37588024,
+            z: 391.540649,
+          },
+          {
+            x: -130.88501,
+            y: 3.37588024,
+            z: 391.5407,
+          },
+          {
+            x: -130.885056,
+            y: 3.37588024,
+            z: 391.890717,
+          },
+          {
+            x: -131.595047,
+            y: 3.37588024,
+            z: 391.890656,
+          },
+        ],
+        top: 3.87588024,
+        bottom: 2.87588024,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -149.904526,
+          y: 4.07709742,
+          z: 415.149628,
+        },
+        outline: [
+          {
+            x: -151.0802,
+            y: 4.10140228,
+            z: 414.313049,
+          },
+          {
+            x: -151.1042,
+            y: 4.10140228,
+            z: 414.295654,
+          },
+          {
+            x: -150.280289,
+            y: 4.10140228,
+            z: 413.729,
+          },
+          {
+            x: -150.256287,
+            y: 4.10140228,
+            z: 413.746429,
+          },
+          {
+            x: -149.714081,
+            y: 4.10140228,
+            z: 414.5528,
+          },
+          {
+            x: -149.690079,
+            y: 4.10140228,
+            z: 414.5702,
+          },
+          {
+            x: -150.513977,
+            y: 4.10140228,
+            z: 415.136841,
+          },
+          {
+            x: -150.537979,
+            y: 4.10140228,
+            z: 415.119446,
+          },
+        ],
+        top: 4.62011,
+        bottom: 3.582695,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '6582dc5740562727a654ebb1',
+          name: '不动产管理处办公室钥匙',
+          normalizedName: 'real-estate-agency-office-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -62.37935,
+          y: 7.906067,
+          z: 460.344177,
+        },
+        outline: [
+          {
+            x: -62.23802,
+            y: 7.906067,
+            z: 460.169128,
+          },
+          {
+            x: -61.4906464,
+            y: 7.906067,
+            z: 460.168823,
+          },
+          {
+            x: -61.4904938,
+            y: 7.906067,
+            z: 460.5188,
+          },
+          {
+            x: -62.2379,
+            y: 7.906067,
+            z: 460.5191,
+          },
+        ],
+        top: 8.411068,
+        bottom: 7.40106964,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39f6e64283b5e9c56b289',
+          name: '铁门钥匙',
+          normalizedName: 'iron-gate-key',
+        },
+        needsPower: false,
+        position: {
+          x: 131.168167,
+          y: 10.5814857,
+          z: 227.64386,
+        },
+        outline: [
+          {
+            x: 131.798172,
+            y: 10.5814857,
+            z: 227.478851,
+          },
+          {
+            x: 132.498169,
+            y: 10.5814857,
+            z: 227.478851,
+          },
+          {
+            x: 132.498169,
+            y: 10.5814857,
+            z: 227.728851,
+          },
+          {
+            x: 131.798172,
+            y: 10.5814857,
+            z: 227.728851,
+          },
+        ],
+        top: 10.9714861,
+        bottom: 10.1914864,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39f6e64283b5e9c56b289',
+          name: '铁门钥匙',
+          normalizedName: 'iron-gate-key',
+        },
+        needsPower: false,
+        position: {
+          x: 126.369164,
+          y: 10.5938711,
+          z: 227.644852,
+        },
+        outline: [
+          {
+            x: 126.999161,
+            y: 10.5938711,
+            z: 227.479843,
+          },
+          {
+            x: 127.699165,
+            y: 10.5938711,
+            z: 227.479843,
+          },
+          {
+            x: 127.699165,
+            y: 10.5938711,
+            z: 227.729843,
+          },
+          {
+            x: 126.999161,
+            y: 10.5938711,
+            z: 227.729843,
+          },
+        ],
+        top: 10.9838715,
+        bottom: 10.2038717,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39f6e64283b5e9c56b289',
+          name: '铁门钥匙',
+          normalizedName: 'iron-gate-key',
+        },
+        needsPower: false,
+        position: {
+          x: 132.49292,
+          y: 10.5825262,
+          z: 225.1011,
+        },
+        outline: [
+          {
+            x: 131.162918,
+            y: 10.5825262,
+            z: 225.016113,
+          },
+          {
+            x: 131.862915,
+            y: 10.5825262,
+            z: 225.016113,
+          },
+          {
+            x: 131.862915,
+            y: 10.5825262,
+            z: 225.266113,
+          },
+          {
+            x: 131.162918,
+            y: 10.5825262,
+            z: 225.266113,
+          },
+        ],
+        top: 10.9725266,
+        bottom: 10.1925268,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39fd1c9b3aa4b61683efb',
+          name: '楼梯间钥匙',
+          normalizedName: 'stair-landing-key',
+        },
+        needsPower: false,
+        position: {
+          x: 108.3958,
+          y: 7.45609,
+          z: 224.57489,
+        },
+        outline: [
+          {
+            x: 107.6508,
+            y: 7.45609,
+            z: 224.4149,
+          },
+          {
+            x: 108.3008,
+            y: 7.45609,
+            z: 224.4149,
+          },
+          {
+            x: 108.3008,
+            y: 7.45609,
+            z: 224.6749,
+          },
+          {
+            x: 107.6508,
+            y: 7.45609,
+            z: 224.6749,
+          },
+        ],
+        top: 7.95609,
+        bottom: 6.95609,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39fc0af870e651d58e6ae',
+          name: 'Chekannaya 15号公寓钥匙',
+          normalizedName: 'chekannaya-15-apartment-key',
+        },
+        needsPower: false,
+        position: {
+          x: 107.048935,
+          y: 7.51593971,
+          z: 227.6278,
+        },
+        outline: [
+          {
+            x: 107.313934,
+            y: 7.51593971,
+            z: 227.5278,
+          },
+          {
+            x: 107.963936,
+            y: 7.51593971,
+            z: 227.5278,
+          },
+          {
+            x: 107.963936,
+            y: 7.51593971,
+            z: 227.787811,
+          },
+          {
+            x: 107.313934,
+            y: 7.51593971,
+            z: 227.787811,
+          },
+        ],
+        top: 8.01594,
+        bottom: 7.01593971,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39e1d234195315d4020bd',
+          name: 'Primorsky 46-48号天桥钥匙',
+          normalizedName: 'primorsky-46-48-skybridge-key',
+        },
+        needsPower: false,
+        position: {
+          x: 49.5526543,
+          y: 12.7623,
+          z: 147.7725,
+        },
+        outline: [
+          {
+            x: 48.68766,
+            y: 12.7623,
+            z: 147.687424,
+          },
+          {
+            x: 49.3976631,
+            y: 12.7623,
+            z: 147.6875,
+          },
+          {
+            x: 49.397625,
+            y: 12.7623,
+            z: 148.037491,
+          },
+          {
+            x: 48.6876259,
+            y: 12.7623,
+            z: 148.03743,
+          },
+        ],
+        top: 13.2623,
+        bottom: 12.2623,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a71eb5b7f4570d3a29316b',
+          name: 'Zmeevsky 48公寓钥匙',
+          normalizedName: 'primorsky-48-apartment-key',
+        },
+        needsPower: false,
+        position: {
+          x: 45.3423576,
+          y: 6.742015,
+          z: 151.024933,
+        },
+        outline: [
+          {
+            x: 45.16736,
+            y: 6.742015,
+            z: 150.144928,
+          },
+          {
+            x: 45.5173569,
+            y: 6.742015,
+            z: 150.144928,
+          },
+          {
+            x: 45.5173569,
+            y: 6.742015,
+            z: 150.884933,
+          },
+          {
+            x: 45.16736,
+            y: 6.742015,
+            z: 150.884933,
+          },
+        ],
+        top: 7.242015,
+        bottom: 6.242015,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc2111779ad6ba200a139',
+          name: '塔科夫银行现金区钥匙',
+          normalizedName: 'tarbank-cash-register-department-key',
+        },
+        needsPower: false,
+        position: {
+          x: 66.95923,
+          y: 3.841999,
+          z: 231.536,
+        },
+        outline: [
+          {
+            x: 66.05922,
+            y: 3.84199953,
+            z: 231.491,
+          },
+          {
+            x: 66.8992157,
+            y: 3.84199953,
+            z: 231.491,
+          },
+          {
+            x: 66.8992157,
+            y: 3.84199953,
+            z: 231.641,
+          },
+          {
+            x: 66.05922,
+            y: 3.84199953,
+            z: 231.640991,
+          },
+        ],
+        top: 4.39699936,
+        bottom: 3.28699923,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc2111779ad6ba200a139',
+          name: '塔科夫银行现金区钥匙',
+          normalizedName: 'tarbank-cash-register-department-key',
+        },
+        needsPower: false,
+        position: {
+          x: 68.86824,
+          y: 3.841999,
+          z: 231.536,
+        },
+        outline: [
+          {
+            x: 67.96823,
+            y: 3.84199953,
+            z: 231.491,
+          },
+          {
+            x: 68.80823,
+            y: 3.84199953,
+            z: 231.491,
+          },
+          {
+            x: 68.80823,
+            y: 3.84199953,
+            z: 231.641,
+          },
+          {
+            x: 67.96823,
+            y: 3.84199953,
+            z: 231.640991,
+          },
+        ],
+        top: 4.39699936,
+        bottom: 3.28699923,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39dfe3901f439517cafba',
+          name: 'Zmeevsky 3公寓8号钥匙',
+          normalizedName: 'zmeisky-3-apartment-8-key',
+        },
+        needsPower: false,
+        position: {
+          x: 104.26915,
+          y: 4.99642372,
+          z: 129.2099,
+        },
+        outline: [
+          {
+            x: 103.833351,
+            y: 4.99642324,
+            z: 128.399155,
+          },
+          {
+            x: 104.074379,
+            y: 4.99642324,
+            z: 128.301666,
+          },
+          {
+            x: 104.318108,
+            y: 4.99642324,
+            z: 128.904236,
+          },
+          {
+            x: 104.07708,
+            y: 4.99642324,
+            z: 129.00174,
+          },
+        ],
+        top: 5.49642372,
+        bottom: 4.49642324,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39e49cd6db0635c1975fc',
+          name: '档案室钥匙',
+          normalizedName: 'archive-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 80.078,
+          y: 4.941001,
+          z: 138.528,
+        },
+        outline: [
+          {
+            x: 79.918,
+            y: 4.94100046,
+            z: 137.638,
+          },
+          {
+            x: 80.178,
+            y: 4.94100046,
+            z: 137.638,
+          },
+          {
+            x: 80.178,
+            y: 4.94100046,
+            z: 138.358,
+          },
+          {
+            x: 79.918,
+            y: 4.94100046,
+            z: 138.358,
+          },
+        ],
+        top: 5.34600067,
+        bottom: 4.53600025,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39df18a56922e82001f25',
+          name: 'Zmeevsky 5公寓20号钥匙',
+          normalizedName: 'zmeisky-5-apartment-20-key',
+        },
+        needsPower: false,
+        position: {
+          x: 124.2521,
+          y: 14.5957794,
+          z: 143.391266,
+        },
+        outline: [
+          {
+            x: 125.143341,
+            y: 14.4890137,
+            z: 142.852081,
+          },
+          {
+            x: 125.14814,
+            y: 14.4890137,
+            z: 142.849884,
+          },
+          {
+            x: 125.242615,
+            y: 14.4890137,
+            z: 143.084045,
+          },
+          {
+            x: 125.237816,
+            y: 14.4890137,
+            z: 143.086243,
+          },
+          {
+            x: 124.605713,
+            y: 14.4890137,
+            z: 143.341,
+          },
+          {
+            x: 124.600914,
+            y: 14.4890137,
+            z: 143.3432,
+          },
+          {
+            x: 124.506439,
+            y: 14.4890137,
+            z: 143.109039,
+          },
+          {
+            x: 124.511238,
+            y: 14.4890137,
+            z: 143.106842,
+          },
+        ],
+        top: 14.9103546,
+        bottom: 14.067667,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc25f95763a1ae376e447',
+          name: '神秘房间符号钥匙',
+          normalizedName: 'mysterious-room-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: 186.18,
+          y: 0.849899948,
+          z: 227.438,
+        },
+        outline: [
+          {
+            x: 186.00499,
+            y: 0.849899948,
+            z: 227.578,
+          },
+          {
+            x: 186.355,
+            y: 0.849899948,
+            z: 227.578,
+          },
+          {
+            x: 186.355,
+            y: 0.849899948,
+            z: 228.318008,
+          },
+          {
+            x: 186.00499,
+            y: 0.849899948,
+            z: 228.318008,
+          },
+        ],
+        top: 1.34989989,
+        bottom: 0.349899948,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64d4b23dc1b37504b41ac2b6',
+          name: '生锈的带血钥匙',
+          normalizedName: 'rusted-bloody-key',
+        },
+        needsPower: false,
+        position: {
+          x: 177.724213,
+          y: 6.821482,
+          z: 78.84773,
+        },
+        outline: [
+          {
+            x: 176.889221,
+            y: 6.821482,
+            z: 78.68773,
+          },
+          {
+            x: 177.539215,
+            y: 6.821482,
+            z: 78.68773,
+          },
+          {
+            x: 177.539215,
+            y: 6.821482,
+            z: 78.94773,
+          },
+          {
+            x: 176.889221,
+            y: 6.821482,
+            z: 78.94773,
+          },
+        ],
+        top: 7.321482,
+        bottom: 6.321482,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc268c41e91416064ebc7',
+          name: '体育教师办公室钥匙',
+          normalizedName: 'pe-teachers-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: 207.952087,
+          y: 1.39300013,
+          z: 140.7129,
+        },
+        outline: [
+          {
+            x: 208.327087,
+            y: 1.47300029,
+            z: 140.48291,
+          },
+          {
+            x: 208.87709,
+            y: 1.47300029,
+            z: 140.48291,
+          },
+          {
+            x: 208.87709,
+            y: 1.47300029,
+            z: 140.8829,
+          },
+          {
+            x: 208.327087,
+            y: 1.47300029,
+            z: 140.8829,
+          },
+        ],
+        top: 1.67800045,
+        bottom: 1.26800013,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc246ff54fb38131acf29',
+          name: 'X光检查室钥匙',
+          normalizedName: 'x-ray-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 184.997482,
+          y: 2.82870531,
+          z: 100.691429,
+        },
+        outline: [
+          {
+            x: 184.819855,
+            y: 2.82870531,
+            z: 100.833534,
+          },
+          {
+            x: 185.17511,
+            y: 2.82870531,
+            z: 100.833534,
+          },
+          {
+            x: 185.17511,
+            y: 2.82870531,
+            z: 101.584633,
+          },
+          {
+            x: 184.819855,
+            y: 2.82870531,
+            z: 101.584633,
+          },
+        ],
+        top: 3.33620548,
+        bottom: 2.32120514,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '6582dbe43a2e5248357dbe9a',
+          name: '"调解室"钥匙',
+          normalizedName: 'negotiation-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 165.190918,
+          y: 1.79457092,
+          z: 165.05,
+        },
+        outline: [
+          {
+            x: 164.991745,
+            y: 1.79457092,
+            z: 165.029953,
+          },
+          {
+            x: 165.102112,
+            y: 1.79457092,
+            z: 165.269669,
+          },
+          {
+            x: 164.438278,
+            y: 1.79457092,
+            z: 165.5753,
+          },
+          {
+            x: 164.327911,
+            y: 1.79457092,
+            z: 165.335587,
+          },
+        ],
+        top: 2.20564461,
+        bottom: 1.38349533,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5ba8018e9821b7368da9',
+          name: 'USEC灯塔二号保险箱钥匙',
+          normalizedName: 'usec-cottage-second-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: 174.013977,
+          y: 1.14044952,
+          z: 163.48201,
+        },
+        outline: [
+          {
+            x: 173.943008,
+            y: 1.14044952,
+            z: 163.468353,
+          },
+          {
+            x: 173.978027,
+            y: 1.14044952,
+            z: 163.544708,
+          },
+          {
+            x: 173.978043,
+            y: 1.14044952,
+            z: 163.544708,
+          },
+          {
+            x: 173.672623,
+            y: 1.14044952,
+            z: 163.6848,
+          },
+          {
+            x: 173.6376,
+            y: 1.14044952,
+            z: 163.608444,
+          },
+        ],
+        top: 1.42185783,
+        bottom: 0.8590412,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 185.140747,
+          y: 5.065138,
+          z: 306.99884,
+        },
+        outline: [
+          {
+            x: 185.600861,
+            y: 5.085121,
+            z: 306.590485,
+          },
+          {
+            x: 185.62326,
+            y: 5.085121,
+            z: 306.595551,
+          },
+          {
+            x: 186.575851,
+            y: 5.085121,
+            z: 306.811584,
+          },
+          {
+            x: 186.598251,
+            y: 5.085121,
+            z: 306.81665,
+          },
+          {
+            x: 186.3771,
+            y: 5.085121,
+            z: 307.7919,
+          },
+          {
+            x: 186.3547,
+            y: 5.085121,
+            z: 307.7868,
+          },
+          {
+            x: 185.402115,
+            y: 5.085121,
+            z: 307.5708,
+          },
+          {
+            x: 185.379715,
+            y: 5.085121,
+            z: 307.565735,
+          },
+        ],
+        top: 5.596474,
+        bottom: 4.57376862,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39cb1c9b3aa4b61683ee2',
+          name: '建筑工地工棚钥匙',
+          normalizedName: 'construction-site-bunkhouse-key',
+        },
+        needsPower: false,
+        position: {
+          x: 181.878983,
+          y: 6.85800028,
+          z: 312.128,
+        },
+        outline: [
+          {
+            x: 181.663971,
+            y: 7.078,
+            z: 311.223,
+          },
+          {
+            x: 182.013977,
+            y: 7.078,
+            z: 311.223,
+          },
+          {
+            x: 182.013977,
+            y: 7.078,
+            z: 311.953,
+          },
+          {
+            x: 181.663971,
+            y: 7.078,
+            z: 311.953,
+          },
+        ],
+        top: 7.44300032,
+        bottom: 6.713,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a397d3af870e651d58e65b',
+          name: '车行封闭区域钥匙',
+          normalizedName: 'car-dealership-closed-section-key',
+        },
+        needsPower: false,
+        position: {
+          x: 63.478,
+          y: 7.8760004,
+          z: 301.057,
+        },
+        outline: [
+          {
+            x: 62.613,
+            y: 7.8760004,
+            z: 300.907,
+          },
+          {
+            x: 63.223,
+            y: 7.8760004,
+            z: 300.907,
+          },
+          {
+            x: 63.223,
+            y: 7.8760004,
+            z: 301.207,
+          },
+          {
+            x: 62.613,
+            y: 7.8760004,
+            z: 301.207,
+          },
+        ],
+        top: 8.376,
+        bottom: 7.3760004,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a399193901f439517cafb6',
+          name: '车行负责人办公室钥匙',
+          normalizedName: 'car-dealership-directors-office-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 66.86121,
+          y: 7.935705,
+          z: 310.662476,
+        },
+        outline: [
+          {
+            x: 67.21622,
+            y: 7.935705,
+            z: 310.502472,
+          },
+          {
+            x: 67.86621,
+            y: 7.935705,
+            z: 310.502472,
+          },
+          {
+            x: 67.86621,
+            y: 7.935705,
+            z: 310.762482,
+          },
+          {
+            x: 67.21622,
+            y: 7.935705,
+            z: 310.762482,
+          },
+        ],
+        top: 8.435705,
+        bottom: 7.435705,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 100.588722,
+          y: 3.61715245,
+          z: 337.269379,
+        },
+        outline: [
+          {
+            x: 99.99474,
+            y: 3.61715221,
+            z: 335.968323,
+          },
+          {
+            x: 99.99475,
+            y: 3.61715221,
+            z: 335.968323,
+          },
+          {
+            x: 100.701859,
+            y: 3.61715221,
+            z: 336.6754,
+          },
+          {
+            x: 99.99475,
+            y: 3.61715221,
+            z: 337.382538,
+          },
+          {
+            x: 99.28764,
+            y: 3.61715221,
+            z: 336.6754,
+          },
+        ],
+        top: 4.11715269,
+        bottom: 3.117152,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39fdf1e21260da44a0256',
+          name: '货物网格门钥匙',
+          normalizedName: 'cargo-container-mesh-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: 83.1959839,
+          y: 3.72701359,
+          z: 296.521,
+        },
+        outline: [
+          {
+            x: 83.07598,
+            y: 3.72701359,
+            z: 296.689,
+          },
+          {
+            x: 83.07598,
+            y: 3.72701359,
+            z: 296.688965,
+          },
+          {
+            x: 83.31598,
+            y: 3.72701359,
+            z: 296.689,
+          },
+          {
+            x: 83.31597,
+            y: 3.72701359,
+            z: 297.409,
+          },
+          {
+            x: 83.07597,
+            y: 3.72701359,
+            z: 297.409,
+          },
+        ],
+        top: 4.10516071,
+        bottom: 3.34887028,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ce572331dd890873175115',
+          name: '"Aspect"公司办公区钥匙',
+          normalizedName: 'aspect-company-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: 55.03196,
+          y: 3.91900015,
+          z: 332.649078,
+        },
+        outline: [
+          {
+            x: 54.87196,
+            y: 3.91900015,
+            z: 332.914063,
+          },
+          {
+            x: 55.131958,
+            y: 3.91900015,
+            z: 332.914063,
+          },
+          {
+            x: 55.131958,
+            y: 3.91900015,
+            z: 333.5641,
+          },
+          {
+            x: 54.8719559,
+            y: 3.91900015,
+            z: 333.5641,
+          },
+        ],
+        top: 4.419,
+        bottom: 3.41900015,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39ce4cd6db0635c1975fa',
+          name: '供应部门主管办公室钥匙',
+          normalizedName: 'supply-department-directors-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: 57.615963,
+          y: 6.847,
+          z: 334.707031,
+        },
+        outline: [
+          {
+            x: 56.7359619,
+            y: 6.847,
+            z: 334.532043,
+          },
+          {
+            x: 57.4759636,
+            y: 6.847,
+            z: 334.532043,
+          },
+          {
+            x: 57.4759636,
+            y: 6.847,
+            z: 334.88205,
+          },
+          {
+            x: 56.7359619,
+            y: 6.847,
+            z: 334.88205,
+          },
+        ],
+        top: 7.347,
+        bottom: 6.347,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc1ec1779ad6ba200a137',
+          name: 'Concordia 8号公寓家庭影院钥匙',
+          normalizedName: 'concordia-apartment-8-home-cinema-key',
+        },
+        needsPower: false,
+        position: {
+          x: 217.9483,
+          y: 10.3969755,
+          z: 400.558655,
+        },
+        outline: [
+          {
+            x: 218.095337,
+            y: 10.3969765,
+            z: 400.383667,
+          },
+          {
+            x: 218.872482,
+            y: 10.3969765,
+            z: 400.383636,
+          },
+          {
+            x: 218.872482,
+            y: 10.3969765,
+            z: 400.733643,
+          },
+          {
+            x: 218.095337,
+            y: 10.3969765,
+            z: 400.733643,
+          },
+        ],
+        top: 10.8969765,
+        bottom: 9.89697552,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc1d4a0f13c24561edf27',
+          name: 'Concordia34号公寓房间钥匙',
+          normalizedName: 'concordia-apartment-34-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 227.979279,
+          y: 10.3969755,
+          z: 406.048645,
+        },
+        outline: [
+          {
+            x: 227.055115,
+            y: 10.3969765,
+            z: 405.873657,
+          },
+          {
+            x: 227.83226,
+            y: 10.3969765,
+            z: 405.873657,
+          },
+          {
+            x: 227.83226,
+            y: 10.3969765,
+            z: 406.223633,
+          },
+          {
+            x: 227.055115,
+            y: 10.3969765,
+            z: 406.223663,
+          },
+        ],
+        top: 10.8969765,
+        bottom: 9.89697552,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a71e781031ac76fe773c7d',
+          name: 'Concordia 8号公寓钥匙',
+          normalizedName: 'concordia-apartment-8-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 224.331543,
+          y: 10.4224167,
+          z: 400.559357,
+        },
+        outline: [
+          {
+            x: 224.474335,
+            y: 10.4224167,
+            z: 400.380859,
+          },
+          {
+            x: 225.229141,
+            y: 10.4224167,
+            z: 400.380859,
+          },
+          {
+            x: 225.229156,
+            y: 10.4224167,
+            z: 400.737854,
+          },
+          {
+            x: 224.47435,
+            y: 10.4224167,
+            z: 400.737854,
+          },
+        ],
+        top: 10.9324179,
+        bottom: 9.912416,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a71e86b7f4570d3a293169',
+          name: 'Concordia 64号公寓办公室钥匙',
+          normalizedName: 'concordia-apartment-64-office-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 274.591,
+          y: 7.404751,
+          z: 383.685974,
+        },
+        outline: [
+          {
+            x: 273.6668,
+            y: 7.4047513,
+            z: 383.511,
+          },
+          {
+            x: 274.44397,
+            y: 7.4047513,
+            z: 383.511,
+          },
+          {
+            x: 274.44397,
+            y: 7.4047513,
+            z: 383.860962,
+          },
+          {
+            x: 273.66684,
+            y: 7.4047513,
+            z: 383.861,
+          },
+        ],
+        top: 7.904752,
+        bottom: 6.904751,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc1f4ff54fb38131acf27',
+          name: 'Concordia 63号公寓钥匙',
+          normalizedName: 'concordia-apartment-63-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 268.47,
+          y: 7.4047513,
+          z: 387.507,
+        },
+        outline: [
+          {
+            x: 268.617035,
+            y: 7.4047513,
+            z: 387.332,
+          },
+          {
+            x: 269.394165,
+            y: 7.4047513,
+            z: 387.33197,
+          },
+          {
+            x: 269.3942,
+            y: 7.4047513,
+            z: 387.681976,
+          },
+          {
+            x: 268.617035,
+            y: 7.4047513,
+            z: 387.682,
+          },
+        ],
+        top: 7.904752,
+        bottom: 6.9047513,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a71e922b25f7513905ca20',
+          name: 'Concordia 64号公寓钥匙',
+          normalizedName: 'concordia-apartment-64-key',
+        },
+        needsPower: false,
+        position: {
+          x: 272.6917,
+          y: 7.46978951,
+          z: 378.880249,
+        },
+        outline: [
+          {
+            x: 272.5817,
+            y: 7.46978951,
+            z: 379.270752,
+          },
+          {
+            x: 272.8677,
+            y: 7.46978951,
+            z: 379.270752,
+          },
+          {
+            x: 272.8677,
+            y: 7.46978951,
+            z: 379.985748,
+          },
+          {
+            x: 272.581726,
+            y: 7.46978951,
+            z: 379.985748,
+          },
+        ],
+        top: 7.96978951,
+        bottom: 6.96978951,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39c7964283b5e9c56b280',
+          name: 'Concordia安全屋钥匙',
+          normalizedName: 'concordia-security-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 211.010483,
+          y: -0.205203056,
+          z: 406.7196,
+        },
+        outline: [
+          {
+            x: 211.260071,
+            y: -0.205203056,
+            z: 406.5756,
+          },
+          {
+            x: 212.028076,
+            y: -0.205203056,
+            z: 406.575562,
+          },
+          {
+            x: 212.028091,
+            y: -0.205203056,
+            z: 406.863556,
+          },
+          {
+            x: 211.260086,
+            y: -0.205203056,
+            z: 406.8636,
+          },
+        ],
+        top: 0.178796887,
+        bottom: -0.5892031,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '63a39c69af870e651d58e6aa',
+          name: '商店经理钥匙',
+          normalizedName: 'store-managers-key',
+        },
+        needsPower: false,
+        position: {
+          x: 119.953995,
+          y: 7.776001,
+          z: 290.827026,
+        },
+        outline: [
+          {
+            x: 119.853989,
+            y: 7.776001,
+            z: 290.997,
+          },
+          {
+            x: 120.113991,
+            y: 7.776001,
+            z: 290.997,
+          },
+          {
+            x: 120.113991,
+            y: 7.776001,
+            z: 291.717,
+          },
+          {
+            x: 119.853989,
+            y: 7.776001,
+            z: 291.717,
+          },
+        ],
+        top: 8.181,
+        bottom: 7.37100029,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 192.352768,
+          y: 4.41324234,
+          z: 463.245178,
+        },
+        outline: [
+          {
+            x: 191.704514,
+            y: 4.41324234,
+            z: 461.970276,
+          },
+          {
+            x: 192.6981,
+            y: 4.41324234,
+            z: 461.857239,
+          },
+          {
+            x: 192.811127,
+            y: 4.41324234,
+            z: 462.85083,
+          },
+          {
+            x: 191.817535,
+            y: 4.41324234,
+            z: 462.963867,
+          },
+        ],
+        top: 4.91324234,
+        bottom: 3.91323853,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc24de61ea448b507d34d',
+          name: 'TerraGroup军械库钥匙',
+          normalizedName: 'terragroup-security-armory-key',
+        },
+        needsPower: false,
+        position: {
+          x: 60.7049751,
+          y: 1.29402184,
+          z: -79.95239,
+        },
+        outline: [
+          {
+            x: 60.52997,
+            y: 1.29402184,
+            z: -79.8124,
+          },
+          {
+            x: 60.87997,
+            y: 1.29402184,
+            z: -79.8123856,
+          },
+          {
+            x: 60.87994,
+            y: 1.29402184,
+            z: -79.07239,
+          },
+          {
+            x: 60.52994,
+            y: 1.29402184,
+            z: -79.0724,
+          },
+        ],
+        top: 1.79402184,
+        bottom: 0.794021845,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc206793ca11c8f450a38',
+          name: 'TerraGroup会议室钥匙',
+          normalizedName: 'terragroup-meeting-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 46.6899338,
+          y: 1.31902039,
+          z: -59.4043961,
+        },
+        outline: [
+          {
+            x: 46.5149345,
+            y: 1.31902027,
+            z: -59.2643967,
+          },
+          {
+            x: 46.864933,
+            y: 1.31902027,
+            z: -59.2643967,
+          },
+          {
+            x: 46.864933,
+            y: 1.31902027,
+            z: -58.524395,
+          },
+          {
+            x: 46.5149345,
+            y: 1.31902027,
+            z: -58.524395,
+          },
+        ],
+        top: 1.81902039,
+        bottom: 0.8190203,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 64.1470642,
+          y: 6.15030146,
+          z: -205.249969,
+        },
+        outline: [
+          {
+            x: 62.7414856,
+            y: 6.1838727,
+            z: -205.699722,
+          },
+          {
+            x: 62.78009,
+            y: 6.1838727,
+            z: -205.699722,
+          },
+          {
+            x: 63.7400665,
+            y: 6.1838727,
+            z: -205.73616,
+          },
+          {
+            x: 63.7786865,
+            y: 6.1838727,
+            z: -205.73616,
+          },
+          {
+            x: 63.815094,
+            y: 6.1838727,
+            z: -204.736816,
+          },
+          {
+            x: 63.776474,
+            y: 6.1838727,
+            z: -204.736816,
+          },
+          {
+            x: 62.8164978,
+            y: 6.1838727,
+            z: -204.7004,
+          },
+          {
+            x: 62.7778778,
+            y: 6.1838727,
+            z: -204.7004,
+          },
+        ],
+        top: 6.70349646,
+        bottom: 5.664248,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc1fe088064307e14a6f7',
+          name: 'Beluga餐厅经理办公室钥匙',
+          normalizedName: 'beluga-restaurant-director-key',
+        },
+        needsPower: false,
+        position: {
+          x: -19.6295967,
+          y: 10.6449995,
+          z: -64.19723,
+        },
+        outline: [
+          {
+            x: -20.5266151,
+            y: 10.6449995,
+            z: -64.21676,
+          },
+          {
+            x: -19.79786,
+            y: 10.6449995,
+            z: -64.34526,
+          },
+          {
+            x: -19.7978573,
+            y: 10.6449995,
+            z: -64.34526,
+          },
+          {
+            x: -19.7370815,
+            y: 10.6449995,
+            z: -64.00057,
+          },
+          {
+            x: -20.46584,
+            y: 10.6449995,
+            z: -63.8720741,
+          },
+          {
+            x: -20.46584,
+            y: 10.6449995,
+            z: -63.8720779,
+          },
+        ],
+        top: 11.1449995,
+        bottom: 10.1449995,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '64ccc1fe088064307e14a6f7',
+          name: 'Beluga餐厅经理办公室钥匙',
+          normalizedName: 'beluga-restaurant-director-key',
+        },
+        needsPower: false,
+        position: {
+          x: -27.806633,
+          y: 10.6449995,
+          z: -60.68901,
+        },
+        outline: [
+          {
+            x: -27.9546623,
+            y: 10.6449995,
+            z: -60.52075,
+          },
+          {
+            x: -27.6099815,
+            y: 10.6449995,
+            z: -60.5815239,
+          },
+          {
+            x: -27.60998,
+            y: 10.6449995,
+            z: -60.5815239,
+          },
+          {
+            x: -27.48148,
+            y: 10.6449995,
+            z: -59.8527679,
+          },
+          {
+            x: -27.8261642,
+            y: 10.6449995,
+            z: -59.79199,
+          },
+        ],
+        top: 11.1449995,
+        bottom: 10.1449995,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 13.1579342,
+          y: 4.0805397,
+          z: 536.0006,
+        },
+        outline: [
+          {
+            x: 12.879056,
+            y: 4.08381367,
+            z: 534.5645,
+          },
+          {
+            x: 12.9155283,
+            y: 4.08381367,
+            z: 534.567,
+          },
+          {
+            x: 13.8639622,
+            y: 4.08381367,
+            z: 534.733765,
+          },
+          {
+            x: 13.9004345,
+            y: 4.08381367,
+            z: 534.7362,
+          },
+          {
+            x: 13.73123,
+            y: 4.08381367,
+            z: 535.7218,
+          },
+          {
+            x: 13.6947575,
+            y: 4.08381367,
+            z: 535.71936,
+          },
+          {
+            x: 12.7463236,
+            y: 4.08381367,
+            z: 535.552551,
+          },
+          {
+            x: 12.7098513,
+            y: 4.08381367,
+            z: 535.5501,
+          },
+        ],
+        top: 4.60354137,
+        bottom: 3.56408644,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 11.3268433,
+          y: 7.06935167,
+          z: -200.951355,
+        },
+        outline: [
+          {
+            x: 10.6880064,
+            y: 7.05069971,
+            z: -200.987732,
+          },
+          {
+            x: 10.7244787,
+            y: 7.05069971,
+            z: -200.985291,
+          },
+          {
+            x: 11.456358,
+            y: 7.05069971,
+            z: -200.348389,
+          },
+          {
+            x: 11.49283,
+            y: 7.05069971,
+            z: -200.345947,
+          },
+          {
+            x: 10.8538418,
+            y: 7.05069971,
+            z: -199.577026,
+          },
+          {
+            x: 10.8173695,
+            y: 7.05069971,
+            z: -199.5795,
+          },
+          {
+            x: 10.0854912,
+            y: 7.05069971,
+            z: -200.21637,
+          },
+          {
+            x: 10.0490189,
+            y: 7.05069971,
+            z: -200.218842,
+          },
+        ],
+        top: 7.57588863,
+        bottom: 6.525511,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -208.95,
+          y: 4.057,
+          z: 179.655991,
+        },
+        outline: [
+          {
+            x: -209.155,
+            y: 4.137,
+            z: 179.596,
+          },
+          {
+            x: -208.745,
+            y: 4.137,
+            z: 179.596,
+          },
+          {
+            x: -208.745,
+            y: 4.137,
+            z: 179.736,
+          },
+          {
+            x: -209.155,
+            y: 4.137,
+            z: 179.736,
+          },
+        ],
+        top: 4.222,
+        bottom: 4.052,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -208.95,
+          y: 4.059,
+          z: 182.011,
+        },
+        outline: [
+          {
+            x: -209.155,
+            y: 4.139,
+            z: 181.951,
+          },
+          {
+            x: -208.745,
+            y: 4.139,
+            z: 181.951,
+          },
+          {
+            x: -208.745,
+            y: 4.139,
+            z: 182.091,
+          },
+          {
+            x: -209.155,
+            y: 4.139,
+            z: 182.091,
+          },
+        ],
+        top: 4.224,
+        bottom: 4.054,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5ba8018e9821b7368da9',
+          name: 'USEC灯塔二号保险箱钥匙',
+          normalizedName: 'usec-cottage-second-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -77.5323944,
+          y: 5.3959837,
+          z: 53.20392,
+        },
+        outline: [
+          {
+            x: -77.76823,
+            y: 5.3959837,
+            z: 53.21913,
+          },
+          {
+            x: -77.57112,
+            y: 5.3959837,
+            z: 53.18521,
+          },
+          {
+            x: -77.562645,
+            y: 5.3959837,
+            z: 53.23448,
+          },
+          {
+            x: -77.75975,
+            y: 5.3959837,
+            z: 53.2684021,
+          },
+        ],
+        top: 5.563483,
+        bottom: 5.22848034,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5ba8018e9821b7368da9',
+          name: 'USEC灯塔二号保险箱钥匙',
+          normalizedName: 'usec-cottage-second-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -67.94231,
+          y: 5.31730938,
+          z: 53.4928131,
+        },
+        outline: [
+          {
+            x: -68.0068054,
+            y: 5.31730556,
+            z: 53.2654572,
+          },
+          {
+            x: -68.0068,
+            y: 5.31730556,
+            z: 53.2654572,
+          },
+          {
+            x: -67.95752,
+            y: 5.31730556,
+            z: 53.25698,
+          },
+          {
+            x: -67.92361,
+            y: 5.31730556,
+            z: 53.4540863,
+          },
+          {
+            x: -67.9728851,
+            y: 5.31730556,
+            z: 53.46257,
+          },
+        ],
+        top: 5.484809,
+        bottom: 5.149806,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5ba8018e9821b7368da9',
+          name: 'USEC灯塔二号保险箱钥匙',
+          normalizedName: 'usec-cottage-second-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -49.45166,
+          y: 5.273139,
+          z: 64.02192,
+        },
+        outline: [
+          {
+            x: -49.51615,
+            y: 5.273139,
+            z: 63.7945633,
+          },
+          {
+            x: -49.51615,
+            y: 5.273139,
+            z: 63.7945557,
+          },
+          {
+            x: -49.4668732,
+            y: 5.273139,
+            z: 63.786087,
+          },
+          {
+            x: -49.4329529,
+            y: 5.273139,
+            z: 63.9831848,
+          },
+          {
+            x: -49.48223,
+            y: 5.273139,
+            z: 63.99167,
+          },
+        ],
+        top: 5.44063854,
+        bottom: 5.10563946,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -30.653595,
+          y: 3.66407585,
+          z: 468.8241,
+        },
+        outline: [
+          {
+            x: -30.8515015,
+            y: 3.72407579,
+            z: 468.698883,
+          },
+          {
+            x: -30.4193878,
+            y: 3.72407579,
+            z: 468.824463,
+          },
+          {
+            x: -30.4779968,
+            y: 3.72407579,
+            z: 469.026123,
+          },
+          {
+            x: -30.91011,
+            y: 3.72407579,
+            z: 468.900543,
+          },
+        ],
+        top: 3.794076,
+        bottom: 3.65407586,
+      },
+    ],
+    switches: [],
     hazards: [
       {
         hazardType: 'sniper',
@@ -29594,6 +31924,9485 @@ export default [
         size: 60,
       },
     ],
+    id: '653e6760052c01c1c805532f',
+    tarkovDataId: null,
+    name: '中心区',
+    normalizedName: 'ground-zero',
+    wiki: 'https://escapefromtarkov.fandom.com/wiki/Ground_Zero',
+    description: '塔科夫的经济中心，也是TerraGroup的总部驻地。这里就是一切开始的地方。',
+    enemies: [],
+    raidDuration: 35,
+    players: '9-10',
+    bosses: [],
+    nameId: 'Sandbox',
+    spawns: [
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 182.9868,
+          y: 16.21865,
+          z: 127.555809,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '0344832c-a6f2-4c58-8d89-85e9d451a7ed',
+        position: {
+          x: 72.81,
+          y: 14.18,
+          z: 5.44599962,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '0524be03-bcd4-4e28-98d4-f477dd0e550d',
+        position: {
+          x: 65.03,
+          y: 14.722,
+          z: 161.741,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -10.5931931,
+          y: 23.982048,
+          z: 22.86581,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '0b110691-b8a9-4020-9ea1-910386dde586',
+        position: {
+          x: 127.158,
+          y: 23.21,
+          z: 187.909,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '0dadcf0c-b3b8-4837-a16e-12ef201c21e1',
+        position: {
+          x: 67.59,
+          y: 14.18,
+          z: 104.54,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '0eebe151-c53b-417e-a349-18c070ce5dac',
+        position: {
+          x: 137.37,
+          y: 22.74,
+          z: -70.18,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '14e76203-f6d3-49d3-bb5e-300ff6bd3773',
+        position: {
+          x: 121.832,
+          y: 22.796,
+          z: -1.133,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '16b9cd7d-ebea-41eb-8c9f-fe01aa2c9245',
+        position: {
+          x: 111.243,
+          y: 23.193,
+          z: 174.479,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 71.7568054,
+          y: 14.1386509,
+          z: 0.6758108,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '1c2fe835-f486-4f7e-847d-9ff1dfadc5c5',
+        position: {
+          x: 180.9,
+          y: 16.27,
+          z: 114.89,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '1d60dfbb-d470-4557-8309-deb68d3cd7a4',
+        position: {
+          x: 184.961,
+          y: 17.209,
+          z: -8.589,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '2251a0dd-f096-483c-88c6-d8abe1f0a8d8',
+        position: {
+          x: 117.106,
+          y: 28.963,
+          z: 150.689,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '22c535e6-6d49-46bd-9009-e688aace63d1',
+        position: {
+          x: 38.43,
+          y: 23.44,
+          z: 149.07,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '2790d68f-c087-45d2-8b63-660e26858b34',
+        position: {
+          x: 143.1,
+          y: 23.3,
+          z: 248.83,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -10.7931976,
+          y: 23.982048,
+          z: 16.7358112,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 109.116806,
+          y: 22.70865,
+          z: 234.205811,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '31fca074-b125-48d7-9beb-4cc6f67c82d2',
+        position: {
+          x: 110.661,
+          y: 23.193,
+          z: 171.344,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '36a3716c-e3f2-43c7-8b98-ea68c59f8238',
+        position: {
+          x: -8.020001,
+          y: 23.86,
+          z: -4.959993,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 172.2468,
+          y: 16.9886513,
+          z: 9.425811,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '3c5c66f2-5ce2-443f-b962-8938f67bf2b4',
+        position: {
+          x: 1.43,
+          y: 23.89,
+          z: -60.42,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 57.717804,
+          y: 23.4366512,
+          z: 226.737823,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '3d869992-11e2-4ebf-9d24-f160b612ed17',
+        position: {
+          x: 112.67,
+          y: 23.193,
+          z: 175.8,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 13.4328041,
+          y: 23.48965,
+          z: 157.559814,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 73.69881,
+          y: 14.1306515,
+          z: 117.034813,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '412cc11b-b2ec-4d7b-bfbe-9691162949b7',
+        position: {
+          x: 67.764,
+          y: 13.981,
+          z: 163.128,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '419a0f20-e32e-4f17-a526-675314485814',
+        position: {
+          x: -0.66,
+          y: 23.89,
+          z: -60.43,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '4274c09b-9544-45e0-aa8a-011b6e929b70',
+        position: {
+          x: 73.06999,
+          y: 14.18,
+          z: 2.27599764,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '442298dc-403c-4550-9c2f-60398a638c07',
+        position: {
+          x: 73.09,
+          y: 14.147,
+          z: -56.52,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '45bf1ce6-cab7-4b6b-a420-aefc135a942a',
+        position: {
+          x: 64.94,
+          y: 14.14,
+          z: 103.31,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '469bf936-cee9-4b9c-9fa9-54ccdc5467f2',
+        position: {
+          x: 139.255,
+          y: 14.088,
+          z: 65.609,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 74.6868057,
+          y: 13.9586515,
+          z: 160.9158,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '46cb5fbc-3d56-45a1-a6ab-18b22b51cf15',
+        position: {
+          x: 36.95,
+          y: 23.47,
+          z: 146.98,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 32.7768021,
+          y: 22.6686516,
+          z: 335.6558,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 73.880806,
+          y: 14.1386509,
+          z: 37.23281,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '4a3e3ae1-e6fb-442f-99c6-f74b25b06a28',
+        position: {
+          x: 127.454,
+          y: 23.204,
+          z: 196.106,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '4ad4b25c-70f0-47a0-84fd-f8dc685cf399',
+        position: {
+          x: -6.32000065,
+          y: 23.86,
+          z: -2.03999472,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 137.5668,
+          y: 14.1126509,
+          z: 61.81581,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 163.6168,
+          y: 22.768652,
+          z: -88.24419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '4e5dd2d4-cbee-4f97-8f88-18b9a7897e72',
+        position: {
+          x: 127.266,
+          y: 23.199,
+          z: 186.033,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '5051d4e9-291a-4384-9557-e10d149f3282',
+        position: {
+          x: 44.67,
+          y: 23.276,
+          z: -102.55,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 17.0988045,
+          y: 24.20565,
+          z: 73.366806,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '52521917-58bb-412f-b509-ed69191bf6a3',
+        position: {
+          x: 113.965996,
+          y: 23.448,
+          z: 269.982,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '551f5ea8-4bea-474d-a3d1-0af1e507aa73',
+        position: {
+          x: 75.1199951,
+          y: 14.18,
+          z: 6.036,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '564c09fb-f464-4c30-b61b-4cc1943808be',
+        position: {
+          x: 102.15,
+          y: 28.1424046,
+          z: 311.83,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '5a4e21b9-8234-45a5-b24a-1cd71ffc9d4a',
+        position: {
+          x: 117.61,
+          y: 28.963,
+          z: 146.43,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '5cb1309d-05b9-4043-ba3a-1ef53d52c012',
+        position: {
+          x: 40.19,
+          y: 23.45,
+          z: 148.61,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '5d711f09-edc9-4ec1-94f8-2e1765929dbd',
+        position: {
+          x: 73.815,
+          y: 14.147,
+          z: -54.394,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 57.486805,
+          y: 14.0686512,
+          z: -33.82419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '5fa59046-4e17-408e-8531-14766ae4a7c4',
+        position: {
+          x: 117.49,
+          y: 28.963,
+          z: 148.6,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '612fd960-fdd6-422b-9b5b-8161d4e5ec12',
+        position: {
+          x: 72.331,
+          y: 14.147,
+          z: -51.719,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '61bc3b0f-bbb7-41a6-a3cb-fc647cb4d57d',
+        position: {
+          x: 137.174,
+          y: 14.088,
+          z: 67.36,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 112.2068,
+          y: 22.688652,
+          z: 220.925812,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '65f10e3a-3f0c-415a-82c9-65c494071117',
+        position: {
+          x: 131.006,
+          y: 23.45,
+          z: 268.826,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6a18e621-14cc-4de5-83e9-4dbb5d57db3d',
+        position: {
+          x: 180.8,
+          y: 16.21,
+          z: 117.5,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6a4b6afe-e215-4d9b-8d1e-4c2f7187baef',
+        position: {
+          x: 46.38,
+          y: 23.276,
+          z: -101.48,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6acdf3c0-2c89-4824-97b9-7d5d10969670',
+        position: {
+          x: 64.41,
+          y: 14.702,
+          z: 164.414,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6b4a840c-fc42-4b8c-bc68-04d7f6c2113a',
+        position: {
+          x: 151.47,
+          y: 22.85,
+          z: 243.36,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6bb1d97d-c152-4467-b67b-bcd052438a96',
+        position: {
+          x: 180.58,
+          y: 16.2,
+          z: 123.16,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 22.2868042,
+          y: 23.53865,
+          z: 255.1308,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '6f70381f-dcd2-4b4b-8f7e-27a787298af6',
+        position: {
+          x: -4.45,
+          y: 23.89,
+          z: -58.9,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -15.6471939,
+          y: 23.87565,
+          z: 101.716812,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '71e27ce2-54ef-4070-942c-c8a136e81fcf',
+        position: {
+          x: 113.345993,
+          y: 23.448,
+          z: 273.162,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '734798e9-93cc-4239-93eb-8f23476b1f3d',
+        position: {
+          x: 137.609,
+          y: 14.088,
+          z: 63.101,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '74ce5970-afa4-4bfa-9a57-5f1725adb6f6',
+        position: {
+          x: 73.57,
+          y: 14.147,
+          z: -48.848,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '74da28f8-d773-4ede-9c03-83811cf9563f',
+        position: {
+          x: 74.271,
+          y: 14.147,
+          z: -51.551,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '75f2a001-06c8-40a2-99f0-715c75b38138',
+        position: {
+          x: 135.18,
+          y: 14.088,
+          z: 66.07,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '76076875-b690-43f3-8917-68f7b077742f',
+        position: {
+          x: 117.819,
+          y: 28.963,
+          z: 152.665,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '7650aa3e-7ab6-4e76-9b71-af60211b4ad1',
+        position: {
+          x: 143.83,
+          y: 22.74,
+          z: -71.39,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '7689966a-e33d-45af-bec8-7f4161438b74',
+        position: {
+          x: 133.66,
+          y: 23.45,
+          z: 268.62,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '7abcf691-7aa8-4dff-a592-5cd860701676',
+        position: {
+          x: 121.494,
+          y: 22.834,
+          z: -2.778,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '7b81d205-9028-4a06-81ce-b1d73922fce0',
+        position: {
+          x: 115.777,
+          y: 23.426,
+          z: 274.272,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 133.4458,
+          y: 14.1126509,
+          z: 66.43681,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 176.3018,
+          y: 16.9956512,
+          z: 10.2488108,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 17.0218048,
+          y: 24.20565,
+          z: 66.79081,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '7f0d4fce-32a8-4d9a-ac19-d27ab617a45a',
+        position: {
+          x: 132.107,
+          y: 23.45,
+          z: 270.349,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 71.866806,
+          y: 14.1386509,
+          z: -13.0741882,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '811063e9-7b4c-4e88-b571-dda14fc5c422',
+        position: {
+          x: 111.826,
+          y: 23.448,
+          z: 269.082,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '818d8bb3-2bb9-4323-be8a-f03b1cfc2137',
+        position: {
+          x: 143.33,
+          y: 22.74,
+          z: -69.41,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 55.2668037,
+          y: 14.0686512,
+          z: -32.35419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 46.5608063,
+          y: 23.30565,
+          z: -102.121193,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 26.1368027,
+          y: 23.86865,
+          z: -24.01419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 11.5208054,
+          y: 23.48965,
+          z: 156.3288,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 162.2768,
+          y: 22.768652,
+          z: -86.23419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 26.6068039,
+          y: 23.86865,
+          z: -26.9641876,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '894397aa-eb45-4371-a2da-dcaa55bbc2df',
+        position: {
+          x: 111.535995,
+          y: 23.448,
+          z: 271.632,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8991994e-2dd2-4335-8fb9-5f906a80c0f8',
+        position: {
+          x: 179.893,
+          y: 17.01,
+          z: -6.997,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8a478f38-07d3-4e3d-8322-d2f1f6137aff',
+        position: {
+          x: 99.644,
+          y: 28.1424046,
+          z: 314.177,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8aa4f53e-1ecd-4bda-900a-3c650e197c8e',
+        position: {
+          x: 134.04,
+          y: 23.45,
+          z: 271.91,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 96.9698,
+          y: 22.87865,
+          z: -86.9261856,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 11.1888046,
+          y: 23.48965,
+          z: 159.016815,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '8e2cf7d7-6b81-4686-be31-1f169492165f',
+        position: {
+          x: 144.95,
+          y: 22.949,
+          z: 253.29,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8e70071b-0949-4f6a-b106-dcc689714e07',
+        position: {
+          x: 109.208,
+          y: 23.193,
+          z: 174.245,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8f3bef35-3e52-47ec-a072-02b3ad071433',
+        position: {
+          x: 183.821,
+          y: 17.209,
+          z: -6.948,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -15.4731979,
+          y: 23.8186512,
+          z: -56.62419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 36.1368027,
+          y: 22.6686516,
+          z: 334.6858,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 8.986805,
+          y: 23.48965,
+          z: 158.425812,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '96c84440-4cc8-410e-afd2-15dc920dca8b',
+        position: {
+          x: 147.74,
+          y: 23.3,
+          z: 253.63,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '989cfb81-3a2e-4cef-b3c1-a2a914dceaad',
+        position: {
+          x: 119.189,
+          y: 22.834,
+          z: -2.685,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '9c0e31a8-2008-41ef-b42b-b8888cc523ba',
+        position: {
+          x: 142.85,
+          y: 22.74,
+          z: -67.64,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 57.236805,
+          y: 14.0986509,
+          z: -31.15419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: '9cc6b2c3-948c-4902-8344-fa12d0c0e700',
+        position: {
+          x: 135.85,
+          y: 14.088,
+          z: 68.92,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '9fbe814b-9217-4d81-84c2-cc43e67f7bda',
+        position: {
+          x: 117.413,
+          y: 28.963,
+          z: 154.495,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'a5654bc0-d8a6-4897-9f9a-768c4af478c1',
+        position: {
+          x: -8.37,
+          y: 23.86,
+          z: -0.3899932,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 29.9268036,
+          y: 23.86865,
+          z: -25.2141876,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'a8b2e367-82fd-4e64-a37c-906955df399f',
+        position: {
+          x: 67.72,
+          y: 13.981,
+          z: 164.591,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'a9f2fbc7-fa61-4538-9e91-39ca505f86e7',
+        position: {
+          x: -11.19,
+          y: 23.86,
+          z: -2.8199935,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 44.2268066,
+          y: 23.30565,
+          z: -104.874191,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 72.74081,
+          y: 14.1386509,
+          z: 29.96981,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -10.4581985,
+          y: 23.982048,
+          z: 19.6548119,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 72.49081,
+          y: 14.2016516,
+          z: 113.621811,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'b2d85104-d574-4482-8962-9dbeae1221f5',
+        position: {
+          x: 74.228,
+          y: 14.18,
+          z: 8.865999,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 96.2568054,
+          y: 22.87865,
+          z: -85.19419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'b5e02957-b03d-4295-b05d-9be69f6f2e82',
+        position: {
+          x: 67.816,
+          y: 13.981,
+          z: 166.22,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'b7183870-a16c-4429-a8e7-2c2710fe3b57',
+        position: {
+          x: 103.8,
+          y: 28.1424046,
+          z: 316.122,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 109.396805,
+          y: 22.688652,
+          z: 239.435822,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 58.3678055,
+          y: 23.4366512,
+          z: 229.1268,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ba5a0138-2a24-4ceb-bdb2-92d351fec342',
+        position: {
+          x: 42.021,
+          y: 23.276,
+          z: -104.487,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 98.94981,
+          y: 22.87865,
+          z: -85.03119,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 180.1868,
+          y: 16.21865,
+          z: 128.1658,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 45.6098022,
+          y: 23.30565,
+          z: -99.78419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'c081b15d-fb2d-4a02-afeb-b0664e2bdb02',
+        position: {
+          x: 38.7,
+          y: 23.48,
+          z: 147.19,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'c106dee0-2b28-461f-8d43-1ca961ff1d04',
+        position: {
+          x: 127.225,
+          y: 23.225,
+          z: 192.607,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 18.5388031,
+          y: 24.20565,
+          z: 73.82181,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 180.9668,
+          y: 16.21865,
+          z: 130.085815,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 22.8788033,
+          y: 23.53865,
+          z: 253.499817,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'c6b7ada3-06e1-4c17-bbfc-805297968e04',
+        position: {
+          x: 101.579,
+          y: 28.1424046,
+          z: 314.783,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'c83cfa66-d6c2-4b78-8dfd-23d3fc83413c',
+        position: {
+          x: 147.55,
+          y: 23.3,
+          z: 250.06,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 72.22681,
+          y: 13.9586515,
+          z: 159.3858,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'c94a8465-be54-4bf3-833b-b83822b582df',
+        position: {
+          x: 176.79,
+          y: 17.01,
+          z: -6.32,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'cbf941fc-9b66-4a2c-aa00-b1d9b1ba7f9f',
+        position: {
+          x: 177.581,
+          y: 17.01,
+          z: -4.079,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'cc5ed6f2-1e4e-43d4-9ad4-9fc3aaf1e162',
+        position: {
+          x: -11,
+          y: 23.86,
+          z: -5.77,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandSnipeCenter',
+        position: {
+          x: 104.531586,
+          y: 33.44029,
+          z: 107.521042,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ced4b14f-e478-467d-bed1-0314278e555a',
+        position: {
+          x: 101.809,
+          y: 28.1424046,
+          z: 317.117,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'd4f55d16-038b-455e-bc9a-74a49e57ab89',
+        position: {
+          x: 119.705,
+          y: 22.834,
+          z: -4.314,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 175.106812,
+          y: 16.9956512,
+          z: 2.17581081,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'd9e3c316-cf61-454b-8fca-aae78f2c0622',
+        position: {
+          x: 136.6,
+          y: 22.74,
+          z: -66.89,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'db5b9d0d-3105-4814-b413-03d28d4a87d2',
+        position: {
+          x: 47.123,
+          y: 23.276,
+          z: -103.068,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'dcbe096a-7083-4dc0-a7e2-8149e7c153d4',
+        position: {
+          x: 130.538,
+          y: 23.45,
+          z: 271.616,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 57.486805,
+          y: 23.4366512,
+          z: 229.5658,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'de5f4d8c-1411-446e-b67b-269830a40a15',
+        position: {
+          x: 60.9,
+          y: 14.18,
+          z: 105.16,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'df92e08a-08a9-4a19-8b90-cc8aa13b3062',
+        position: {
+          x: 122.356,
+          y: 22.834,
+          z: -4.153,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'e545318d-f757-4a76-90be-079bf41998d2',
+        position: {
+          x: 180.81,
+          y: 16.24,
+          z: 119.29,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 130.6398,
+          y: 14.1126509,
+          z: 63.12081,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'eaa886c4-d771-4f7d-89f8-03b0c6d38365',
+        position: {
+          x: 110.82,
+          y: 23.193,
+          z: 176.03,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'eb268aaa-dfde-4021-bdfa-44faed92c139',
+        position: {
+          x: 64.88,
+          y: 14.22,
+          z: 105.85,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ec099d7a-f15a-488b-8402-4113f56c5822',
+        position: {
+          x: 180.85,
+          y: 16.24,
+          z: 121.4,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ec13b292-f7ef-4a17-85ae-84b356502878',
+        position: {
+          x: 4.36,
+          y: 23.89,
+          z: -59.74,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -13.1111984,
+          y: 23.87565,
+          z: 98.92881,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'f2187ee3-7751-441b-a7ef-b88e072a94c3',
+        position: {
+          x: -2.8,
+          y: 23.89,
+          z: -59.58,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'f2a7bbe4-cd32-4e72-875e-3624083ec8e8',
+        position: {
+          x: 44.427,
+          y: 23.276,
+          z: -104.867,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'f5481928-9ee3-47cd-8998-77edfd1626d3',
+        position: {
+          x: 74.49,
+          y: 14.18,
+          z: 10.55,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -12.6441956,
+          y: 23.8186512,
+          z: -59.9541855,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'f5ba4d5f-08f4-411d-b246-2bac60595f01',
+        position: {
+          x: 66.95,
+          y: 14.18,
+          z: 107.25,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'f76c3749-0412-41cb-a61c-0d7bca49e779',
+        position: {
+          x: 127.474,
+          y: 23.225,
+          z: 194.108,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 71.97681,
+          y: 14.1386509,
+          z: 20.19581,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: -14.633194,
+          y: 23.8186512,
+          z: -58.76419,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 164.696808,
+          y: 22.768652,
+          z: -85.8841858,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+      {
+        zoneName: 'fc1387ee-e540-4433-9022-d3c53a04b8c2',
+        position: {
+          x: 39.85,
+          y: 23.42,
+          z: 150.63,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ZoneSandbox',
+        position: {
+          x: 22.6368027,
+          y: 23.53865,
+          z: 257.9848,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+        ],
+      },
+    ],
+    extracts: [
+      {
+        id: 'd6870dda31937ff93662ce903afe1099b24011a1',
+        name: '警方封锁线（载具撤离点）',
+        faction: 'pmc',
+        switches: [],
+        position: {
+          x: -19.5134068,
+          y: 23.7110023,
+          z: 114.942139,
+        },
+        outline: [
+          {
+            x: -22.1185246,
+            y: 23.7110023,
+            z: 110.356392,
+          },
+          {
+            x: -22.1185226,
+            y: 23.7110023,
+            z: 110.356392,
+          },
+          {
+            x: -16.9581242,
+            y: 23.7110023,
+            z: 110.328438,
+          },
+          {
+            x: -16.9581223,
+            y: 23.7110023,
+            z: 110.328438,
+          },
+          {
+            x: -16.90829,
+            y: 23.7110023,
+            z: 119.527878,
+          },
+          {
+            x: -22.0686913,
+            y: 23.7110023,
+            z: 119.555832,
+          },
+        ],
+        top: 24.9210052,
+        bottom: 22.5010014,
+      },
+      {
+        id: '549ceec177747468ebe86bcfd5a486d1dce9ed64',
+        name: 'Emercom检查点',
+        faction: 'shared',
+        switches: [],
+        position: {
+          x: 151.625,
+          y: 24.662056,
+          z: -97.45658,
+        },
+        outline: [
+          {
+            x: 142.220459,
+            y: 24.662056,
+            z: -106.067726,
+          },
+          {
+            x: 161.029541,
+            y: 24.662056,
+            z: -106.067726,
+          },
+          {
+            x: 161.029541,
+            y: 24.662056,
+            z: -88.8454361,
+          },
+          {
+            x: 142.220459,
+            y: 24.662056,
+            z: -88.8454361,
+          },
+        ],
+        top: 26.7090569,
+        bottom: 22.6150551,
+      },
+      {
+        id: '118fa7e3eae47190871eb4ea20d4f3ca2718b73f',
+        name: 'Scav检查站（合作撤离点）',
+        faction: 'shared',
+        switches: [],
+        position: {
+          x: 25.2195644,
+          y: 24.5091858,
+          z: -79.5413742,
+        },
+        outline: [
+          {
+            x: 16.182127,
+            y: 24.5091858,
+            z: -89.90186,
+          },
+          {
+            x: 34.2570038,
+            y: 24.5091858,
+            z: -89.90186,
+          },
+          {
+            x: 34.2570038,
+            y: 24.5091858,
+            z: -69.1808853,
+          },
+          {
+            x: 16.182127,
+            y: 24.5091858,
+            z: -69.1808853,
+          },
+        ],
+        top: 26.5561867,
+        bottom: 22.4621849,
+      },
+      {
+        id: 'ab623005251ffcd3603a5df2610917a998d9a17e',
+        name: 'Nakatani地下室楼梯',
+        faction: 'shared',
+        switches: [],
+        position: {
+          x: -16.1249924,
+          y: 14.7620564,
+          z: 335.063416,
+        },
+        outline: [
+          {
+            x: -17.98841,
+            y: 14.7620564,
+            z: 329.6299,
+          },
+          {
+            x: -14.2615747,
+            y: 14.7620564,
+            z: 329.6299,
+          },
+          {
+            x: -14.2615747,
+            y: 14.7620564,
+            z: 340.4969,
+          },
+          {
+            x: -17.98841,
+            y: 14.7620564,
+            z: 340.4969,
+          },
+        ],
+        top: 19.61799,
+        bottom: 9.906122,
+      },
+      {
+        id: '89ff19116feeafdf4a2b4e538cafb5364ffbe862',
+        name: 'Mira大道',
+        faction: 'pmc',
+        switches: [],
+        position: {
+          x: 218.225,
+          y: 17.9920559,
+          z: -38.5065842,
+        },
+        outline: [
+          {
+            x: 203.108765,
+            y: 17.9920559,
+            z: -83.10464,
+          },
+          {
+            x: 233.341248,
+            y: 17.9920559,
+            z: -83.10464,
+          },
+          {
+            x: 233.341248,
+            y: 17.9920559,
+            z: 6.091469,
+          },
+          {
+            x: 203.108765,
+            y: 17.9920559,
+            z: 6.091469,
+          },
+        ],
+        top: 20.0390549,
+        bottom: 15.945056,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 80.03309,
+          y: 15.7374516,
+          z: 147.795776,
+        },
+        outline: [
+          {
+            x: 79.53308,
+            y: 15.7374516,
+            z: 148.095764,
+          },
+          {
+            x: 80.53309,
+            y: 15.7374516,
+            z: 148.095764,
+          },
+          {
+            x: 80.53308,
+            y: 15.7374516,
+            z: 149.095764,
+          },
+          {
+            x: 79.53308,
+            y: 15.7374516,
+            z: 149.095764,
+          },
+        ],
+        top: 16.2374516,
+        bottom: 15.2374516,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '658199972dc4e60f6d556a2f',
+          name: '地下停车场杂物间钥匙',
+          normalizedName: 'underground-parking-utility-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 107.056,
+          y: 13.499,
+          z: 50.6362534,
+        },
+        outline: [
+          {
+            x: 106.846,
+            y: 13.499,
+            z: 49.57125,
+          },
+          {
+            x: 107.266,
+            y: 13.499,
+            z: 49.57125,
+          },
+          {
+            x: 107.266,
+            y: 13.499,
+            z: 50.24125,
+          },
+          {
+            x: 106.846,
+            y: 13.499,
+            z: 50.24125,
+          },
+        ],
+        top: 13.999,
+        bottom: 12.999,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 264.952,
+          y: 17.95282,
+          z: 56.1417046,
+        },
+        outline: [
+          {
+            x: 263.529419,
+            y: 17.95244,
+            z: 56.457943,
+          },
+          {
+            x: 263.5258,
+            y: 17.95244,
+            z: 56.4514542,
+          },
+          {
+            x: 264.36972,
+            y: 17.95244,
+            z: 55.9149971,
+          },
+          {
+            x: 264.373322,
+            y: 17.95244,
+            z: 55.9214859,
+          },
+          {
+            x: 264.906158,
+            y: 17.95244,
+            z: 56.7589,
+          },
+          {
+            x: 264.9098,
+            y: 17.95244,
+            z: 56.76539,
+          },
+          {
+            x: 264.065857,
+            y: 17.95244,
+            z: 57.3018456,
+          },
+          {
+            x: 264.062256,
+            y: 17.95244,
+            z: 57.2953568,
+          },
+        ],
+        top: 18.45635,
+        bottom: 17.4485321,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '6581998038c79576a2569e11',
+          name: 'Unity Credit银行现金收纳机钥匙',
+          normalizedName: 'unity-credit-bank-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 58.2430344,
+          y: 24.5022011,
+          z: 172.429,
+        },
+        outline: [
+          {
+            x: 57.1780319,
+            y: 24.5022011,
+            z: 172.219,
+          },
+          {
+            x: 57.8480339,
+            y: 24.5022011,
+            z: 172.219,
+          },
+          {
+            x: 57.84803,
+            y: 24.5022011,
+            z: 172.638992,
+          },
+          {
+            x: 57.1780319,
+            y: 24.5022011,
+            z: 172.638992,
+          },
+        ],
+        top: 25.0022011,
+        bottom: 24.0022011,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '658199aa38c79576a2569e13',
+          name: 'TerraGroup科学家办公室钥匙',
+          normalizedName: 'terragroup-science-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: -17.975647,
+          y: 30.7062054,
+          z: 58.5532341,
+        },
+        outline: [
+          {
+            x: -17.8056469,
+            y: 30.7062054,
+            z: 58.39323,
+          },
+          {
+            x: -17.0856476,
+            y: 30.7062054,
+            z: 58.39323,
+          },
+          {
+            x: -17.0856476,
+            y: 30.7062054,
+            z: 58.6532326,
+          },
+          {
+            x: -17.8056469,
+            y: 30.7062054,
+            z: 58.6532326,
+          },
+        ],
+        top: 31.1112118,
+        bottom: 30.3012066,
+      },
+    ],
+    switches: [],
+    hazards: [
+      {
+        hazardType: 'sniper',
+        name: '狙击手',
+        position: {
+          x: 227.853851,
+          y: 27.1399918,
+          z: -42.09,
+        },
+        outline: [
+          {
+            x: 203.016312,
+            y: 27.1399918,
+            z: -107.963806,
+          },
+          {
+            x: 253.052368,
+            y: 27.1399918,
+            z: -107.826569,
+          },
+          {
+            x: 252.6914,
+            y: 27.1399918,
+            z: 23.7837982,
+          },
+          {
+            x: 202.655334,
+            y: 27.1399918,
+            z: 23.6465645,
+          },
+        ],
+        top: 39.82466,
+        bottom: 14.4553223,
+      },
+      {
+        hazardType: 'sniper',
+        name: '狙击手',
+        position: {
+          x: -88.15002,
+          y: 31.409996,
+          z: 137.459991,
+        },
+        outline: [
+          {
+            x: -153.252533,
+            y: 31.409996,
+            z: 94.64397,
+          },
+          {
+            x: -24.034996,
+            y: 31.409996,
+            z: 93.17892,
+          },
+          {
+            x: -23.0475,
+            y: 31.409996,
+            z: 180.276031,
+          },
+          {
+            x: -152.26503,
+            y: 31.409996,
+            z: 181.741089,
+          },
+        ],
+        top: 44.0946655,
+        bottom: 18.7253265,
+      },
+      {
+        hazardType: 'sniper',
+        name: '狙击手',
+        position: {
+          x: -45.80002,
+          y: 31.409996,
+          z: 295.74,
+        },
+        outline: [
+          {
+            x: -85.43869,
+            y: 31.409996,
+            z: 277.291321,
+          },
+          {
+            x: -6.589813,
+            y: 31.409996,
+            z: 276.397339,
+          },
+          {
+            x: -6.16134262,
+            y: 31.409996,
+            z: 314.18866,
+          },
+          {
+            x: -85.0102158,
+            y: 31.409996,
+            z: 315.082642,
+          },
+        ],
+        top: 44.0946655,
+        bottom: 18.7253265,
+      },
+      {
+        hazardType: 'sniper',
+        name: '狙击手',
+        position: {
+          x: -69.20001,
+          y: 31.409996,
+          z: 289.199982,
+        },
+        outline: [
+          {
+            x: -108.936935,
+            y: 31.409996,
+            z: 262.085327,
+          },
+          {
+            x: -30.088068,
+            y: 31.409996,
+            z: 261.1913,
+          },
+          {
+            x: -29.4630871,
+            y: 31.409996,
+            z: 316.3147,
+          },
+          {
+            x: -108.311958,
+            y: 31.409996,
+            z: 317.208679,
+          },
+        ],
+        top: 44.0946655,
+        bottom: 18.7253265,
+      },
+      {
+        hazardType: 'minefield',
+        name: '地雷',
+        position: {
+          x: 220.805481,
+          y: 15.6500015,
+          z: 133.905258,
+        },
+        outline: [
+          {
+            x: 205.079742,
+            y: 15.6500015,
+            z: 130.34462,
+          },
+          {
+            x: 238.489258,
+            y: 15.6500015,
+            z: 127.732925,
+          },
+          {
+            x: 236.531158,
+            y: 15.6500015,
+            z: 137.4659,
+          },
+          {
+            x: 203.121674,
+            y: 15.6500015,
+            z: 140.077591,
+          },
+        ],
+        top: 31.7150021,
+        bottom: -0.4149971,
+      },
+      {
+        hazardType: 'minefield',
+        name: '地雷',
+        position: {
+          x: 222.7634,
+          y: 15.6500015,
+          z: 175.468857,
+        },
+        outline: [
+          {
+            x: 188.043777,
+            y: 15.6500015,
+            z: 140.842438,
+          },
+          {
+            x: 262.147522,
+            y: 15.6500015,
+            z: 135.464767,
+          },
+          {
+            x: 257.483032,
+            y: 15.6500015,
+            z: 210.095276,
+          },
+          {
+            x: 183.379272,
+            y: 15.6500015,
+            z: 215.472931,
+          },
+        ],
+        top: 31.7150021,
+        bottom: -0.4149971,
+      },
+      {
+        hazardType: 'minefield',
+        name: '地雷',
+        position: {
+          x: 59.784,
+          y: 23.8979988,
+          z: 170.7,
+        },
+        outline: [
+          {
+            x: 59.13831,
+            y: 23.8979988,
+            z: 169.858521,
+          },
+          {
+            x: 60.6254768,
+            y: 23.8979988,
+            z: 170.0543,
+          },
+          {
+            x: 60.4296875,
+            y: 23.8979988,
+            z: 171.541473,
+          },
+          {
+            x: 58.94252,
+            y: 23.8979988,
+            z: 171.345688,
+          },
+        ],
+        top: 24.3979988,
+        bottom: 23.3979988,
+      },
+      {
+        hazardType: 'minefield',
+        name: '地雷',
+        position: {
+          x: 59.721,
+          y: 23.8979988,
+          z: 170.799,
+        },
+        outline: [
+          {
+            x: 58.971,
+            y: 23.8979988,
+            z: 170.049,
+          },
+          {
+            x: 60.471,
+            y: 23.8979988,
+            z: 170.049,
+          },
+          {
+            x: 60.471,
+            y: 23.8979988,
+            z: 171.549,
+          },
+          {
+            x: 58.971,
+            y: 23.8979988,
+            z: 171.549,
+          },
+        ],
+        top: 24.3979988,
+        bottom: 23.3979988,
+      },
+      {
+        hazardType: 'minefield',
+        name: '地雷',
+        position: {
+          x: 59.834,
+          y: 23.8979988,
+          z: 170.875992,
+        },
+        outline: [
+          {
+            x: 58.9925232,
+            y: 23.8979988,
+            z: 170.2303,
+          },
+          {
+            x: 60.47969,
+            y: 23.8979988,
+            z: 170.034515,
+          },
+          {
+            x: 60.67548,
+            y: 23.8979988,
+            z: 171.521683,
+          },
+          {
+            x: 59.18831,
+            y: 23.8979988,
+            z: 171.717468,
+          },
+        ],
+        top: 24.3979988,
+        bottom: 23.3979988,
+      },
+    ],
+    lootContainers: [
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 79.82588,
+          y: 22.737,
+          z: 242.33963,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 82.9592,
+          y: 23.4532738,
+          z: 241.411377,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 83.56084,
+          y: 23.0361881,
+          z: 240.988251,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 35.90251,
+          y: 22.9930649,
+          z: -80.03077,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 52.62951,
+          y: 22.7500153,
+          z: 114.745689,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 80.51353,
+          y: 22.74403,
+          z: 81.70168,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 79.63353,
+          y: 22.7360229,
+          z: 107.287712,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 114.838493,
+          y: 2.98397827,
+          z: 509.974762,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 84.20201,
+          y: 22.77001,
+          z: 134.770966,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 74.83215,
+          y: 22.6757317,
+          z: 91.88204,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 215.870087,
+          y: 16.1605988,
+          z: 14.7894211,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6bb0c3b9823fe6d1840',
+          name: 'Scav尸体',
+          normalizedName: 'scav-body',
+        },
+        position: {
+          x: 213.565063,
+          y: 16.1389923,
+          z: 38.27491,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 222.411758,
+          y: 16.0439911,
+          z: 154.11792,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 170.604568,
+          y: 16.0732918,
+          z: 67.63975,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 225.219131,
+          y: 16.14399,
+          z: 89.0685349,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -15.4650116,
+          y: 22.76,
+          z: 301.532166,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -6.813999,
+          y: 22.7519989,
+          z: 299.387,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8782245977354405a1e3',
+          name: '保险箱',
+          normalizedName: 'safe',
+        },
+        position: {
+          x: 5.54368973,
+          y: 23.44575,
+          z: 295.50647,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 234.438126,
+          y: 16.1576214,
+          z: 62.4971,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 220.280716,
+          y: 16.341053,
+          z: 126.859695,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 56.6553879,
+          y: 24.2371445,
+          z: 171.99295,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 56.6553879,
+          y: 24.2371445,
+          z: 171.99295,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 56.6553879,
+          y: 24.2371445,
+          z: 171.99295,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 56.6553879,
+          y: 24.2371445,
+          z: 171.99295,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 54.5070152,
+          y: 24.2311211,
+          z: 148.031342,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 54.5070152,
+          y: 24.2311211,
+          z: 148.031342,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 54.5070152,
+          y: 24.2311211,
+          z: 148.031342,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 54.5070152,
+          y: 24.2311211,
+          z: 148.031342,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 52.07105,
+          y: 24.2385,
+          z: 174.019958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 52.07105,
+          y: 24.2385,
+          z: 174.019958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 52.07105,
+          y: 24.2385,
+          z: 174.019958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 52.07105,
+          y: 24.2385,
+          z: 174.496948,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 52.07105,
+          y: 24.2385,
+          z: 174.496948,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 60.9822159,
+          y: 31.1117287,
+          z: 134.776276,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 61.4272079,
+          y: 31.1117287,
+          z: 145.835281,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 59.95133,
+          y: 31.1117287,
+          z: 147.445038,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 58.9568939,
+          y: 31.923,
+          z: 145.816925,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.5809479,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.5809479,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.5809479,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.5809479,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.0929451,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.0929451,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.0929451,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 38.0929451,
+          y: 31.7079163,
+          z: 137.114441,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 59.1404228,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 59.1404228,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 59.1404228,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 59.1404228,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 58.6604233,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 58.6604233,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 58.6604233,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 58.6604233,
+          y: 31.7079163,
+          z: 150.374527,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 44.65702,
+          y: 22.0125,
+          z: 150.05304,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 29.564785,
+          y: 23.939045,
+          z: 8.718117,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 51.836998,
+          y: 23.5745525,
+          z: -54.6975327,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 54.623,
+          y: 24.1140461,
+          z: 92.63597,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 56.1682358,
+          y: 22.7398014,
+          z: 70.05502,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 2.13999939,
+          y: 23.8230457,
+          z: 3.94400024,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f879c24597735401e6bc6',
+          name: '收银机',
+          normalizedName: 'cash-register',
+        },
+        position: {
+          x: 17.7421074,
+          y: 25.1818027,
+          z: 69.9996643,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 15.8007278,
+          y: 24.2740345,
+          z: 71.68893,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 64.28,
+          y: 23.4480457,
+          z: 90.8959656,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 42.71881,
+          y: 22.7002048,
+          z: 101.456924,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 33.22687,
+          y: 23.9430122,
+          z: 37.2366867,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 45.4134178,
+          y: 24.436285,
+          z: 101.119781,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 7.70899963,
+          y: 23.9680462,
+          z: -0.9820328,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 61.65975,
+          y: 22.7537022,
+          z: 89.4429855,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 16.302002,
+          y: 23.9750462,
+          z: 83.78197,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 101.96,
+          y: 14.823081,
+          z: -6.96299744,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 98.396,
+          y: 16.084,
+          z: 44.3350067,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 97.689,
+          y: 16.091,
+          z: 44.3840027,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 54.204,
+          y: 14.0929995,
+          z: -27.8359985,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 101.474,
+          y: 15.0640812,
+          z: 51.081,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 82.01365,
+          y: 14.376,
+          z: 181.608673,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 106.301964,
+          y: 14.105,
+          z: 53.5747681,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -27.5070038,
+          y: 24.3270073,
+          z: 55.6059952,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -15.0389633,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -15.0389633,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -15.0389633,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -15.0389633,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -17.8699646,
+          y: 30.4876747,
+          z: 39.8393631,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -17.8699646,
+          y: 30.4876747,
+          z: 39.8393631,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -17.8699646,
+          y: 30.4876747,
+          z: 39.8393631,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -17.8699646,
+          y: 30.4876747,
+          z: 39.8393631,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -11.7009659,
+          y: 30.4916763,
+          z: 39.7893677,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -11.7009659,
+          y: 30.4916763,
+          z: 39.7893677,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -11.7009659,
+          y: 30.4916763,
+          z: 39.7893677,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -11.7009659,
+          y: 30.4916763,
+          z: 39.7893677,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -14.5459671,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -14.5459671,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -14.5459671,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -14.5459671,
+          y: 30.4876747,
+          z: 39.8383636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -36.4220047,
+          y: 29.845005,
+          z: 66.00299,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -14.6449966,
+          y: 23.9659977,
+          z: -26.4980011,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -47.2868729,
+          y: 24.5690746,
+          z: 28.0868759,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -24.677002,
+          y: 24.3249969,
+          z: -26.7290039,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6c6edf14c4c6023adf2',
+          name: '实验室技术员尸体',
+          normalizedName: 'lab-technician-body',
+        },
+        position: {
+          x: -59.3569946,
+          y: 24.4230022,
+          z: 26.4859924,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -24.3079834,
+          y: 30.4973278,
+          z: 84.84346,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -24.3079834,
+          y: 30.4973278,
+          z: 84.84346,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -24.3079834,
+          y: 30.4973278,
+          z: 84.84346,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: -24.3079834,
+          y: 30.4973278,
+          z: 84.84346,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -21.7979965,
+          y: 23.954998,
+          z: -21.875,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -10.18,
+          y: 24.3280048,
+          z: 30.5259933,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -50.293,
+          y: 24.3370075,
+          z: 44.4989929,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: -19.1823578,
+          y: 29.9147511,
+          z: 55.02748,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: -19.2463989,
+          y: 29.9147472,
+          z: 46.3064651,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: -11.52,
+          y: 29.9270039,
+          z: 54.8289948,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: -29.47467,
+          y: 29.9167538,
+          z: 90.81073,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 22.44902,
+          y: 23.9438229,
+          z: -49.25274,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 160.829346,
+          y: 22.889,
+          z: -42.568367,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 183.220688,
+          y: 20.515,
+          z: 45.75745,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 181.577133,
+          y: 21.0476112,
+          z: 48.8395271,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 158.861,
+          y: 22.9199982,
+          z: -49.5790176,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 147.49707,
+          y: 23.034996,
+          z: -95.24186,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 23.2689972,
+          y: 22.88,
+          z: 311.753,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f879c24597735401e6bc6',
+          name: '收银机',
+          normalizedName: 'cash-register',
+        },
+        position: {
+          x: 28.6802139,
+          y: 23.15468,
+          z: 340.9612,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.894875,
+          y: 33.6343765,
+          z: 274.522522,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.894875,
+          y: 33.6343765,
+          z: 274.522522,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.894875,
+          y: 33.6343765,
+          z: 274.522522,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.894875,
+          y: 33.6343765,
+          z: 274.522522,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 105.0363,
+          y: 33.0538979,
+          z: 271.799377,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 106.2372,
+          y: 33.0538979,
+          z: 282.316071,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 105.295662,
+          y: 33.0538979,
+          z: 274.751,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 106.984283,
+          y: 33.0538979,
+          z: 276.604675,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 101.718269,
+          y: 33.0538979,
+          z: 278.722015,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 105.196053,
+          y: 33.0538979,
+          z: 279.618652,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.63488,
+          y: 33.6343765,
+          z: 274.927551,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.63488,
+          y: 33.6343765,
+          z: 274.927551,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.63488,
+          y: 33.6343765,
+          z: 274.927551,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 112.63488,
+          y: 33.6343765,
+          z: 274.927551,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 109.705307,
+          y: 33.0538979,
+          z: 273.5864,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 111.784393,
+          y: 33.0775,
+          z: 276.637482,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 103.910172,
+          y: 33.0538979,
+          z: 268.27536,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 108.788155,
+          y: 33.0538979,
+          z: 260.553223,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 109.110443,
+          y: 33.0538979,
+          z: 262.766876,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 111.812622,
+          y: 33.6343765,
+          z: 270.511627,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 111.812622,
+          y: 33.6343765,
+          z: 270.511627,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 111.812622,
+          y: 33.6343765,
+          z: 270.511627,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 111.812622,
+          y: 33.6343765,
+          z: 270.511627,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 105.120018,
+          y: 33.0538979,
+          z: 261.9593,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 109.9703,
+          y: 33.0538979,
+          z: 266.863342,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 106.4833,
+          y: 33.0538979,
+          z: 265.799347,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 138.255264,
+          y: 27.1606712,
+          z: -98.4473,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 138.255264,
+          y: 27.1606712,
+          z: -98.4473,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 138.255264,
+          y: 27.1606712,
+          z: -98.4473,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 138.255264,
+          y: 27.1606712,
+          z: -98.4473,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 84.03392,
+          y: 27.1613426,
+          z: -89.89866,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 84.03392,
+          y: 27.1613426,
+          z: -89.89866,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 84.03392,
+          y: 27.1613426,
+          z: -89.89866,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 84.03392,
+          y: 27.1613426,
+          z: -89.89866,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 154.651,
+          y: 23.43,
+          z: -99.135994,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 150.653,
+          y: 22.9199982,
+          z: -80.16401,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 3.97108078,
+          y: 22.8856087,
+          z: 333.7597,
+        },
+      },
+      {
+        lootContainer: {
+          id: '658420d8085fea07e674cdb6',
+          name: '死去的平民',
+          normalizedName: 'dead-civilian',
+        },
+        position: {
+          x: 175.599411,
+          y: 17.8746319,
+          z: -10.8448029,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f879c24597735401e6bc6',
+          name: '收银机',
+          normalizedName: 'cash-register',
+        },
+        position: {
+          x: 172.97,
+          y: 17.81,
+          z: 27.45401,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 181.469009,
+          y: 17.2479954,
+          z: -12.94677,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 100.315224,
+          y: 14.107,
+          z: 3.615837,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 133.892,
+          y: 17.0589981,
+          z: -12.4760056,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 126.803642,
+          y: 22.7504311,
+          z: -0.9584503,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 100.846527,
+          y: 29.3569965,
+          z: -26.36988,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 113.814034,
+          y: 23.267,
+          z: 196.53183,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.904968,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.904968,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.904968,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.904968,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.437958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.437958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.437958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 117.77739,
+          y: 23.9706745,
+          z: 196.437958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 119.604004,
+          y: 23.4089985,
+          z: 185.35,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 117.905556,
+          y: 23.4089985,
+          z: 191.092255,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 121.996,
+          y: 23.4089985,
+          z: 195.871,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 109.063278,
+          y: 27.671,
+          z: 176.029984,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 124.298058,
+          y: 25.0673866,
+          z: 104.06337,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 121.7352,
+          y: 24.704,
+          z: 105.1222,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 111.014549,
+          y: 27.8436928,
+          z: 201.316254,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 46.37985,
+          y: 24.362999,
+          z: 123.345322,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 119.545128,
+          y: 24.6151161,
+          z: 107.771126,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 107.31456,
+          y: 24.9089985,
+          z: 110.74868,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 100.8196,
+          y: 24.5181942,
+          z: 133.204559,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8782245977354405a1e3',
+          name: '保险箱',
+          normalizedName: 'safe',
+        },
+        position: {
+          x: 200.287628,
+          y: 16.6209984,
+          z: 123.84259,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 128.224365,
+          y: 22.971,
+          z: 207.606476,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 184.3757,
+          y: 23.0226841,
+          z: 103.349831,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 171.738708,
+          y: 25.1689987,
+          z: 79.45656,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 94.62578,
+          y: 22.9744644,
+          z: 226.035065,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 97.11545,
+          y: 22.9287472,
+          z: 169.451172,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 191.700378,
+          y: 16.4299259,
+          z: 132.934647,
+        },
+      },
+      {
+        lootContainer: {
+          id: '59139c2186f77411564f8e42',
+          name: '电脑机箱',
+          normalizedName: 'pc-block',
+        },
+        position: {
+          x: 192.026062,
+          y: 16.5134411,
+          z: 136.356323,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 66.423,
+          y: 23.5609989,
+          z: 190.681,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 45.871,
+          y: 22.934,
+          z: 246.40802,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: -6.56499863,
+          y: 22.719,
+          z: 287.443,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 20.7720852,
+          y: 23.41219,
+          z: 251.278992,
+        },
+      },
+      {
+        lootContainer: {
+          id: '6582e6d7b14c3f72eb071420',
+          name: 'PMC尸体',
+          normalizedName: 'pmc-body',
+        },
+        position: {
+          x: 39.687,
+          y: 23.5530167,
+          z: 123.478989,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 23.704,
+          y: 24.344,
+          z: 14.4980011,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 34.56,
+          y: 24.36,
+          z: 20.181,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 32.506,
+          y: 24.188,
+          z: 60.084,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 17.1829987,
+          y: 24.241,
+          z: 84.114,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 4.5719986,
+          y: 24.267,
+          z: 33.231,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 41.409,
+          y: 24.342,
+          z: -6.425003,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 112.624,
+          y: 23.433,
+          z: -75.074,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 120.355,
+          y: 23.433,
+          z: -77.301,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 140.385,
+          y: 23.433,
+          z: -77.355,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 139.667,
+          y: 23.315,
+          z: -71.7869949,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 116.344,
+          y: 23.334,
+          z: -96.3559952,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 85.557,
+          y: 23.237,
+          z: -67.010994,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 186.693,
+          y: 17.666,
+          z: -38.109993,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 195.079,
+          y: 17.508,
+          z: -43.3100052,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 183.739,
+          y: 17.658,
+          z: -38.1290054,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 194.622,
+          y: 16.97,
+          z: -22.862999,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 199.69,
+          y: 17.037,
+          z: -4.939003,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 200.381,
+          y: 16.747,
+          z: 103.451,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 194.796,
+          y: 16.741,
+          z: 90.543,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 200.225,
+          y: 16.605,
+          z: 106.337,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 181.781,
+          y: 25.089,
+          z: 95.349,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 194.223,
+          y: 16.944,
+          z: 81.704,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 178.354,
+          y: 17.081,
+          z: 114.553,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 105.277,
+          y: 23.549,
+          z: 219.799,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 116.972,
+          y: 23.408,
+          z: 227.159,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 124.421,
+          y: 23.408,
+          z: 229.512,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 144.109,
+          y: 23.328,
+          z: 229.285,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 133.121,
+          y: 23.268,
+          z: 218.23,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 37.021,
+          y: 23.359,
+          z: 276.562,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 35.829,
+          y: 23.153,
+          z: 260.154,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 54.405,
+          y: 23.61,
+          z: 263.195,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 71.739,
+          y: 23.368,
+          z: 296.132,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 81.136,
+          y: 23.301,
+          z: 289.841,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 31.02177,
+          y: 22.753,
+          z: 284.355255,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 160.570267,
+          y: 23.5518,
+          z: -77.33747,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 154.948853,
+          y: 23.562,
+          z: -83.49903,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 152.058548,
+          y: 23.0714,
+          z: -83.5051956,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 154.638565,
+          y: 22.748,
+          z: -90.2664261,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 149.888016,
+          y: 23.4756,
+          z: -77.33672,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd13186f77424ad2a8c69',
+          name: '配给物资箱',
+          normalizedName: 'ration-supply-crate',
+        },
+        position: {
+          x: 122.281052,
+          y: 25.355999,
+          z: 144.039856,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd13186f77424ad2a8c69',
+          name: '配给物资箱',
+          normalizedName: 'ration-supply-crate',
+        },
+        position: {
+          x: 121.028587,
+          y: 25.357,
+          z: 137.8912,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 128.914841,
+          y: 24.6554985,
+          z: 163.7237,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 113.543564,
+          y: 24.6555,
+          z: 164.461868,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 115.4312,
+          y: 23.4195,
+          z: 170.9961,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 129.4982,
+          y: 25.1499,
+          z: 165.45108,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 125.435013,
+          y: 24.935,
+          z: 90.91302,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 131.200012,
+          y: 24.935,
+          z: 93.582016,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 113.994011,
+          y: 24.893,
+          z: 113.743019,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 106.116013,
+          y: 24.944,
+          z: 114.181015,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 122.366013,
+          y: 24.7069988,
+          z: 118.392014,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 124.14901,
+          y: 24.99,
+          z: 101.487015,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 118.651009,
+          y: 25.298,
+          z: 126.382019,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 121.38501,
+          y: 24.385,
+          z: 130.85701,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 126.444008,
+          y: 24.386,
+          z: 134.661011,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 104.53801,
+          y: 29.4289989,
+          z: 115.706017,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 100.548012,
+          y: 28.889,
+          z: 109.168015,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 131.271286,
+          y: 29.546999,
+          z: 88.782486,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 122.057907,
+          y: 24.4665,
+          z: 157.003021,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 120.233009,
+          y: 24.4665,
+          z: 156.194016,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 119.087006,
+          y: 24.8599987,
+          z: 162.413025,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 124.328011,
+          y: 24.835,
+          z: 158.572021,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 127.859009,
+          y: 24.854,
+          z: 163.439011,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 108.263,
+          y: 23.079,
+          z: 5.277977,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 113.846,
+          y: 22.768,
+          z: -0.416023254,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 110.190994,
+          y: 23.0796,
+          z: -11.3160172,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 104.348,
+          y: 23.232,
+          z: -12.4210205,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 114.113,
+          y: 23.656,
+          z: -5.63802338,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 123.313873,
+          y: 23.0334988,
+          z: 6.23636627,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 129.447647,
+          y: 23.0334988,
+          z: 9.534004,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 123.655479,
+          y: 23.0335,
+          z: 13.9900436,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 111.671,
+          y: 23.249,
+          z: 32.9030075,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 106.528992,
+          y: 23.3305,
+          z: 28.2430038,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 110.137993,
+          y: 23.578,
+          z: 26.5990067,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 122.006996,
+          y: 23.4704,
+          z: 23.45301,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 124.629,
+          y: 23.244,
+          z: 29.6880112,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 127.867836,
+          y: 23.0305,
+          z: 20.6557083,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 129.6282,
+          y: 23.8319,
+          z: 21.1632156,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 123.44416,
+          y: 23.0335,
+          z: 25.7569885,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 179.735977,
+          y: 16.921999,
+          z: 30.5779762,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 179.283981,
+          y: 16.921999,
+          z: 35.303978,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 171.189972,
+          y: 16.921999,
+          z: 34.5359764,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 179.358978,
+          y: 17.374,
+          z: 21.3159714,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 171.21698,
+          y: 21.373,
+          z: 27.5029755,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 176.714981,
+          y: 21.373,
+          z: 20.3679733,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 109.562012,
+          y: 24.0159988,
+          z: 284.349,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 114.793007,
+          y: 24.0159988,
+          z: 279.487,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 111.194008,
+          y: 24.0159988,
+          z: 273.758,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 120.730011,
+          y: 24.407999,
+          z: 281.587,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 109.352013,
+          y: 24.0159988,
+          z: 287.719,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 103.632011,
+          y: 24.362999,
+          z: 290.621,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 113.064011,
+          y: 33.408,
+          z: 277.022,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 121.447006,
+          y: 32.806,
+          z: 282.336,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 121.682007,
+          y: 32.801,
+          z: 292.645,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 107.785011,
+          y: 33.431,
+          z: 285.952,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 107.267014,
+          y: 33.589,
+          z: 275.259,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 105.091011,
+          y: 33.589,
+          z: 273.835,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 110.313011,
+          y: 33.552002,
+          z: 261.62,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 107.99601,
+          y: 33.552002,
+          z: 268.926,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 104.814011,
+          y: 32.801,
+          z: 266.60498,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 105.402008,
+          y: 32.801,
+          z: 260.189,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -39.802002,
+          y: 24.768,
+          z: 37.35599,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -41.33,
+          y: 24.631,
+          z: 22.0979919,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -31.2569962,
+          y: 24.562,
+          z: 27.73899,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -44.5759964,
+          y: 30.167,
+          z: 62.1719933,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -37.266,
+          y: 29.687,
+          z: 62.9239922,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -45.586,
+          y: 29.652,
+          z: 67.885994,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -45.9519958,
+          y: 29.652,
+          z: 56.3949928,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -27.8809967,
+          y: 30.282,
+          z: 54.6629944,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -7.681999,
+          y: 30.26,
+          z: 48.0239944,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -9.903999,
+          y: 30.46,
+          z: 52.340992,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -18.6449966,
+          y: 30.46,
+          z: 51.9509926,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -8.233997,
+          y: 29.661,
+          z: 45.4369926,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -19.5369949,
+          y: 29.661,
+          z: 47.2229919,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -21.585,
+          y: 30.219,
+          z: 74.09099,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -23.8399963,
+          y: 30.2729988,
+          z: 81.4549942,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -22.9659958,
+          y: 29.657999,
+          z: 88.84699,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -13.5679932,
+          y: 29.657999,
+          z: 81.38699,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -15.445,
+          y: 29.737999,
+          z: 68.5519943,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -3.7009964,
+          y: 29.6619987,
+          z: 63.7309952,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -27.904,
+          y: 30.296999,
+          z: 52.9629936,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -23.7169952,
+          y: 29.657,
+          z: 56.12799,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -28.1669922,
+          y: 30.128,
+          z: 80.62299,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: -28.5745544,
+          y: 29.9285,
+          z: 74.62695,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: -27.384552,
+          y: 30.2104988,
+          z: 71.98795,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: -24.9958649,
+          y: 29.9305,
+          z: 87.07776,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: -25.0304871,
+          y: 29.9305,
+          z: 82.2673,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 99.088,
+          y: 14.5939989,
+          z: 63.60299,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 106.634995,
+          y: 14.2219982,
+          z: 69.85299,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 127.590996,
+          y: 14.8939991,
+          z: 61.35199,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 127.224335,
+          y: 15.1554995,
+          z: 60.00315,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 101.065094,
+          y: 13.6070986,
+          z: 49.7341232,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 104.129066,
+          y: 12.6764984,
+          z: 47.19061,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 98.23266,
+          y: 14.9544983,
+          z: 43.78568,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 97.2324142,
+          y: 14.2054987,
+          z: 42.5176964,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.823,
+          y: 14.5278988,
+          z: 86.3879852,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 88.5519943,
+          y: 15.848999,
+          z: 97.48099,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 57.8049965,
+          y: 15.0859985,
+          z: 107.077988,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 73.37399,
+          y: 15.0309982,
+          z: 126.023987,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 80.004,
+          y: 15.2399988,
+          z: 120.312988,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.9109955,
+          y: 15.3479986,
+          z: 121.925987,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 88.4809952,
+          y: 14.9049988,
+          z: 132.794983,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 79.888,
+          y: 14.9379988,
+          z: 149.986,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 71.129,
+          y: 14.8979988,
+          z: 157.152,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 62.0669975,
+          y: 14.7609987,
+          z: 163.030991,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 69.001,
+          y: 14.914999,
+          z: 163.875,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 82.169,
+          y: 14.1939983,
+          z: 178.836,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 90.446,
+          y: 14.9789982,
+          z: 21.7369919,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.765,
+          y: 15.2869987,
+          z: 4.488991,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 64.492,
+          y: 15.0191984,
+          z: 28.4449921,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 101.228,
+          y: 15.6589985,
+          z: 43.27499,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 85.6069946,
+          y: 14.926199,
+          z: 57.88599,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 79.0239944,
+          y: 14.6879988,
+          z: -40.018013,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.9799957,
+          y: 14.9179983,
+          z: -20.9240112,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 81.94299,
+          y: 14.5439987,
+          z: -57.79801,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 84.6461945,
+          y: 14.5959988,
+          z: -24.8834076,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 92.377,
+          y: 14.822999,
+          z: -49.9080124,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 68.30266,
+          y: 14.8719988,
+          z: 156.540863,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 65.99105,
+          y: 14.8719988,
+          z: 163.183746,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 71.88733,
+          y: 15.8659992,
+          z: 164.27417,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 63.7859955,
+          y: 14.9179983,
+          z: 26.96196,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 67.94057,
+          y: 14.9199982,
+          z: 22.5584183,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 65.69703,
+          y: 14.9179983,
+          z: 22.5909882,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 117.775993,
+          y: 23.618,
+          z: 188.134018,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 118.425995,
+          y: 23.618,
+          z: 190.527023,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 121.124992,
+          y: 23.618,
+          z: 186.058014,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 121.575989,
+          y: 23.618,
+          z: 195.28302,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 117.46,
+          y: 23.5619984,
+          z: 192.058823,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 129.18219,
+          y: 23.562,
+          z: 190.49202,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 128.780182,
+          y: 23.562,
+          z: 182.495026,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 122.838989,
+          y: 23.562,
+          z: 197.151215,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 49.1314354,
+          y: 23.7902718,
+          z: 154.148346,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 51.7422562,
+          y: 23.7902718,
+          z: 154.781937,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 47.4403038,
+          y: 23.786272,
+          z: 154.158432,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 25.0444031,
+          y: 24.1997,
+          z: 156.1347,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 19.7560043,
+          y: 24.038,
+          z: 156.230011,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 12.5440025,
+          y: 24.038,
+          z: 160.150009,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 17.4920044,
+          y: 23.407,
+          z: 157.839,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 55.7250023,
+          y: 24.046,
+          z: 142.645,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 25.2780037,
+          y: 23.953,
+          z: 137.212311,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 49.038002,
+          y: 24.3599987,
+          z: 142.934,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 54.696003,
+          y: 23.954,
+          z: 136.85701,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fe50986f77449d97f7463',
+          name: '医疗物资箱',
+          normalizedName: 'medical-supply-crate',
+        },
+        position: {
+          x: 63.14752,
+          y: 31.822998,
+          z: 133.436874,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fe50986f77449d97f7463',
+          name: '医疗物资箱',
+          normalizedName: 'medical-supply-crate',
+        },
+        position: {
+          x: 63.3037453,
+          y: 31.82,
+          z: 149.271484,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 48.0824661,
+          y: 31.822998,
+          z: 160.134247,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 49.8713036,
+          y: 31.822998,
+          z: 127.304832,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 48.9798355,
+          y: 31.8432732,
+          z: 135.910538,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 50.552536,
+          y: 31.2452717,
+          z: 137.794174,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 58.367836,
+          y: 31.2452717,
+          z: 129.111542,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 181.978989,
+          y: 17.778,
+          z: -11.0040131,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 187.105988,
+          y: 17.778,
+          z: -10.89901,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 171.056,
+          y: 17.15,
+          z: -9.080009,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 181.898987,
+          y: 17.784,
+          z: -4.88900757,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 171.332,
+          y: 17.37,
+          z: 17.79599,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 172.612991,
+          y: 17.959,
+          z: 2.7869873,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 158.1238,
+          y: 17.9435,
+          z: 8.33979,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 151.911865,
+          y: 17.1934986,
+          z: -1.48796082,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 147.2464,
+          y: 17.1934986,
+          z: -1.67598724,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 147.2334,
+          y: 17.6175,
+          z: -9.312988,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 134.173233,
+          y: 17.1898,
+          z: -10.2857819,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 139.7555,
+          y: 17.1898,
+          z: -10.9265671,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 136.6283,
+          y: 17.1895,
+          z: -14.59185,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 188.692764,
+          y: 16.4574986,
+          z: 134.6635,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 197.045685,
+          y: 16.4574986,
+          z: 137.691467,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 194.392578,
+          y: 16.4574986,
+          z: 129.520966,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 80.796,
+          y: 23.028,
+          z: 131.538,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.23,
+          y: 22.629,
+          z: 134.645,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 101.316986,
+          y: 22.781,
+          z: 220.366959,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 97.06999,
+          y: 22.781,
+          z: 226.806976,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 95.32199,
+          y: 27.288,
+          z: 225.144958,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 95.12599,
+          y: 27.909,
+          z: 220.601959,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 93.9747543,
+          y: 23.0485,
+          z: 223.656464,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 96.4938049,
+          y: 23.0505,
+          z: 226.231537,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 95.02957,
+          y: 23.0525,
+          z: 226.979279,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 17.8579941,
+          y: 24.389,
+          z: -52.0209732,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 9.707993,
+          y: 24.3599987,
+          z: -43.7269821,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -10.28701,
+          y: 24.99,
+          z: -34.527977,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 28.8279915,
+          y: 23.8109989,
+          z: -21.6829758,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -15.2488327,
+          y: 23.980999,
+          z: -38.663002,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -15.0260086,
+          y: 24.3129978,
+          z: -40.751976,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -16.51648,
+          y: 24.271,
+          z: -39.333107,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -10.250946,
+          y: 22.72941,
+          z: 326.52655,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: -18.2840881,
+          y: 21.4841213,
+          z: 339.14032,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: -5.42783737,
+          y: 22.8968945,
+          z: 332.256775,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: 175.877,
+          y: 17.0449963,
+          z: 12.403244,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 106.057571,
+          y: 14.3604994,
+          z: 9.501549,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 115.202339,
+          y: 23.5452728,
+          z: 195.458389,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 111.845,
+          y: 29.728981,
+          z: 161.0518,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 109.138,
+          y: 29.9129982,
+          z: 161.824,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 99.72046,
+          y: 14.503,
+          z: 171.207184,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 136.358627,
+          y: 27.6398849,
+          z: 107.697983,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 108.624634,
+          y: 24.994,
+          z: 153.210358,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d4c186f7746ad34e805a',
+          name: '医药箱',
+          normalizedName: 'medcase',
+        },
+        position: {
+          x: 119.224907,
+          y: 24.960886,
+          z: 155.858292,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 118.766,
+          y: 25.3380013,
+          z: 137.849,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: 191.037415,
+          y: 16.7716846,
+          z: 100.784637,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 172.353943,
+          y: 25.039,
+          z: 104.307442,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 172.279678,
+          y: 24.902607,
+          z: 82.8226547,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 174.9792,
+          y: 25.1222725,
+          z: 79.0661,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 97.89871,
+          y: 25.4779987,
+          z: 79.66956,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 105.602913,
+          y: 24.7451839,
+          z: 84.16972,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 115.82222,
+          y: 25.1905,
+          z: 93.63992,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 174.686539,
+          y: 25.2951851,
+          z: 115.696449,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d89086f77472591234a0',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 186.452,
+          y: 16.854,
+          z: 130.909,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 48.8240128,
+          y: 31.1295,
+          z: 131.2507,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 40.35461,
+          y: 23.5297527,
+          z: 125.362709,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 61.051,
+          y: 23.384,
+          z: 129.775,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 44.84317,
+          y: 23.7762871,
+          z: 124.069466,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 48.2372322,
+          y: 24.3592873,
+          z: 123.540657,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 62.0375,
+          y: 30.86274,
+          z: 142.200989,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 12.166,
+          y: 23.329,
+          z: 327.504,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: -18.3162842,
+          y: 17.3165,
+          z: 331.9835,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 39.2884521,
+          y: 23.9024143,
+          z: 336.203674,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: 183.468353,
+          y: 17.282,
+          z: -8.171486,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 95.2853,
+          y: 14.4285,
+          z: -9.733658,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 121.388641,
+          y: 23.5392723,
+          z: 184.784668,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 102.437996,
+          y: 24.50898,
+          z: 144.321808,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 124.197,
+          y: 29.3650017,
+          z: 163.526,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 101.525,
+          y: 18.587,
+          z: 170.762,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 122.190948,
+          y: 25.1703987,
+          z: 129.959229,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d4c186f7746ad34e805a',
+          name: '医药箱',
+          normalizedName: 'medcase',
+        },
+        position: {
+          x: 117.371979,
+          y: 25.1588,
+          z: 138.786057,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: 193.6368,
+          y: 16.7716846,
+          z: 103.124687,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: 176.454391,
+          y: 24.819,
+          z: 114.511162,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 173.051376,
+          y: 24.9237061,
+          z: 83.4879,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 177.113953,
+          y: 24.7782726,
+          z: 84.3255157,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 106.384,
+          y: 24.937,
+          z: 81.615,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 170.349319,
+          y: 24.668499,
+          z: 80.92142,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 97.17261,
+          y: 24.668499,
+          z: 88.6849442,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 170.817154,
+          y: 24.9895,
+          z: 116.087433,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d89086f77472591234a0',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 176.633,
+          y: 25.078001,
+          z: 112.943,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 58.5129,
+          y: 31.1295,
+          z: 148.2924,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 48.4129829,
+          y: 23.5301056,
+          z: 125.10936,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 49.943,
+          y: 23.974,
+          z: 124.281,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 48.2929,
+          y: 23.7822723,
+          z: 129.72316,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -14.673996,
+          y: 24.1716,
+          z: 91.983,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 2.79999924,
+          y: 24.3483,
+          z: 59.442,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8782245977354405a1e3',
+          name: '保险箱',
+          normalizedName: 'safe',
+        },
+        position: {
+          x: 70.9302139,
+          y: 23.2842522,
+          z: 313.060547,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 50.3193779,
+          y: 26.7407722,
+          z: 152.302887,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d89086f77472591234a0',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 123.485886,
+          y: 23.14648,
+          z: 63.9226532,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 101.500092,
+          y: 15.644,
+          z: -9.330994,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 54.36,
+          y: 14.555,
+          z: -29.3099976,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 143.041,
+          y: 14.061,
+          z: 66.425,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 97.74,
+          y: 14.3575,
+          z: 52.6714058,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 106.8786,
+          y: 12.6735811,
+          z: 48.336,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 76.88451,
+          y: 14.2755,
+          z: -33.2349625,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 91.85268,
+          y: 14.9871674,
+          z: 14.45797,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 105.095,
+          y: 12.874,
+          z: 44.988,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 102.83284,
+          y: 13.302,
+          z: 47.33304,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 102.665543,
+          y: 13.300107,
+          z: 48.1396027,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 114.266655,
+          y: 14.866107,
+          z: 51.46521,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d45286f77465a8136dc6',
+          name: '木制弹药箱',
+          normalizedName: 'wooden-ammo-box',
+        },
+        position: {
+          x: 106.757668,
+          y: 13.4584,
+          z: 47.84982,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d45286f77465a8136dc6',
+          name: '木制弹药箱',
+          normalizedName: 'wooden-ammo-box',
+        },
+        position: {
+          x: 111.949478,
+          y: 14.9558172,
+          z: 54.3466148,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 103.750824,
+          y: 13.1942711,
+          z: 50.5383263,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.5775,
+          y: 14.337081,
+          z: 116.9411,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 22.2255173,
+          y: 23.94627,
+          z: 315.210571,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -29.86435,
+          y: 24.3023033,
+          z: 31.0682335,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -45.040596,
+          y: 24.3023071,
+          z: 44.0092964,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -19.99369,
+          y: 23.9643,
+          z: -26.7177658,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -25.4585419,
+          y: 24.3053055,
+          z: -0.647209167,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -22.6914368,
+          y: 29.792305,
+          z: 56.92238,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: -13.1718826,
+          y: 30.2550545,
+          z: 66.1286,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -22.9659958,
+          y: 24.6209183,
+          z: 93.9736557,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 153.991974,
+          y: 23.7287979,
+          z: 32.398632,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d45286f77465a8136dc6',
+          name: '木制弹药箱',
+          normalizedName: 'wooden-ammo-box',
+        },
+        position: {
+          x: -15.3834152,
+          y: 22.7612572,
+          z: 302.9927,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 191.142014,
+          y: 16.413,
+          z: 69.46,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 157.830719,
+          y: 17.6816158,
+          z: 60.2844963,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 157.111,
+          y: 17.628,
+          z: 60.214,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d45286f77465a8136dc6',
+          name: '木制弹药箱',
+          normalizedName: 'wooden-ammo-box',
+        },
+        position: {
+          x: 204.153534,
+          y: 17.3044,
+          z: 35.97107,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 204.94957,
+          y: 16.9342728,
+          z: 33.8554268,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 83.811,
+          y: 14.15408,
+          z: 182.048,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: -3.66320038,
+          y: 24.401,
+          z: 84.5851,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 0.480999,
+          y: 24.3483,
+          z: 18.9780045,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8782245977354405a1e3',
+          name: '保险箱',
+          normalizedName: 'safe',
+        },
+        position: {
+          x: 54.79811,
+          y: 23.9683781,
+          z: 155.259415,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 43.29366,
+          y: 31.2382717,
+          z: 149.9008,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d89086f77472591234a0',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 120.190849,
+          y: 23.4636555,
+          z: 60.75271,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: 105.923508,
+          y: 15.06,
+          z: 3.06318665,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 97.039,
+          y: 14.41,
+          z: -5.16200256,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 107.977,
+          y: 12.408,
+          z: 49.454,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 105.434311,
+          y: 14.3375006,
+          z: 69.7777252,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 106.1386,
+          y: 12.6755,
+          z: 46.244,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 92.1315,
+          y: 14.2035007,
+          z: 19.2580566,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d7cf86f77470ee57d75a',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 106.476,
+          y: 12.874,
+          z: 47.442,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 106.150345,
+          y: 12.8301077,
+          z: 45.531208,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 93.2,
+          y: 14.1727,
+          z: 141.189,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -31.0209961,
+          y: 24.3023033,
+          z: 27.0169983,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5c052cea86f7746b2101e8d8',
+          name: '塑料手提箱',
+          normalizedName: 'plastic-suitcase',
+        },
+        position: {
+          x: -31.7580185,
+          y: 24.3023071,
+          z: 35.034,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: -11.803997,
+          y: 30.2550545,
+          z: 67.97675,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d45286f77465a8136dc6',
+          name: '木制弹药箱',
+          normalizedName: 'wooden-ammo-box',
+        },
+        position: {
+          x: -8.071129,
+          y: 23.2893982,
+          z: 297.176,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: 125.751053,
+          y: 22.9431763,
+          z: 66.25792,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d45286f77465a8136dc6',
+          name: '木制弹药箱',
+          normalizedName: 'wooden-ammo-box',
+        },
+        position: {
+          x: 207.08493,
+          y: 16.4054,
+          z: 34.06144,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 185.0277,
+          y: 21.7872715,
+          z: 93.78077,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: 87.70216,
+          y: 23.1952019,
+          z: -8.333893,
+        },
+      },
+    ],
+    stationaryWeapons: [
+      {
+        stationaryWeapon: {
+          id: '5cdeb229d7f00c000e7ce174',
+          name: 'NSV “Utes” 12.7x108机关枪',
+          shortName: 'NSV',
+        },
+        position: {
+          x: 57.2261047,
+          y: 32.0727425,
+          z: 128.323532,
+        },
+      },
+      {
+        stationaryWeapon: {
+          id: '5d52cc5ba4b9367408500062',
+          name: 'AGS 30x29毫米自动榴弹发射器',
+          shortName: 'AGS',
+        },
+        position: {
+          x: 98.5608,
+          y: 33.9177437,
+          z: 277.282654,
+        },
+      },
+    ],
+  },
+  {
+    key: 'ground-zero',
+    altMaps: [
+      'ground-zero-21',
+    ],
+    projection: 'interactive',
+    tileSize: 256,
+    minZoom: 1,
+    maxZoom: 6,
+    transform: [
+      0.524,
+      167.3,
+      0.524,
+      65.1,
+    ],
+    coordinateRotation: 180,
+    bounds: [
+      [
+        249,
+        -124,
+      ],
+      [
+        -99,
+        364,
+      ],
+    ],
+    heightRange: [
+      -1000,
+      28,
+    ],
+    author: 'Tarkov.dev',
+    authorLink: 'https://tarkov.dev',
+    svgPath: 'https://assets.tarkov.dev/maps/svg/GroundZero-Ground_Level.svg',
+    tilePath: 'https://assets.tarkov.dev/maps/groundzero/main/{z}/{x}/{y}.png',
+    layers: [
+      {
+        name: 'Garage',
+        svgPath: 'https://assets.tarkov.dev/maps/svg/GroundZero-Underground_Level.svg',
+        tilePath: 'https://assets.tarkov.dev/maps/groundzero/garage/{z}/{x}/{y}.png',
+        show: false,
+        extents: [
+          {
+            height: [
+              -1000,
+              21,
+            ],
+            bounds: [
+              [
+                [
+                  117,
+                  -100,
+                ],
+                [
+                  43,
+                  190,
+                ],
+                'garage',
+              ],
+              [
+                [
+                  143,
+                  49,
+                ],
+                [
+                  117,
+                  80,
+                ],
+                'underpass',
+              ],
+            ],
+          },
+        ],
+      },
+      {
+        name: '2nd Floor',
+        svgPath: 'https://assets.tarkov.dev/maps/svg/GroundZero-Second_Floor.svg',
+        tilePath: 'https://assets.tarkov.dev/maps/groundzero/2nd/{z}/{x}/{y}.png',
+        show: false,
+        extents: [
+          {
+            height: [
+              28,
+              32.3,
+            ],
+          },
+          {
+            height: [
+              26,
+              31,
+            ],
+            bounds: [
+              [
+                [
+                  98,
+                  216,
+                ],
+                [
+                  91,
+                  228,
+                ],
+                'm showroom',
+              ],
+            ],
+          },
+        ],
+      },
+      {
+        name: '3rd Floor',
+        svgPath: 'https://assets.tarkov.dev/maps/svg/GroundZero-Third_Floor.svg',
+        tilePath: 'https://assets.tarkov.dev/maps/groundzero/3rd/{z}/{x}/{y}.png',
+        show: false,
+        extents: [
+          {
+            height: [
+              32.3,
+              1000,
+            ],
+          },
+        ],
+      },
+    ],
+    labels: [
+      {
+        position: [
+          -50,
+          0,
+        ],
+        text: 'TerraGroup',
+      },
+      {
+        position: [
+          150,
+          1,
+        ],
+        text: 'Skyside',
+      },
+      {
+        position: [
+          141,
+          142,
+        ],
+        text: 'Fusion',
+      },
+      {
+        position: [
+          14,
+          201,
+        ],
+        text: 'Empire',
+      },
+      {
+        position: [
+          115,
+          285,
+        ],
+        text: 'Capital Insight',
+      },
+      {
+        position: [
+          2,
+          324,
+        ],
+        text: 'Nakatani',
+      },
+      {
+        position: [
+          80,
+          -118,
+        ],
+        text: 'Elemental Global',
+      },
+      {
+        position: [
+          115,
+          104,
+        ],
+        text: 'Oasis',
+        size: 70,
+      },
+      {
+        position: [
+          115,
+          30,
+        ],
+        text: 'ASAP Winery',
+        size: 70,
+      },
+      {
+        position: [
+          43,
+          150,
+        ],
+        text: 'Tarbank',
+        size: 70,
+      },
+      {
+        position: [
+          58,
+          234,
+        ],
+        text: 'GAGRIN Hotel',
+        size: 70,
+      },
+      {
+        position: [
+          97,
+          223,
+        ],
+        text: 'M Showroom',
+        size: 70,
+      },
+      {
+        position: [
+          -13,
+          48,
+        ],
+        text: 'Science Office',
+        top: 28,
+        bottom: 28,
+        size: 60,
+      },
+    ],
     id: '65b8d6f5cdde2479cb2a3125',
     tarkovDataId: null,
     name: '中心区 21+',
@@ -29601,8 +41410,6 @@ export default [
     wiki: 'https://escapefromtarkov.fandom.com/wiki/Ground_Zero',
     description: 'The business center of Tarkov. This is where TerraGroup was headquartered. This is where it all began.',
     enemies: [
-      'Scav',
-      '狙击手',
       'Kollontay',
       ' 保镖 (Security)',
       '邪教徒牧师',
@@ -29619,7 +41426,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/kollontay-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/kollontay-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneSandbox',
@@ -29646,6 +41453,7 @@ export default [
         ],
       },
     ],
+    nameId: 'Sandbox_high',
     spawns: [
       {
         zoneName: '0344832c-a6f2-4c58-8d89-85e9d451a7ed',
@@ -32143,6 +43951,219 @@ export default [
         bottom: 15.945056,
       },
     ],
+    locks: [
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 80.03309,
+          y: 15.7374516,
+          z: 147.795776,
+        },
+        outline: [
+          {
+            x: 79.53308,
+            y: 15.7374516,
+            z: 148.095764,
+          },
+          {
+            x: 80.53309,
+            y: 15.7374516,
+            z: 148.095764,
+          },
+          {
+            x: 80.53308,
+            y: 15.7374516,
+            z: 149.095764,
+          },
+          {
+            x: 79.53308,
+            y: 15.7374516,
+            z: 149.095764,
+          },
+        ],
+        top: 16.2374516,
+        bottom: 15.2374516,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '658199972dc4e60f6d556a2f',
+          name: '地下停车场杂物间钥匙',
+          normalizedName: 'underground-parking-utility-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 107.056,
+          y: 13.499,
+          z: 50.6362534,
+        },
+        outline: [
+          {
+            x: 106.846,
+            y: 13.499,
+            z: 49.57125,
+          },
+          {
+            x: 107.266,
+            y: 13.499,
+            z: 49.57125,
+          },
+          {
+            x: 107.266,
+            y: 13.499,
+            z: 50.24125,
+          },
+          {
+            x: 106.846,
+            y: 13.499,
+            z: 50.24125,
+          },
+        ],
+        top: 13.999,
+        bottom: 12.999,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 264.952,
+          y: 17.95282,
+          z: 56.1417046,
+        },
+        outline: [
+          {
+            x: 263.529419,
+            y: 17.95244,
+            z: 56.457943,
+          },
+          {
+            x: 263.5258,
+            y: 17.95244,
+            z: 56.4514542,
+          },
+          {
+            x: 264.36972,
+            y: 17.95244,
+            z: 55.9149971,
+          },
+          {
+            x: 264.373322,
+            y: 17.95244,
+            z: 55.9214859,
+          },
+          {
+            x: 264.906158,
+            y: 17.95244,
+            z: 56.7589,
+          },
+          {
+            x: 264.9098,
+            y: 17.95244,
+            z: 56.76539,
+          },
+          {
+            x: 264.065857,
+            y: 17.95244,
+            z: 57.3018456,
+          },
+          {
+            x: 264.062256,
+            y: 17.95244,
+            z: 57.2953568,
+          },
+        ],
+        top: 18.45635,
+        bottom: 17.4485321,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '6581998038c79576a2569e11',
+          name: 'Unity Credit银行现金收纳机钥匙',
+          normalizedName: 'unity-credit-bank-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 58.2430344,
+          y: 24.5022011,
+          z: 172.429,
+        },
+        outline: [
+          {
+            x: 57.1780319,
+            y: 24.5022011,
+            z: 172.219,
+          },
+          {
+            x: 57.8480339,
+            y: 24.5022011,
+            z: 172.219,
+          },
+          {
+            x: 57.84803,
+            y: 24.5022011,
+            z: 172.638992,
+          },
+          {
+            x: 57.1780319,
+            y: 24.5022011,
+            z: 172.638992,
+          },
+        ],
+        top: 25.0022011,
+        bottom: 24.0022011,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '658199aa38c79576a2569e13',
+          name: 'TerraGroup科学家办公室钥匙',
+          normalizedName: 'terragroup-science-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: -17.975647,
+          y: 30.7062054,
+          z: 58.5532341,
+        },
+        outline: [
+          {
+            x: -17.8056469,
+            y: 30.7062054,
+            z: 58.39323,
+          },
+          {
+            x: -17.0856476,
+            y: 30.7062054,
+            z: 58.39323,
+          },
+          {
+            x: -17.0856476,
+            y: 30.7062054,
+            z: 58.6532326,
+          },
+          {
+            x: -17.8056469,
+            y: 30.7062054,
+            z: 58.6532326,
+          },
+        ],
+        top: 31.1112118,
+        bottom: 30.3012066,
+      },
+    ],
+    switches: [],
     hazards: [
       {
         hazardType: 'sniper',
@@ -39254,10 +51275,7 @@ export default [
     wiki: 'https://escapefromtarkov.fandom.com/wiki/Customs',
     description: '一个位于工厂附近的大型工业园区。此区域设有海关站、燃料储存设施、办公室、宿舍以及其它基础设施。',
     enemies: [
-      'Scav',
-      '狙击手',
       'Death Knight',
-      '游荡者',
       'Big Pipe',
       'Birdeye',
       'Reshala',
@@ -39276,7 +51294,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/death-knight-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/death-knight-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneScavBase',
@@ -39293,7 +51311,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/reshala-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/reshala-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneDormitory',
@@ -39330,6 +51348,7 @@ export default [
         ],
       },
     ],
+    nameId: 'bigmap',
     spawns: [
       {
         zoneName: 'ZoneBlockPost',
@@ -39753,7 +51772,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -41192,7 +53210,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -41516,7 +53533,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -41995,7 +54011,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -43381,6 +55396,1433 @@ export default [
         ],
         top: 3.18349981,
         bottom: -1.17350006,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '5780d0532459777a5108b9a2',
+          name: '海关办公室钥匙',
+          normalizedName: 'tarcone-directors-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: -205.499237,
+          y: 8.110943,
+          z: -109.994392,
+        },
+        outline: [
+          {
+            x: -206.5479,
+            y: 8.190863,
+            z: -110.13517,
+          },
+          {
+            x: -205.927185,
+            y: 8.190863,
+            z: -110.152512,
+          },
+          {
+            x: -205.916031,
+            y: 8.190863,
+            z: -109.752663,
+          },
+          {
+            x: -206.536728,
+            y: 8.190863,
+            z: -109.735321,
+          },
+        ],
+        top: 8.395658,
+        bottom: 7.9860673,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780d07a2459777de4559324',
+          name: '简易工棚钥匙',
+          normalizedName: 'portable-cabin-key',
+        },
+        needsPower: false,
+        position: {
+          x: -251.320953,
+          y: 3.85700083,
+          z: -221.941071,
+        },
+        outline: [
+          {
+            x: -251.437057,
+            y: 4.077,
+            z: -221.753,
+          },
+          {
+            x: -251.088959,
+            y: 4.077,
+            z: -221.789322,
+          },
+          {
+            x: -251.088943,
+            y: 4.077,
+            z: -221.789322,
+          },
+          {
+            x: -251.0132,
+            y: 4.077,
+            z: -221.063263,
+          },
+          {
+            x: -251.361313,
+            y: 4.077,
+            z: -221.026947,
+          },
+        ],
+        top: 4.442001,
+        bottom: 3.71199942,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5913611c86f77479e0084092',
+          name: '拖车停车场工棚钥匙',
+          normalizedName: 'trailer-park-portable-cabin-key',
+        },
+        needsPower: false,
+        position: {
+          x: -194.560135,
+          y: 2.34600019,
+          z: -207.398911,
+        },
+        outline: [
+          {
+            x: -194.685883,
+            y: 2.56600046,
+            z: -207.217148,
+          },
+          {
+            x: -194.336349,
+            y: 2.56600046,
+            z: -207.235291,
+          },
+          {
+            x: -194.2985,
+            y: 2.56600046,
+            z: -206.506271,
+          },
+          {
+            x: -194.648026,
+            y: 2.56600046,
+            z: -206.488129,
+          },
+        ],
+        top: 2.93100047,
+        bottom: 2.201,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 356.052551,
+          y: 2.34000182,
+          z: -14.5693512,
+        },
+        outline: [
+          {
+            x: 356.254,
+            y: 2.350002,
+            z: -14.7183895,
+          },
+          {
+            x: 357.066254,
+            y: 2.350002,
+            z: -14.8308458,
+          },
+          {
+            x: 357.110138,
+            y: 2.350002,
+            z: -14.5138683,
+          },
+          {
+            x: 356.297882,
+            y: 2.350002,
+            z: -14.401413,
+          },
+        ],
+        top: 2.765002,
+        bottom: 1.93500185,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '593962ca86f774068014d9af',
+          name: '未知钥匙',
+          normalizedName: 'unknown-key',
+        },
+        needsPower: false,
+        position: {
+          x: 370.014923,
+          y: 2.15399933,
+          z: -50.08902,
+        },
+        outline: [
+          {
+            x: 369.6856,
+            y: 2.374,
+            z: -50.9589653,
+          },
+          {
+            x: 369.6856,
+            y: 2.374,
+            z: -50.95897,
+          },
+          {
+            x: 370.0327,
+            y: 2.374,
+            z: -51.0038643,
+          },
+          {
+            x: 370.0327,
+            y: 2.374,
+            z: -51.00386,
+          },
+          {
+            x: 370.126373,
+            y: 2.374,
+            z: -50.279892,
+          },
+          {
+            x: 369.779266,
+            y: 2.374,
+            z: -50.2349968,
+          },
+        ],
+        top: 2.7390008,
+        bottom: 2.00899935,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 356.957367,
+          y: 2.14515162,
+          z: -8.079105,
+        },
+        outline: [
+          {
+            x: 357.116669,
+            y: 2.368452,
+            z: -8.31821,
+          },
+          {
+            x: 357.116669,
+            y: 2.368452,
+            z: -8.318211,
+          },
+          {
+            x: 357.904144,
+            y: 2.368452,
+            z: -8.427235,
+          },
+          {
+            x: 357.904144,
+            y: 2.368452,
+            z: -8.427234,
+          },
+          {
+            x: 357.952118,
+            y: 2.368452,
+            z: -8.080542,
+          },
+          {
+            x: 357.952118,
+            y: 2.368452,
+            z: -8.080541,
+          },
+          {
+            x: 357.164673,
+            y: 2.368452,
+            z: -7.97151661,
+          },
+          {
+            x: 357.164673,
+            y: 2.368452,
+            z: -7.971517,
+          },
+        ],
+        top: 2.73892784,
+        bottom: 1.99797654,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '59387a4986f77401cc236e62',
+          name: '宿舍114房间钥匙',
+          normalizedName: 'dorm-room-114-key',
+        },
+        needsPower: false,
+        position: {
+          x: 233.549591,
+          y: 0.889000237,
+          z: 159.682587,
+        },
+        outline: [
+          {
+            x: 233.377609,
+            y: 0.898850262,
+            z: 159.937073,
+          },
+          {
+            x: 233.703125,
+            y: 0.898850262,
+            z: 159.891785,
+          },
+          {
+            x: 233.8204,
+            y: 0.898850262,
+            z: 160.734818,
+          },
+          {
+            x: 233.4949,
+            y: 0.898850262,
+            z: 160.7801,
+          },
+        ],
+        top: 1.30762529,
+        bottom: 0.4900753,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5938603e86f77435642354f4',
+          name: '宿舍206房间钥匙',
+          normalizedName: 'dorm-room-206-key',
+        },
+        needsPower: false,
+        position: {
+          x: 230.641281,
+          y: 3.86939716,
+          z: 138.671631,
+        },
+        outline: [
+          {
+            x: 230.487549,
+            y: 3.86939716,
+            z: 138.945419,
+          },
+          {
+            x: 230.92334,
+            y: 3.86939716,
+            z: 138.8848,
+          },
+          {
+            x: 230.923355,
+            y: 3.86939716,
+            z: 138.8848,
+          },
+          {
+            x: 231.011536,
+            y: 3.86939716,
+            z: 139.518692,
+          },
+          {
+            x: 230.575729,
+            y: 3.86939716,
+            z: 139.579315,
+          },
+        ],
+        top: 4.344397,
+        bottom: 3.39439678,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '591382d986f774465a6413a7',
+          name: '宿舍105房间钥匙',
+          normalizedName: 'dorm-room-105-key',
+        },
+        needsPower: false,
+        position: {
+          x: 227.877258,
+          y: 0.8901995,
+          z: 135.61264,
+        },
+        outline: [
+          {
+            x: 227.615082,
+            y: 0.89999944,
+            z: 134.599091,
+          },
+          {
+            x: 227.932037,
+            y: 0.89999944,
+            z: 134.555008,
+          },
+          {
+            x: 228.045029,
+            y: 0.89999944,
+            z: 135.367188,
+          },
+          {
+            x: 227.728073,
+            y: 0.89999944,
+            z: 135.41127,
+          },
+        ],
+        top: 1.30669951,
+        bottom: 0.493299484,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '59136e1e86f774432f15d133',
+          name: '宿舍110房间钥匙',
+          normalizedName: 'dorm-room-110-key',
+        },
+        needsPower: false,
+        position: {
+          x: 231.0886,
+          y: 0.910999358,
+          z: 159.435349,
+        },
+        outline: [
+          {
+            x: 230.9208,
+            y: 0.920999348,
+            z: 159.6808,
+          },
+          {
+            x: 231.237762,
+            y: 0.920999348,
+            z: 159.636719,
+          },
+          {
+            x: 231.350754,
+            y: 0.920999348,
+            z: 160.448883,
+          },
+          {
+            x: 231.0338,
+            y: 0.920999348,
+            z: 160.492981,
+          },
+        ],
+        top: 1.33599925,
+        bottom: 0.505999446,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '591383f186f7744a4c5edcf3',
+          name: '宿舍104房间钥匙',
+          normalizedName: 'dorm-room-104-key',
+        },
+        needsPower: false,
+        position: {
+          x: 230.101257,
+          y: 0.8860002,
+          z: 134.913879,
+        },
+        outline: [
+          {
+            x: 229.933472,
+            y: 0.895850241,
+            z: 135.159332,
+          },
+          {
+            x: 230.250427,
+            y: 0.895850241,
+            z: 135.11525,
+          },
+          {
+            x: 230.363419,
+            y: 0.895850241,
+            z: 135.927429,
+          },
+          {
+            x: 230.046463,
+            y: 0.895850241,
+            z: 135.971512,
+          },
+        ],
+        top: 1.30462527,
+        bottom: 0.487075269,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '59136a4486f774447a1ed172',
+          name: '宿舍警卫台钥匙',
+          normalizedName: 'dorm-guard-desk-key',
+        },
+        needsPower: false,
+        position: {
+          x: 225.517273,
+          y: 0.8858002,
+          z: 138.366241,
+        },
+        outline: [
+          {
+            x: 225.349487,
+            y: 0.8956004,
+            z: 138.61171,
+          },
+          {
+            x: 225.666443,
+            y: 0.8956004,
+            z: 138.567612,
+          },
+          {
+            x: 225.779434,
+            y: 0.8956004,
+            z: 139.379791,
+          },
+          {
+            x: 225.4625,
+            y: 0.8956004,
+            z: 139.423889,
+          },
+        ],
+        top: 1.30230045,
+        bottom: 0.4889003,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '59148c8a86f774197930e983',
+          name: '宿舍204房间钥匙',
+          normalizedName: 'dorm-room-204-key',
+        },
+        needsPower: false,
+        position: {
+          x: 173.379211,
+          y: 3.83760285,
+          z: 150.356216,
+        },
+        outline: [
+          {
+            x: 173.225479,
+            y: 3.83760262,
+            z: 150.63,
+          },
+          {
+            x: 173.661285,
+            y: 3.83760262,
+            z: 150.569382,
+          },
+          {
+            x: 173.749466,
+            y: 3.83760262,
+            z: 151.203278,
+          },
+          {
+            x: 173.31366,
+            y: 3.83760262,
+            z: 151.2639,
+          },
+        ],
+        top: 4.312603,
+        bottom: 3.36260223,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5914578086f774123569ffa4',
+          name: '宿舍108房间钥匙',
+          normalizedName: 'dorm-room-108-key',
+        },
+        needsPower: false,
+        position: {
+          x: 177.473969,
+          y: 0.8406372,
+          z: 178.489075,
+        },
+        outline: [
+          {
+            x: 177.103821,
+            y: 0.8406372,
+            z: 177.642,
+          },
+          {
+            x: 177.539444,
+            y: 0.8406372,
+            z: 177.58139,
+          },
+          {
+            x: 177.62764,
+            y: 0.8406372,
+            z: 178.215286,
+          },
+          {
+            x: 177.192,
+            y: 0.8406372,
+            z: 178.2759,
+          },
+        ],
+        top: 1.31544685,
+        bottom: 0.365825653,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cf7f2459777de4559322',
+          name: '符号钥匙',
+          normalizedName: 'dorm-room-314-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: 180.671432,
+          y: 6.84058475,
+          z: 183.722443,
+        },
+        outline: [
+          {
+            x: 180.291779,
+            y: 6.84058475,
+            z: 182.876678,
+          },
+          {
+            x: 180.744141,
+            y: 6.84058475,
+            z: 182.813751,
+          },
+          {
+            x: 180.832321,
+            y: 6.84058475,
+            z: 183.447647,
+          },
+          {
+            x: 180.379959,
+            y: 6.84058475,
+            z: 183.510574,
+          },
+        ],
+        top: 7.310835,
+        bottom: 6.37033463,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cf9e2459777df90dcb73',
+          name: '宿舍218房间钥匙',
+          normalizedName: 'dorm-room-218-key',
+        },
+        needsPower: false,
+        position: {
+          x: 190.192383,
+          y: 3.84178257,
+          z: 175.3542,
+        },
+        outline: [
+          {
+            x: 190.402023,
+            y: 3.85158253,
+            z: 175.203888,
+          },
+          {
+            x: 191.245071,
+            y: 3.85158253,
+            z: 175.0866,
+          },
+          {
+            x: 191.289169,
+            y: 3.85158253,
+            z: 175.403534,
+          },
+          {
+            x: 190.446121,
+            y: 3.85158253,
+            z: 175.520828,
+          },
+        ],
+        top: 4.25828266,
+        bottom: 3.44488239,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5672c92d4bdc2d180f8b4567',
+          name: '宿舍118房间钥匙',
+          normalizedName: 'dorm-room-118-key',
+        },
+        needsPower: false,
+        position: {
+          x: 194.794083,
+          y: 0.830601,
+          z: 174.546783,
+        },
+        outline: [
+          {
+            x: 193.904022,
+            y: 0.830600858,
+            z: 174.478775,
+          },
+          {
+            x: 194.525238,
+            y: 0.830600858,
+            z: 174.392349,
+          },
+          {
+            x: 194.585876,
+            y: 0.830600858,
+            z: 174.828156,
+          },
+          {
+            x: 193.964661,
+            y: 0.830600858,
+            z: 174.914581,
+          },
+        ],
+        top: 1.3054111,
+        bottom: 0.355790854,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cfa52459777dfb276eb1',
+          name: '宿舍220房间钥匙',
+          normalizedName: 'dorm-room-220-key',
+        },
+        needsPower: false,
+        position: {
+          x: 193.957886,
+          y: 3.831203,
+          z: 174.821625,
+        },
+        outline: [
+          {
+            x: 194.171051,
+            y: 3.831203,
+            z: 174.539551,
+          },
+          {
+            x: 194.804947,
+            y: 3.831203,
+            z: 174.45137,
+          },
+          {
+            x: 194.86557,
+            y: 3.831203,
+            z: 174.887177,
+          },
+          {
+            x: 194.231674,
+            y: 3.831203,
+            z: 174.975357,
+          },
+        ],
+        top: 4.306203,
+        bottom: 3.356203,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cf722459777a5108b9a1',
+          name: '宿舍308房间钥匙',
+          normalizedName: 'dorm-room-308-key',
+        },
+        needsPower: false,
+        position: {
+          x: 177.4756,
+          y: 6.850606,
+          z: 178.488113,
+        },
+        outline: [
+          {
+            x: 177.105347,
+            y: 6.850606,
+            z: 177.641052,
+          },
+          {
+            x: 177.541153,
+            y: 6.850606,
+            z: 177.580429,
+          },
+          {
+            x: 177.629333,
+            y: 6.850606,
+            z: 178.214325,
+          },
+          {
+            x: 177.193542,
+            y: 6.850606,
+            z: 178.274948,
+          },
+          {
+            x: 177.193527,
+            y: 6.850606,
+            z: 178.274948,
+          },
+        ],
+        top: 7.32560635,
+        bottom: 6.375606,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cf692459777de4559321',
+          name: '宿舍315房间钥匙',
+          normalizedName: 'dorm-room-315-key',
+        },
+        needsPower: false,
+        position: {
+          x: 179.284683,
+          y: 6.830814,
+          z: 174.810455,
+        },
+        outline: [
+          {
+            x: 179.130951,
+            y: 6.830814,
+            z: 175.084244,
+          },
+          {
+            x: 179.566742,
+            y: 6.830814,
+            z: 175.023621,
+          },
+          {
+            x: 179.654938,
+            y: 6.830814,
+            z: 175.657516,
+          },
+          {
+            x: 179.219131,
+            y: 6.830814,
+            z: 175.71814,
+          },
+        ],
+        top: 7.305814,
+        bottom: 6.355814,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cf942459777df90dcb72',
+          name: '宿舍214房间钥匙',
+          normalizedName: 'dorm-room-214-key',
+        },
+        needsPower: false,
+        position: {
+          x: 178.105484,
+          y: 3.83598375,
+          z: 183.746643,
+        },
+        outline: [
+          {
+            x: 177.937714,
+            y: 3.845984,
+            z: 183.9921,
+          },
+          {
+            x: 178.254669,
+            y: 3.845984,
+            z: 183.948,
+          },
+          {
+            x: 178.367661,
+            y: 3.845984,
+            z: 184.7602,
+          },
+          {
+            x: 178.0507,
+            y: 3.845984,
+            z: 184.804291,
+          },
+        ],
+        top: 4.260984,
+        bottom: 3.43098378,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '664d4b0103ef2c61246afb56',
+          name: 'Dorm overseer key',
+          normalizedName: 'dorm-overseer-key',
+        },
+        needsPower: false,
+        position: {
+          x: 177.975342,
+          y: 3.84720278,
+          z: 165.392,
+        },
+        outline: [
+          {
+            x: 177.807556,
+            y: 3.85700274,
+            z: 165.637451,
+          },
+          {
+            x: 178.124512,
+            y: 3.85700274,
+            z: 165.593369,
+          },
+          {
+            x: 178.2375,
+            y: 3.85700274,
+            z: 166.405548,
+          },
+          {
+            x: 177.920547,
+            y: 3.85700274,
+            z: 166.449631,
+          },
+        ],
+        top: 4.263703,
+        bottom: 3.4503026,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5938504186f7740991483f30',
+          name: '宿舍203房间钥匙',
+          normalizedName: 'dorm-room-203-key',
+        },
+        needsPower: false,
+        position: {
+          x: 176.041077,
+          y: 3.83258247,
+          z: 150.26828,
+        },
+        outline: [
+          {
+            x: 175.670822,
+            y: 3.83258247,
+            z: 149.421219,
+          },
+          {
+            x: 176.106628,
+            y: 3.83258247,
+            z: 149.3606,
+          },
+          {
+            x: 176.194809,
+            y: 3.83258247,
+            z: 149.994492,
+          },
+          {
+            x: 175.759018,
+            y: 3.83258247,
+            z: 150.055115,
+          },
+        ],
+        top: 4.3028326,
+        bottom: 3.36233234,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5938994586f774523a425196',
+          name: '宿舍103房间钥匙',
+          normalizedName: 'dorm-room-103-key',
+        },
+        needsPower: false,
+        position: {
+          x: 175.734467,
+          y: 0.820169449,
+          z: 149.366577,
+        },
+        outline: [
+          {
+            x: 175.565857,
+            y: 0.8299694,
+            z: 149.605484,
+          },
+          {
+            x: 175.88269,
+            y: 0.8299694,
+            z: 149.561417,
+          },
+          {
+            x: 175.9923,
+            y: 0.8299694,
+            z: 150.349228,
+          },
+          {
+            x: 175.992279,
+            y: 0.8299694,
+            z: 150.349228,
+          },
+          {
+            x: 175.675461,
+            y: 0.8299694,
+            z: 150.3933,
+          },
+        ],
+        top: 1.23667049,
+        bottom: 0.423269272,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780cda02459777b272ede61',
+          name: '宿舍306房间钥匙',
+          normalizedName: 'dorm-room-306-key',
+        },
+        needsPower: false,
+        position: {
+          x: 174.544632,
+          y: 6.828404,
+          z: 157.45575,
+        },
+        outline: [
+          {
+            x: 174.282471,
+            y: 6.83810425,
+            z: 156.4422,
+          },
+          {
+            x: 174.599426,
+            y: 6.83810425,
+            z: 156.398117,
+          },
+          {
+            x: 174.712418,
+            y: 6.83810425,
+            z: 157.2103,
+          },
+          {
+            x: 174.395462,
+            y: 6.83810425,
+            z: 157.254379,
+          },
+        ],
+        top: 7.240654,
+        bottom: 6.435554,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '593aa4be86f77457f56379f8',
+          name: '宿舍303房间钥匙',
+          normalizedName: 'dorm-room-303-key',
+        },
+        needsPower: false,
+        position: {
+          x: 176.039612,
+          y: 6.82898426,
+          z: 150.268463,
+        },
+        outline: [
+          {
+            x: 175.669357,
+            y: 6.82898426,
+            z: 149.4214,
+          },
+          {
+            x: 176.105164,
+            y: 6.82898426,
+            z: 149.360779,
+          },
+          {
+            x: 176.193344,
+            y: 6.82898426,
+            z: 149.994675,
+          },
+          {
+            x: 175.757538,
+            y: 6.82898426,
+            z: 150.0553,
+          },
+        ],
+        top: 7.29923439,
+        bottom: 6.358734,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5913877a86f774432f15d444',
+          name: '加油站储藏室钥匙',
+          normalizedName: 'gas-station-storage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 415.416443,
+          y: 2.18918633,
+          z: 35.6602058,
+        },
+        outline: [
+          {
+            x: 415.293579,
+            y: 2.26693821,
+            z: 36.0541267,
+          },
+          {
+            x: 415.293427,
+            y: 2.26693821,
+            z: 36.05272,
+          },
+          {
+            x: 415.69043,
+            y: 2.26693821,
+            z: 36.0039,
+          },
+          {
+            x: 415.6906,
+            y: 2.26693821,
+            z: 36.0053062,
+          },
+          {
+            x: 415.757568,
+            y: 2.26693821,
+            z: 36.54978,
+          },
+          {
+            x: 415.757721,
+            y: 2.26693821,
+            z: 36.55119,
+          },
+          {
+            x: 415.360718,
+            y: 2.26693821,
+            z: 36.60001,
+          },
+          {
+            x: 415.360565,
+            y: 2.26693821,
+            z: 36.5986023,
+          },
+        ],
+        top: 2.47288918,
+        bottom: 2.06098747,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5780d0652459777df90dcb74',
+          name: '隔间钥匙',
+          normalizedName: 'gas-station-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: 415.779572,
+          y: 2.17909455,
+          z: 38.5554962,
+        },
+        outline: [
+          {
+            x: 415.6567,
+            y: 2.25684667,
+            z: 38.9494171,
+          },
+          {
+            x: 415.656555,
+            y: 2.25684667,
+            z: 38.94801,
+          },
+          {
+            x: 416.053558,
+            y: 2.25684667,
+            z: 38.89919,
+          },
+          {
+            x: 416.0537,
+            y: 2.25684667,
+            z: 38.9005966,
+          },
+          {
+            x: 416.1207,
+            y: 2.25684667,
+            z: 39.445076,
+          },
+          {
+            x: 416.12085,
+            y: 2.25684667,
+            z: 39.44648,
+          },
+          {
+            x: 415.723846,
+            y: 2.25684667,
+            z: 39.4953,
+          },
+          {
+            x: 415.723663,
+            y: 2.25684667,
+            z: 39.4938965,
+          },
+        ],
+        top: 2.4627974,
+        bottom: 2.05089569,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5da743f586f7744014504f72',
+          name: 'Customs USEC仓库钥匙',
+          normalizedName: 'usec-stash-key',
+        },
+        needsPower: false,
+        position: {
+          x: 562.780945,
+          y: 2.216738,
+          z: -58.9465332,
+        },
+        outline: [
+          {
+            x: 562.999451,
+            y: 2.336738,
+            z: -59.15366,
+          },
+          {
+            x: 563.64325,
+            y: 2.336738,
+            z: -59.2433319,
+          },
+          {
+            x: 563.64325,
+            y: 2.336738,
+            z: -59.24333,
+          },
+          {
+            x: 563.6832,
+            y: 2.336738,
+            z: -58.9561043,
+          },
+          {
+            x: 563.0395,
+            y: 2.336738,
+            z: -58.8664322,
+          },
+        ],
+        top: 2.711738,
+        bottom: 1.961738,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5da743f586f7744014504f72',
+          name: 'Customs USEC仓库钥匙',
+          normalizedName: 'usec-stash-key',
+        },
+        needsPower: false,
+        position: {
+          x: 568.747131,
+          y: 2.193743,
+          z: -50.85814,
+        },
+        outline: [
+          {
+            x: 568.4503,
+            y: 2.313743,
+            z: -51.7204361,
+          },
+          {
+            x: 568.737549,
+            y: 2.313743,
+            z: -51.7604446,
+          },
+          {
+            x: 568.8272,
+            y: 2.313743,
+            z: -51.11666,
+          },
+          {
+            x: 568.54,
+            y: 2.313743,
+            z: -51.0766525,
+          },
+        ],
+        top: 2.688743,
+        bottom: 1.938743,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5937ee6486f77408994ba448',
+          name: '机械钥匙',
+          normalizedName: 'machinery-key',
+        },
+        needsPower: false,
+        position: {
+          x: 101.818916,
+          y: 3.44780731,
+          z: -5.54527664,
+        },
+        outline: [
+          {
+            x: 101.343628,
+            y: 2.929387,
+            z: -7.25172234,
+          },
+          {
+            x: 102.45948,
+            y: 2.929387,
+            z: -7.09359932,
+          },
+          {
+            x: 102.301361,
+            y: 2.929387,
+            z: -5.977747,
+          },
+          {
+            x: 101.1855,
+            y: 2.929387,
+            z: -6.13587,
+          },
+        ],
+        top: 3.4928875,
+        bottom: 2.36588669,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5913915886f774123603c392',
+          name: '军事基地检查站钥匙',
+          normalizedName: 'military-checkpoint-key',
+        },
+        needsPower: false,
+        position: {
+          x: 577.6575,
+          y: 0.8078748,
+          z: 4.049543,
+        },
+        outline: [
+          {
+            x: 577.680969,
+            y: 1.02237487,
+            z: 4.29073572,
+          },
+          {
+            x: 577.680969,
+            y: 1.02237487,
+            z: 4.29073524,
+          },
+          {
+            x: 577.951355,
+            y: 1.02237487,
+            z: 4.0684824,
+          },
+          {
+            x: 578.484436,
+            y: 1.02237487,
+            z: 4.717,
+          },
+          {
+            x: 578.484436,
+            y: 1.02237487,
+            z: 4.71700048,
+          },
+          {
+            x: 578.21405,
+            y: 1.02237487,
+            z: 4.93925333,
+          },
+        ],
+        top: 1.37825012,
+        bottom: 0.666499853,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 198.927917,
+          y: -1.779768,
+          z: -146.172791,
+        },
+        outline: [
+          {
+            x: 199.122467,
+            y: -1.779768,
+            z: -146.264435,
+          },
+          {
+            x: 199.860352,
+            y: -1.779768,
+            z: -146.130127,
+          },
+          {
+            x: 199.815582,
+            y: -1.779768,
+            z: -145.884171,
+          },
+          {
+            x: 199.0777,
+            y: -1.779768,
+            z: -146.018478,
+          },
+        ],
+        top: -1.37976837,
+        bottom: -2.17976856,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5938144586f77473c2087145',
+          name: '海关工厂区简易工棚钥匙',
+          normalizedName: 'portable-bunkhouse-key',
+        },
+        needsPower: false,
+        position: {
+          x: 202.664337,
+          y: 4.73085976,
+          z: 11.72344,
+        },
+        outline: [
+          {
+            x: 201.749329,
+            y: 4.95086,
+            z: 11.7211323,
+          },
+          {
+            x: 201.749329,
+            y: 4.95086,
+            z: 11.7211285,
+          },
+          {
+            x: 202.471619,
+            y: 4.95086,
+            z: 11.6152515,
+          },
+          {
+            x: 202.522385,
+            y: 4.95086,
+            z: 11.96155,
+          },
+          {
+            x: 201.8001,
+            y: 4.95086,
+            z: 12.0674305,
+          },
+        ],
+        top: 5.31586075,
+        bottom: 4.58586025,
+      },
+    ],
+    switches: [
+      {
+        id: 'ae4bdfc1fc5b30100701158b56ae4d20840e0550',
+        name: 'ZB-013 Power Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'd0781374be523027a2a8e1edf6fe08449c45c382',
+              name: 'ZB-013',
+              faction: 'pmc',
+            },
+          },
+        ],
+        position: {
+          x: 352.230316,
+          y: 2.61458874,
+          z: -40.8052826,
+        },
       },
     ],
     hazards: [
@@ -48951,7 +62393,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/tagilla-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/tagilla-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'BotZone',
@@ -48961,6 +62403,7 @@ export default [
         ],
       },
     ],
+    nameId: 'factory4_day',
     spawns: [
       {
         zoneName: '0246436c-7d69-4036-999d-ebcb956970b5',
@@ -50300,6 +63743,3374 @@ export default [
         bottom: 0.222333282,
       },
     ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 29.2459984,
+          y: 9.155067,
+          z: 36.52492,
+        },
+        outline: [
+          {
+            x: 29.4959984,
+            y: 9.155067,
+            z: 36.26445,
+          },
+          {
+            x: 30.136,
+            y: 9.155067,
+            z: 36.26445,
+          },
+          {
+            x: 30.136,
+            y: 9.155067,
+            z: 36.72288,
+          },
+          {
+            x: 29.4959984,
+            y: 9.155067,
+            z: 36.72288,
+          },
+        ],
+        top: 9.646217,
+        bottom: 8.663918,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '57a349b2245977762b199ec7',
+          name: '泵站前门钥匙',
+          normalizedName: 'pumping-station-front-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: 43.1875839,
+          y: 1.01413012,
+          z: -14.1608534,
+        },
+        outline: [
+          {
+            x: 42.9510841,
+            y: 1.23068213,
+            z: -15.1587582,
+          },
+          {
+            x: 43.3360825,
+            y: 1.23068213,
+            z: -15.1587582,
+          },
+          {
+            x: 43.3360863,
+            y: 1.23068213,
+            z: -14.3538189,
+          },
+          {
+            x: 42.9510841,
+            y: 1.23068213,
+            z: -14.3538179,
+          },
+        ],
+        top: 1.589962,
+        bottom: 0.8714025,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -53.754,
+          y: 2.33300042,
+          z: 58.93033,
+        },
+        outline: [
+          {
+            x: -53.879,
+            y: 2.41300035,
+            z: 57.9003258,
+          },
+          {
+            x: -53.609,
+            y: 2.41300035,
+            z: 57.9003258,
+          },
+          {
+            x: -53.609,
+            y: 2.41300035,
+            z: 58.5803261,
+          },
+          {
+            x: -53.879,
+            y: 2.41300035,
+            z: 58.5803261,
+          },
+        ],
+        top: 2.75800037,
+        bottom: 2.06800032,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 66.42518,
+          y: -1.53579187,
+          z: -29.8983536,
+        },
+        outline: [
+          {
+            x: 65.34537,
+            y: -1.52539587,
+            z: -30.10382,
+          },
+          {
+            x: 66.19676,
+            y: -1.52539587,
+            z: -30.10382,
+          },
+          {
+            x: 66.19676,
+            y: -1.52539587,
+            z: -29.7750778,
+          },
+          {
+            x: 65.34537,
+            y: -1.52539587,
+            z: -29.7750778,
+          },
+        ],
+        top: -1.09397507,
+        bottom: -1.95681667,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '593858c486f774253a24cb52',
+          name: '泵站后门钥匙',
+          normalizedName: 'pumping-station-back-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: 40.9448547,
+          y: 0.9631303,
+          z: -6.261415,
+        },
+        outline: [
+          {
+            x: 41.13782,
+            y: 1.17968261,
+            z: -6.497915,
+          },
+          {
+            x: 41.94276,
+            y: 1.17968261,
+            z: -6.497915,
+          },
+          {
+            x: 41.94276,
+            y: 1.17968261,
+            z: -6.112915,
+          },
+          {
+            x: 41.13782,
+            y: 1.17968261,
+            z: -6.112915,
+          },
+        ],
+        top: 1.5389626,
+        bottom: 0.820402741,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -20.3113289,
+          y: 1.27600038,
+          z: -49.138,
+        },
+        outline: [
+          {
+            x: -19.9613285,
+            y: 1.3560003,
+            z: -49.263,
+          },
+          {
+            x: -19.2813282,
+            y: 1.3560003,
+            z: -49.263,
+          },
+          {
+            x: -19.2813282,
+            y: 1.3560003,
+            z: -48.993,
+          },
+          {
+            x: -19.9613285,
+            y: 1.3560003,
+            z: -48.993,
+          },
+        ],
+        top: 1.70100033,
+        bottom: 1.01100028,
+      },
+    ],
+    switches: [],
+    hazards: [],
+    lootContainers: [
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 20.729,
+          y: 1.55756807,
+          z: 22.7086334,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 22.0618515,
+          y: 1.55756807,
+          z: 23.4689121,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 14.9463549,
+          y: 0.242577091,
+          z: 30.7380924,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 11.2342443,
+          y: 0.7290227,
+          z: 33.6017265,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -21.2584,
+          y: 1.51463974,
+          z: 0.492993653,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -20.72819,
+          y: 1.50054693,
+          z: 0.0685656,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 37.988266,
+          y: 1.54790068,
+          z: -25.647934,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 38.35211,
+          y: 1.58129168,
+          z: -27.10278,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 33.3149452,
+          y: 0.180350348,
+          z: -24.1921024,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -5.32363033,
+          y: 1.40457606,
+          z: 48.802784,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d76c86f77471e53d2adf',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: -4.58999968,
+          y: 1.39496827,
+          z: 49.6121063,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 45.5514755,
+          y: 4.78625536,
+          z: 40.59967,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 45.2868423,
+          y: 4.78625536,
+          z: 39.5523262,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 45.2338257,
+          y: 4.78625536,
+          z: 42.10186,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 37.1534348,
+          y: 0.5052719,
+          z: 8.314973,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 37.0266457,
+          y: 0.4972719,
+          z: 5.11564636,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 33.25684,
+          y: 0.4972719,
+          z: 2.15006447,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 30.3486843,
+          y: -1.24249983,
+          z: -11.9793472,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 29.4835281,
+          y: -1.2055,
+          z: -7.66338634,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 36.94859,
+          y: 0.2335,
+          z: -12.5665941,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 18.3239346,
+          y: 1.2635,
+          z: -13.5509939,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: -15.0798664,
+          y: 1.3264,
+          z: -26.56168,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: -14.7769451,
+          y: 1.06870008,
+          z: -25.8670521,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d24f86f77466f56e6855',
+          name: 'SMU06 医疗包',
+          normalizedName: 'medbag-smu06',
+        },
+        position: {
+          x: -14.943902,
+          y: 1.08040011,
+          z: -29.0002728,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8782245977354405a1e3',
+          name: '保险箱',
+          normalizedName: 'safe',
+        },
+        position: {
+          x: 21.1006546,
+          y: 8.512096,
+          z: 40.67062,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.8460369,
+          y: 8.995676,
+          z: 36.8436356,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.8460369,
+          y: 8.995676,
+          z: 36.8436356,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.8460369,
+          y: 8.995676,
+          z: 36.8436356,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.8460369,
+          y: 8.995676,
+          z: 36.8436356,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.3420372,
+          y: 8.995676,
+          z: 36.9013863,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.3420372,
+          y: 8.995676,
+          z: 36.9013863,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.3420372,
+          y: 8.995676,
+          z: 36.9013863,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87b7245977356274f2cd',
+          name: '抽屉',
+          normalizedName: 'drawer',
+        },
+        position: {
+          x: 12.3420372,
+          y: 8.995676,
+          z: 36.9013863,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 73.73,
+          y: 1.514,
+          z: -35.417,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 18.7264,
+          y: 9.434,
+          z: 36.7184219,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 73.764,
+          y: 1.52,
+          z: -34.998,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 19.122942,
+          y: 9.444,
+          z: 36.5791931,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 27.112,
+          y: 1.495,
+          z: 18.423,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 27.144001,
+          y: 1.485,
+          z: 18.842,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909e4b686f7747f5b744fa4',
+          name: '死去的Scav',
+          normalizedName: 'dead-scav',
+        },
+        position: {
+          x: -18.904,
+          y: 0.177075475,
+          z: 21.937,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 31.0333252,
+          y: 9.62,
+          z: 36.59,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 31.0333252,
+          y: 9.62,
+          z: 36.59,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 17.87667,
+          y: 1.22227192,
+          z: -30.3236523,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 17.5981617,
+          y: 1.22227192,
+          z: -29.0015945,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 17.1685085,
+          y: 1.22227192,
+          z: -30.1414852,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 30.6766357,
+          y: 1.547,
+          z: 38.47755,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 27.2060242,
+          y: 1.519,
+          z: 39.5116348,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87a3245977356274f2cb',
+          name: '旅行包',
+          normalizedName: 'duffle-bag',
+        },
+        position: {
+          x: 23.96,
+          y: 1.99,
+          z: 42.101,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 26.46778,
+          y: 1.42627192,
+          z: 46.11633,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 27.0906029,
+          y: 1.86927187,
+          z: 43.9802742,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 27.7545128,
+          y: 1.41227186,
+          z: 40.67635,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 31.1606426,
+          y: 1.42727184,
+          z: 36.7753372,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fd45b86f774317075ed43',
+          name: '技术物资箱',
+          normalizedName: 'technical-supply-crate',
+        },
+        position: {
+          x: -3.10098577,
+          y: -2.93599987,
+          z: -35.2018776,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5d6fe50986f77449d97f7463',
+          name: '医疗物资箱',
+          normalizedName: 'medical-supply-crate',
+        },
+        position: {
+          x: -23.009,
+          y: 0.9339999,
+          z: -17.0739822,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 37.1237679,
+          y: 0.5281558,
+          z: 19.7194481,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 37.10269,
+          y: 0.5281558,
+          z: 21.1488285,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 34.4118652,
+          y: 0.5281558,
+          z: 18.9449062,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 32.070507,
+          y: 0.5281558,
+          z: 21.9526844,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 35.01782,
+          y: 1.47487187,
+          z: 33.9568329,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -21.678318,
+          y: 0.5459969,
+          z: 18.56775,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -21.5983486,
+          y: 0.5459969,
+          z: 12.0407553,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -10.0236959,
+          y: 0.6722719,
+          z: 0.0384060144,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -5.82064533,
+          y: 0.489271879,
+          z: 9.927868,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 26.3439388,
+          y: 2.47403717,
+          z: 45.5106354,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f8778245977358849a9b5',
+          name: '夹克',
+          normalizedName: 'jacket',
+        },
+        position: {
+          x: 26.2879372,
+          y: 2.48403716,
+          z: 45.091568,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 7.75171137,
+          y: 1.35027194,
+          z: 41.32319,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 10.7500238,
+          y: 1.4885056,
+          z: 39.9612732,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 11.0487118,
+          y: 1.5662719,
+          z: 38.3591881,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -4.68696642,
+          y: 4.131655,
+          z: 35.60181,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -3.62227631,
+          y: 4.155744,
+          z: 34.5548477,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -10.5083532,
+          y: 4.144272,
+          z: 34.77135,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -11.2076483,
+          y: 0.3812719,
+          z: 39.32565,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -19.0060329,
+          y: 3.15347481,
+          z: 27.4379444,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -20.0279446,
+          y: 3.15347481,
+          z: 24.2309456,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -19.7659454,
+          y: 3.15347481,
+          z: 28.8260555,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -20.0309448,
+          y: 3.15347481,
+          z: 31.0109463,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -7.42940235,
+          y: 0.441957951,
+          z: 39.2803764,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -10.0409889,
+          y: 0.441957951,
+          z: 38.7989235,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -3.55196428,
+          y: 0.4932719,
+          z: 34.5855,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 56.72835,
+          y: 0.4092719,
+          z: 22.7073555,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 56.6903534,
+          y: 0.4092719,
+          z: 24.9033566,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 67.32864,
+          y: 0.4092719,
+          z: 18.6956444,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 0.0303519368,
+          y: 1.373,
+          z: -8.79416752,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 5.06203127,
+          y: 1.373,
+          z: -9.295061,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d5ef86f77467974efbd8',
+          name: '武器箱',
+          normalizedName: 'weapon-box',
+        },
+        position: {
+          x: 1.68565118,
+          y: 1.415,
+          z: -16.62698,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 22.8104076,
+          y: 1.4705,
+          z: 42.89833,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 20.4437428,
+          y: 2.31090021,
+          z: 43.61652,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d50c86f774659e6aaebe',
+          name: '工具箱',
+          normalizedName: 'toolbox',
+        },
+        position: {
+          x: 21.8204174,
+          y: 1.2995,
+          z: 34.7020721,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -12.2120476,
+          y: -3.5227282,
+          z: -7.98096228,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -16.6601944,
+          y: -2.991728,
+          z: -16.2242146,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -1.90135646,
+          y: -3.270728,
+          z: -12.4684744,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 1.9890269,
+          y: 4.131655,
+          z: 34.5488472,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: 4.683895,
+          y: 0.4212719,
+          z: 39.3404846,
+        },
+      },
+      {
+        lootContainer: {
+          id: '578f87ad245977356274f2cc',
+          name: '木制板条箱',
+          normalizedName: 'wooden-crate',
+        },
+        position: {
+          x: -2.75623,
+          y: 1.447272,
+          z: 45.4918251,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: -2.80214477,
+          y: -3.234467,
+          z: -13.2734833,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: -13.2252865,
+          y: -2.88600945,
+          z: -12.528059,
+        },
+      },
+      {
+        lootContainer: {
+          id: '5909d36d86f774660f0bb900',
+          name: '手榴弹箱',
+          normalizedName: 'grenade-box',
+        },
+        position: {
+          x: -8.603428,
+          y: -2.73764348,
+          z: -22.6245422,
+        },
+      },
+    ],
+    stationaryWeapons: [],
+  },
+  {
+    key: 'factory',
+    altMaps: [
+      'night-factory',
+    ],
+    projection: 'interactive',
+    tileSize: 256,
+    minZoom: 1,
+    maxZoom: 6,
+    transform: [
+      1.629,
+      119.9,
+      1.629,
+      139.3,
+    ],
+    coordinateRotation: 90,
+    bounds: [
+      [
+        79,
+        -64.5,
+      ],
+      [
+        -66.5,
+        67.4,
+      ],
+    ],
+    heightRange: [
+      -1,
+      3,
+    ],
+    author: 'Tarkov.dev',
+    authorLink: 'https://tarkov.dev',
+    tilePath: 'https://assets.tarkov.dev/maps/factory_v2/main/{z}/{x}/{y}.png',
+    svgPath: 'https://assets.tarkov.dev/maps/svg/Factory-Ground_Floor.svg',
+    layers: [
+      {
+        name: '2nd Floor',
+        tilePath: 'https://assets.tarkov.dev/maps/factory_v2/2nd_notint/{z}/{x}/{y}.png',
+        svgPath: 'https://assets.tarkov.dev/maps/svg/Factory-Second_Floor.svg',
+        show: false,
+        extents: [
+          {
+            height: [
+              3,
+              6,
+            ],
+          },
+        ],
+      },
+      {
+        name: '3rd Floor',
+        tilePath: 'https://assets.tarkov.dev/maps/factory_v2/3rd_notint/{z}/{x}/{y}.png',
+        svgPath: 'https://assets.tarkov.dev/maps/svg/Factory-Third_Floor.svg',
+        show: false,
+        extents: [
+          {
+            height: [
+              6,
+              10000,
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Tunnels',
+        tilePath: 'https://assets.tarkov.dev/maps/factory_v2/tunnels_notint/{z}/{x}/{y}.png',
+        svgPath: 'https://assets.tarkov.dev/maps/svg/Factory-Basement.svg',
+        show: false,
+        extents: [
+          {
+            height: [
+              -10000,
+              -1,
+            ],
+          },
+        ],
+      },
+    ],
+    labels: [
+      {
+        position: [
+          21,
+          39,
+        ],
+        text: 'Office Building',
+        bottom: -1,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          15.5,
+          39,
+        ],
+        text: 'Main Office',
+        bottom: 6,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          24.5,
+          39,
+        ],
+        text: 'Breach Room',
+        bottom: 6,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          30.5,
+          39,
+        ],
+        text: 'Locked Office',
+        bottom: 6,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          35,
+          39,
+        ],
+        text: 'North Stairs',
+        bottom: -1,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          9,
+          39,
+        ],
+        text: 'South Stairs',
+        bottom: -1,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          34,
+          26,
+        ],
+        text: 'Sky Bridge',
+        bottom: 6,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          29.5,
+          17,
+        ],
+        text: 'Connector',
+        bottom: -1,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          29,
+          41,
+        ],
+        text: 'Locker Rooms',
+        bottom: 3,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          15,
+          41,
+        ],
+        text: 'Sinks',
+        bottom: 3,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          20,
+          42,
+        ],
+        text: 'Hole',
+        bottom: 3,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          -3,
+          37,
+        ],
+        text: 'Platform',
+        bottom: -1,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          -21,
+          27,
+        ],
+        text: 'Servers',
+        bottom: 3,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          -18,
+          -29,
+        ],
+        text: 'Med Tent',
+        bottom: -1,
+        top: 2,
+        size: 80,
+      },
+      {
+        position: [
+          4.5,
+          10.5,
+        ],
+        text: 'Silos',
+        bottom: -1,
+        top: 2,
+      },
+      {
+        position: [
+          30,
+          -8.5,
+        ],
+        text: 'Heli Crash',
+        bottom: -1,
+        top: 10000,
+        size: 80,
+      },
+      {
+        position: [
+          -1,
+          16,
+        ],
+        text: 'Pit',
+        bottom: -10000,
+        top: -2,
+        size: 80,
+      },
+      {
+        position: [
+          -2,
+          -24.5,
+        ],
+        text: 'Underground Stash',
+        bottom: -10000,
+        top: -2,
+        size: 80,
+      },
+      {
+        position: [
+          -20.5,
+          23,
+        ],
+        text: 'Scav Bunker',
+        bottom: -1,
+        top: 2,
+        size: 80,
+      },
+      {
+        position: [
+          -18,
+          50,
+        ],
+        text: 'Blue Containers',
+        bottom: -1,
+        top: 2,
+      },
+      {
+        position: [
+          -45.5,
+          61,
+        ],
+        text: 'Wood Room',
+        bottom: -1,
+        top: 2,
+        size: 80,
+      },
+      {
+        position: [
+          68.25,
+          -20,
+        ],
+        text: 'Glass Hall',
+        bottom: -1,
+        top: 2,
+        size: 80,
+      },
+      {
+        position: [
+          56,
+          5,
+        ],
+        text: 'Boilers',
+        bottom: -1,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          41,
+          -11,
+        ],
+        text: 'Pumping Station',
+        bottom: -1,
+        top: 5,
+        size: 80,
+      },
+      {
+        position: [
+          44,
+          -36,
+        ],
+        text: 'East Halls',
+        bottom: -1,
+        top: 2,
+        size: 80,
+      },
+      {
+        position: [
+          66,
+          -42,
+        ],
+        text: 'Forklifts',
+        bottom: -1,
+        top: 2,
+        size: 80,
+      },
+      {
+        position: [
+          18,
+          4,
+        ],
+        text: 'Rafters',
+        bottom: 6,
+        top: 10000,
+      },
+    ],
+    id: '59fc81d786f774390775787e',
+    tarkovDataId: '0',
+    name: '夜间工厂',
+    normalizedName: 'night-factory',
+    wiki: 'https://escapefromtarkov.fandom.com/wiki/Factory',
+    description: '16 号化工厂的厂区和设施曾被非法租用给 Terra Group 公司。这个工厂在“契约战争”期间成为了 USEC 和 BEAR 双方争夺塔科夫市工业区控制权的激战战场。\n\n随着之后的混乱加剧，工厂变成了幸存的市民、Scav 和各种武装人员的避风港，其中也包括残存的 USEC 和 BEAR 行动人员。',
+    enemies: [
+      'Scav',
+      'Tagilla',
+      '邪教徒牧师',
+      '邪教徒战士',
+    ],
+    raidDuration: 25,
+    players: '5-6',
+    bosses: [
+      {
+        boss: {
+          id: 'bossTagilla',
+          name: 'Tagilla',
+          normalizedName: 'tagilla',
+          imagePortraitLink: 'https://assets.tarkov.dev/tagilla-portrait.png',
+          imagePosterLink: 'https://assets.tarkov.dev/tagilla-poster.jpg',
+        },
+        spawnChance: 0.4,
+        spawnLocations: [
+          {
+            spawnKey: 'BotZone',
+            name: 'Any scav spawn',
+            chance: 1,
+          },
+        ],
+      },
+      {
+        boss: {
+          id: 'sectantPriest',
+          name: '邪教徒牧师',
+          normalizedName: 'cultist-priest',
+          imagePortraitLink: 'https://assets.tarkov.dev/cultist-priest-portrait.png',
+          imagePosterLink: 'https://assets.tarkov.dev/cultist-priest-poster.jpg',
+        },
+        spawnChance: 0.02,
+        spawnLocations: [
+          {
+            spawnKey: 'BotZone',
+            name: 'Any scav spawn',
+            chance: 1,
+          },
+        ],
+      },
+    ],
+    nameId: 'factory4_night',
+    spawns: [
+      {
+        zoneName: '0246436c-7d69-4036-999d-ebcb956970b5',
+        position: {
+          x: -29.763,
+          y: 0.21,
+          z: 7.584,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 13.78,
+          y: -2.291,
+          z: -21.65,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '05e75eb3-eb43-46c6-94d3-59e1e9ba4435',
+        position: {
+          x: -21.614,
+          y: -2.62,
+          z: 37.611,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '0a92f51c-52b4-4e76-b839-f7ce82f2b36b',
+        position: {
+          x: 59.594,
+          y: 0.103,
+          z: 22.151,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '120a0777-e825-4de7-a855-c3eaa8eba46b',
+        position: {
+          x: -28.958,
+          y: 0.21,
+          z: 6.595,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '13883982-2ab8-4dd5-a9b4-45e2c6d8e1cc',
+        position: {
+          x: -20.215,
+          y: -2.62,
+          z: 38.789,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '1a5819f2-ff42-4632-af5e-fe5ea8f886fc',
+        position: {
+          x: 61,
+          y: 0.117,
+          z: 20.95,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '1facfcfc-9ee5-4638-83b3-117fce7b3303',
+        position: {
+          x: -30.978,
+          y: 0.21,
+          z: 6.713,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '22a7740a-5a91-4bca-af36-668342522b42',
+        position: {
+          x: 70.465,
+          y: 0.211,
+          z: -61.785,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: -20.756,
+          y: 0.166,
+          z: 22.769,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '2a1f1b80-72be-444d-9d8d-5f645a3fc019',
+        position: {
+          x: 46.163,
+          y: 0.16,
+          z: -37.009,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '2a5aad92-b5f9-40c0-a380-460247300227',
+        position: {
+          x: 60.445,
+          y: 0.073,
+          z: 19.302,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: -19.19,
+          y: -3.78,
+          z: -4.91,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '2e1843a1-fd2a-4ccd-8b38-747c1a70f228',
+        position: {
+          x: -8.413,
+          y: 0.005,
+          z: -33.898,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '2eed18b6-9fbb-40de-979f-985f203f251e',
+        position: {
+          x: -28.19,
+          y: 0.21,
+          z: 5.58,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '30edcdf0-73e0-4ab5-a9e7-4d24a9a83aa9',
+        position: {
+          x: 28.464,
+          y: 0.244,
+          z: 16.991,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '336d3c25-9f38-475f-8eb9-db6393f06b6c',
+        position: {
+          x: 67.872,
+          y: 0.245,
+          z: -60.357,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '38a8fe02-f871-4b79-91e5-69c2c68d1bbc',
+        position: {
+          x: -4.123,
+          y: 0.005,
+          z: -34.711,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '3bcd754a-b299-4d63-9d7f-e4d05c2f13e3',
+        position: {
+          x: -23.044,
+          y: 1.07,
+          z: 65.688,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '4755c538-4ee5-4125-8cd3-885787da7ad5',
+        position: {
+          x: 19.87,
+          y: -2.61,
+          z: -1.3,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '4a4e5ee5-a314-4a78-939d-cf3c05818435',
+        position: {
+          x: -4.765,
+          y: 0.005,
+          z: -33.066,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '4bc2255b-75b0-44a3-91ed-c1b35499cbc5',
+        position: {
+          x: -17.21,
+          y: -2.62,
+          z: 38.282,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '503cf951-8e80-4ca0-aa2d-993f71a6a4a6',
+        position: {
+          x: -51.426,
+          y: 1.353,
+          z: 54.339,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '50560c89-4136-4cfb-b155-485519110c93',
+        position: {
+          x: -3.503,
+          y: 0.005,
+          z: -32.728,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '57254982-c470-440d-911a-e8854f42398a',
+        position: {
+          x: -52.617,
+          y: 1.353,
+          z: 55.629,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 35.545,
+          y: 8.231328,
+          z: 36.41,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '5be1a535-4865-433c-b645-33c7ff65bd94',
+        position: {
+          x: -31.67,
+          y: 0.21,
+          z: 8.2,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '60b47eab-b2a6-4ba2-b30c-fea14a7169bf',
+        position: {
+          x: 68.514,
+          y: 0.194,
+          z: -4.796,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 8.07,
+          y: 0.1,
+          z: -8.61,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '67fb48f8-0359-458b-876c-2e4963cbd14e',
+        position: {
+          x: -5.93,
+          y: -3.889,
+          z: -22.49,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '683f2734-6398-4b77-9bab-b87f3be35938',
+        position: {
+          x: 69.644,
+          y: 0.211,
+          z: -60.426,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 4.73,
+          y: 0.01,
+          z: -35.1,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '6d7bf2bb-6211-4495-8509-58ceadea72e0',
+        position: {
+          x: -18.579,
+          y: -2.62,
+          z: 38.04,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6d97a439-de10-42c5-99ef-6cf92e243aca',
+        position: {
+          x: 17.043,
+          y: -2.61,
+          z: -2.117,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '6ecc9492-5fbb-43d8-a0c0-8509fa39eb1d',
+        position: {
+          x: -2.238,
+          y: -3.905,
+          z: -15.408,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '74059b40-4072-495f-a02c-2ffce404d728',
+        position: {
+          x: 32.213,
+          y: 2.333,
+          z: 18.67,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '7ea1b4b8-a496-4bc0-bf61-e5ba4f3aa1fa',
+        position: {
+          x: 43.604,
+          y: 0.16,
+          z: -36.675,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '80532206-b2e1-4578-b559-99eae931a957',
+        position: {
+          x: 46.118,
+          y: 0.16,
+          z: -39.159,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8128ea83-0d4f-4e64-b109-5acc9e477b33',
+        position: {
+          x: 69.838,
+          y: 0.194,
+          z: -6.105,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '8429bed9-52e2-4731-a425-4912db8529a9',
+        position: {
+          x: 57.902,
+          y: 0.06,
+          z: 21.998,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '867576c4-1152-48ad-80bf-a802d7318379',
+        position: {
+          x: -49.516,
+          y: 1.353,
+          z: 55.556,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: -6.77,
+          y: 0.17,
+          z: 10.01,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '8df78011-1568-4e66-99b8-5c4ed736b99a',
+        position: {
+          x: -6.95,
+          y: 0.005,
+          z: -32.83,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 23.83,
+          y: -2.604,
+          z: -30.66,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: '91ec8f79-6cc4-422d-966f-4cd6a02d5a87',
+        position: {
+          x: -21.217,
+          y: -2.62,
+          z: 40.645,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '92822146-7c98-4570-8bde-8d0d042ae3cf',
+        position: {
+          x: 43.591,
+          y: 0.16,
+          z: -38.865,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '990aa5a0-d549-4479-8af2-a196ddb3bb35',
+        position: {
+          x: -8.58,
+          y: -3.905,
+          z: -18.89,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '9dd99893-91c5-4e64-b808-bbe46852022a',
+        position: {
+          x: 58.6,
+          y: 0.101,
+          z: 19.7,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: '9f14e22f-3971-4440-8f48-c597cc7d9166',
+        position: {
+          x: 30.238,
+          y: 0.256,
+          z: 15.246,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 36.043,
+          y: 1.09,
+          z: 38.349,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: -5.89,
+          y: 0.08,
+          z: -27.46,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'a5c47219-1ebc-4254-90cb-934d6f9d4790',
+        position: {
+          x: -20.958,
+          y: 1.07,
+          z: 65.523,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ad0cbd99-02ee-4ff1-b799-6b50b8a3fa0f',
+        position: {
+          x: 68.564,
+          y: 0.245,
+          z: -61.448,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'adee9078-b5a3-4f9e-b384-e984cbea15fc',
+        position: {
+          x: -52.297,
+          y: 1.353,
+          z: 57.053,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'ae4693d5-a309-4cbc-85db-ce8a59cf7ff4',
+        position: {
+          x: 44.96,
+          y: 0.16,
+          z: -37.574,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'afacfed6-7a03-418b-9fca-420590d639c0',
+        position: {
+          x: 69.275,
+          y: 0.245,
+          z: -62.56,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'b776e3ed-a02d-4141-8eba-35d4746547ca',
+        position: {
+          x: -51.114,
+          y: 1.353,
+          z: 55.87,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 31.75,
+          y: 0.15318726,
+          z: -0.3,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'bcae7a9f-8b2f-4a4c-9cb0-589d4a227c70',
+        position: {
+          x: 22.331,
+          y: -2.61,
+          z: 0.232,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: -19.94,
+          y: 1.11607242,
+          z: 62.87,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'be7bf7f0-6892-4d55-b1af-85492250ea55',
+        position: {
+          x: 69.994,
+          y: 0.194,
+          z: -8.13,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 22.37,
+          y: 0.86,
+          z: 4.33,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'c249a42b-3b54-4680-ac4d-2c923ca4f530',
+        position: {
+          x: 30.674,
+          y: 0.264,
+          z: 20.54,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'c2d01ce0-e0e4-41af-8311-44dc5cf38a93',
+        position: {
+          x: 68.624,
+          y: 0.194,
+          z: -8.916,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'c671337f-e58f-4de6-a387-307d877954a3',
+        position: {
+          x: 18.411,
+          y: -2.61,
+          z: -1.321,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 26.467,
+          y: -2.49,
+          z: -34.414,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 35.924,
+          y: 4.55418539,
+          z: 35.339,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'd2b48374-53d1-45a7-a3d2-5e1fc58a8499',
+        position: {
+          x: -3.612,
+          y: -3.889,
+          z: -25.528,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 30.758,
+          y: 0.26,
+          z: 15.164,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'd6564897-4b3e-4b7e-9b56-34cb3b9a235d',
+        position: {
+          x: -5.769,
+          y: -3.905,
+          z: -20.331,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: -32.087,
+          y: -2.581647,
+          z: 29.9733315,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'e0f65b5b-c67b-4e15-a102-f92bbdf95f65',
+        position: {
+          x: 68.472,
+          y: 0.194,
+          z: -7.34,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'e5cd7bad-0f60-4cc2-bdd9-8a8943232b01',
+        position: {
+          x: -25.718,
+          y: 1.07,
+          z: 65.627,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'e60d8dce-ee35-4b30-9c3a-afddf4c5445e',
+        position: {
+          x: 21.389,
+          y: -2.61,
+          z: -1.214,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'efb39132-1eff-4655-8fb0-d795f8f98eb3',
+        position: {
+          x: 29.409,
+          y: 0.256,
+          z: 20.577,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'f0864450-ffa8-4d7e-aa93-59ea6b218641',
+        position: {
+          x: -19.789,
+          y: 1.07,
+          z: 66.592,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'f3c6d9ee-ca4e-44ca-abdf-0622a8249f1d',
+        position: {
+          x: -24.534,
+          y: 1.07,
+          z: 66.641,
+        },
+        sides: [
+          'all',
+        ],
+        categories: [
+          'player',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 15,
+          y: 0.148353577,
+          z: 3.79,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+      {
+        zoneName: 'BotZone',
+        position: {
+          x: 2.104,
+          y: 1.10050392,
+          z: 63.056,
+        },
+        sides: [
+          'scav',
+        ],
+        categories: [
+          'bot',
+          'boss',
+        ],
+      },
+    ],
+    extracts: [
+      {
+        id: '643d074d8a95529177d383c0e27e059d2a254c70',
+        name: '地下室',
+        faction: 'pmc',
+        switches: [],
+        position: {
+          x: 77.529,
+          y: -4.657,
+          z: -28.891,
+        },
+        outline: [
+          {
+            x: 75.51902,
+            y: -4.657,
+            z: -32.1104126,
+          },
+          {
+            x: 79.8696747,
+            y: -4.657,
+            z: -31.8786259,
+          },
+          {
+            x: 79.53899,
+            y: -4.657,
+            z: -25.671587,
+          },
+          {
+            x: 75.188324,
+            y: -4.657,
+            z: -25.9033756,
+          },
+        ],
+        top: -4.157,
+        bottom: -5.157,
+      },
+      {
+        id: '63a28bc225fda155ccb1296183390a66f5ec1656',
+        name: '3号门',
+        faction: 'shared',
+        switches: [],
+        position: {
+          x: 58.709,
+          y: 0.84,
+          z: 64.112,
+        },
+        outline: [
+          {
+            x: 55.60108,
+            y: 0.84,
+            z: 61.9335861,
+          },
+          {
+            x: 61.8169174,
+            y: 0.84,
+            z: 61.9335861,
+          },
+          {
+            x: 61.8169174,
+            y: 0.84,
+            z: 66.29041,
+          },
+          {
+            x: 55.60108,
+            y: 0.84,
+            z: 66.29041,
+          },
+        ],
+        top: 1.34,
+        bottom: 0.339999974,
+      },
+      {
+        id: '34ca47a2a65d86c7f01e869fe2defe64472ec3a1',
+        name: '监控地堡大门',
+        faction: 'scav',
+        switches: [],
+        position: {
+          x: -14.5749989,
+          y: -2.086,
+          z: 40.36,
+        },
+        outline: [
+          {
+            x: -16.6759815,
+            y: -2.086,
+            z: 38.8486061,
+          },
+          {
+            x: -12.3253193,
+            y: -2.086,
+            z: 39.0803947,
+          },
+          {
+            x: -12.4740162,
+            y: -2.086,
+            z: 41.8713951,
+          },
+          {
+            x: -16.8246784,
+            y: -2.086,
+            z: 41.6396027,
+          },
+        ],
+        top: -1.586,
+        bottom: -2.586,
+      },
+      {
+        id: 'bf04ff7aa3750cb911270683229e040c1ccb332f',
+        name: '办公室窗户',
+        faction: 'scav',
+        switches: [],
+        position: {
+          x: 17.8332214,
+          y: 8.730333,
+          z: 39.8851128,
+        },
+        outline: [
+          {
+            x: 16.01026,
+            y: 8.730333,
+            z: 38.38853,
+          },
+          {
+            x: 19.8048782,
+            y: 8.730333,
+            z: 38.5907,
+          },
+          {
+            x: 19.6561832,
+            y: 8.730333,
+            z: 41.3816948,
+          },
+          {
+            x: 15.8615646,
+            y: 8.730333,
+            z: 41.1795273,
+          },
+        ],
+        top: 9.230333,
+        bottom: 8.230333,
+      },
+      {
+        id: '10676217239aba7a443a63588b6b2db412698686',
+        name: '0号门',
+        faction: 'pmc',
+        switches: [],
+        position: {
+          x: -63.7400055,
+          y: 1.749,
+          z: 55.902,
+        },
+        outline: [
+          {
+            x: -65.74999,
+            y: 1.749,
+            z: 52.6825867,
+          },
+          {
+            x: -61.39933,
+            y: 1.749,
+            z: 52.9143753,
+          },
+          {
+            x: -61.73002,
+            y: 1.749,
+            z: 59.1214142,
+          },
+          {
+            x: -66.08068,
+            y: 1.749,
+            z: 58.8896255,
+          },
+        ],
+        top: 2.24899983,
+        bottom: 1.249,
+      },
+      {
+        id: '5419b6a16b3634cd53c4d73360342ad4e2b3e28d',
+        name: '医疗帐篷大门',
+        faction: 'pmc',
+        switches: [],
+        position: {
+          x: -18.4857769,
+          y: 1.16133332,
+          z: -60.1718826,
+        },
+        outline: [
+          {
+            x: -20.49576,
+            y: 1.16133332,
+            z: -63.3912964,
+          },
+          {
+            x: -16.1451015,
+            y: 1.16133332,
+            z: -63.1595078,
+          },
+          {
+            x: -16.4757938,
+            y: 1.16133332,
+            z: -56.95247,
+          },
+          {
+            x: -20.8264523,
+            y: 1.16133332,
+            z: -57.1842575,
+          },
+        ],
+        top: 2.16133332,
+        bottom: 0.1613333,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 29.2459984,
+          y: 9.155067,
+          z: 36.52492,
+        },
+        outline: [
+          {
+            x: 29.4959984,
+            y: 9.155067,
+            z: 36.26445,
+          },
+          {
+            x: 30.136,
+            y: 9.155067,
+            z: 36.26445,
+          },
+          {
+            x: 30.136,
+            y: 9.155067,
+            z: 36.72288,
+          },
+          {
+            x: 29.4959984,
+            y: 9.155067,
+            z: 36.72288,
+          },
+        ],
+        top: 9.646217,
+        bottom: 8.663918,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '57a349b2245977762b199ec7',
+          name: '泵站前门钥匙',
+          normalizedName: 'pumping-station-front-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: 43.1875839,
+          y: 1.01413012,
+          z: -14.1608534,
+        },
+        outline: [
+          {
+            x: 42.9510841,
+            y: 1.23068213,
+            z: -15.1587582,
+          },
+          {
+            x: 43.3360825,
+            y: 1.23068213,
+            z: -15.1587582,
+          },
+          {
+            x: 43.3360863,
+            y: 1.23068213,
+            z: -14.3538189,
+          },
+          {
+            x: 42.9510841,
+            y: 1.23068213,
+            z: -14.3538179,
+          },
+        ],
+        top: 1.589962,
+        bottom: 0.8714025,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -53.754,
+          y: 2.33300042,
+          z: 58.93033,
+        },
+        outline: [
+          {
+            x: -53.879,
+            y: 2.41300035,
+            z: 57.9003258,
+          },
+          {
+            x: -53.609,
+            y: 2.41300035,
+            z: 57.9003258,
+          },
+          {
+            x: -53.609,
+            y: 2.41300035,
+            z: 58.5803261,
+          },
+          {
+            x: -53.879,
+            y: 2.41300035,
+            z: 58.5803261,
+          },
+        ],
+        top: 2.75800037,
+        bottom: 2.06800032,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 66.42518,
+          y: -1.53579187,
+          z: -29.8983536,
+        },
+        outline: [
+          {
+            x: 65.34537,
+            y: -1.52539587,
+            z: -30.10382,
+          },
+          {
+            x: 66.19676,
+            y: -1.52539587,
+            z: -30.10382,
+          },
+          {
+            x: 66.19676,
+            y: -1.52539587,
+            z: -29.7750778,
+          },
+          {
+            x: 65.34537,
+            y: -1.52539587,
+            z: -29.7750778,
+          },
+        ],
+        top: -1.09397507,
+        bottom: -1.95681667,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '593858c486f774253a24cb52',
+          name: '泵站后门钥匙',
+          normalizedName: 'pumping-station-back-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: 40.9448547,
+          y: 0.9631303,
+          z: -6.261415,
+        },
+        outline: [
+          {
+            x: 41.13782,
+            y: 1.17968261,
+            z: -6.497915,
+          },
+          {
+            x: 41.94276,
+            y: 1.17968261,
+            z: -6.497915,
+          },
+          {
+            x: 41.94276,
+            y: 1.17968261,
+            z: -6.112915,
+          },
+          {
+            x: 41.13782,
+            y: 1.17968261,
+            z: -6.112915,
+          },
+        ],
+        top: 1.5389626,
+        bottom: 0.820402741,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -20.3113289,
+          y: 1.27600038,
+          z: -49.138,
+        },
+        outline: [
+          {
+            x: -19.9613285,
+            y: 1.3560003,
+            z: -49.263,
+          },
+          {
+            x: -19.2813282,
+            y: 1.3560003,
+            z: -49.263,
+          },
+          {
+            x: -19.2813282,
+            y: 1.3560003,
+            z: -48.993,
+          },
+          {
+            x: -19.9613285,
+            y: 1.3560003,
+            z: -48.993,
+          },
+        ],
+        top: 1.70100033,
+        bottom: 1.01100028,
+      },
+    ],
+    switches: [],
     hazards: [],
     lootContainers: [
       {
@@ -51484,12 +68295,12 @@ export default [
     coordinateRotation: 180,
     bounds: [
       [
-        530,
-        -439,
+        532.75,
+        -442.75,
       ],
       [
         -364,
-        452,
+        453.5,
       ],
     ],
     author: 'Tarkov.dev',
@@ -52332,7 +69143,6 @@ export default [
     wiki: 'https://escapefromtarkov.fandom.com/wiki/Interchange',
     description: '南部立交桥是城市交通系统的关键点。这个战略要地连接着塔科夫的海港区和市郊工业区。位于立交桥区域中心的是一个巨型 ULTRA 购物中心，曾被用作 EMERCOM 疏散行动的主基地。',
     enemies: [
-      'Scav',
       'Killa',
     ],
     raidDuration: 40,
@@ -52346,7 +69156,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/killa-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/killa-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneCenterBot',
@@ -52371,6 +69181,7 @@ export default [
         ],
       },
     ],
+    nameId: 'Interchange',
     spawns: [
       {
         zoneName: '019d9bd8-411d-49a6-84ca-727ffb38e57b',
@@ -55199,6 +72010,3941 @@ export default [
         ],
         top: 24.6050549,
         bottom: 21.3349438,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 120.522446,
+          y: 23.11745,
+          z: 264.0845,
+        },
+        outline: [
+          {
+            x: 119.97905,
+            y: 23.11745,
+            z: 264.295959,
+          },
+          {
+            x: 120.964752,
+            y: 23.11745,
+            z: 264.464478,
+          },
+          {
+            x: 120.796234,
+            y: 23.11745,
+            z: 265.450165,
+          },
+          {
+            x: 119.810539,
+            y: 23.11745,
+            z: 265.281677,
+          },
+          {
+            x: 119.810532,
+            y: 23.11745,
+            z: 265.281677,
+          },
+        ],
+        top: 23.61745,
+        bottom: 22.61745,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -352.092163,
+          y: 23.2839966,
+          z: -359.276642,
+        },
+        outline: [
+          {
+            x: -352.345032,
+            y: 23.2839985,
+            z: -358.708344,
+          },
+          {
+            x: -351.4748,
+            y: 23.2839985,
+            z: -359.201,
+          },
+          {
+            x: -350.982147,
+            y: 23.2839985,
+            z: -358.33075,
+          },
+          {
+            x: -351.8524,
+            y: 23.2839985,
+            z: -357.8381,
+          },
+        ],
+        top: 23.7839985,
+        bottom: 22.7839966,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -315.70105,
+          y: 23.2414722,
+          z: 273.830017,
+        },
+        outline: [
+          {
+            x: -315.913727,
+            y: 23.2414722,
+            z: 272.3872,
+          },
+          {
+            x: -314.9344,
+            y: 23.2414722,
+            z: 272.589417,
+          },
+          {
+            x: -315.136566,
+            y: 23.2414722,
+            z: 273.568756,
+          },
+          {
+            x: -316.1159,
+            y: 23.2414722,
+            z: 273.366577,
+          },
+        ],
+        top: 23.7414742,
+        bottom: 22.7414722,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -75.42049,
+          y: 23.284,
+          z: -350.62204,
+        },
+        outline: [
+          {
+            x: -76.81474,
+            y: 23.284,
+            z: -350.194275,
+          },
+          {
+            x: -76.01722,
+            y: 23.284,
+            z: -350.797577,
+          },
+          {
+            x: -75.4139252,
+            y: 23.284,
+            z: -350.000061,
+          },
+          {
+            x: -76.21144,
+            y: 23.284,
+            z: -349.396759,
+          },
+        ],
+        top: 23.784,
+        bottom: 22.784,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '664d3dd590294949fe2d81b7',
+          name: "Grumpy's hideout key",
+          normalizedName: 'grumpys-hideout-key',
+        },
+        needsPower: false,
+        position: {
+          x: -199.786026,
+          y: 22.3370018,
+          z: -348.208038,
+        },
+        outline: [
+          {
+            x: -199.616028,
+            y: 22.3370018,
+            z: -348.368042,
+          },
+          {
+            x: -198.896027,
+            y: 22.3370018,
+            z: -348.368042,
+          },
+          {
+            x: -198.896027,
+            y: 22.3370018,
+            z: -348.108032,
+          },
+          {
+            x: -199.616028,
+            y: 22.3370018,
+            z: -348.108032,
+          },
+        ],
+        top: 22.7420025,
+        bottom: 21.9320011,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -169.2236,
+          y: 23.3294353,
+          z: -263.7742,
+        },
+        outline: [
+          {
+            x: -170.440048,
+            y: 23.3294373,
+            z: -264.578674,
+          },
+          {
+            x: -169.467377,
+            y: 23.3294373,
+            z: -264.346466,
+          },
+          {
+            x: -169.699585,
+            y: 23.3294373,
+            z: -263.373779,
+          },
+          {
+            x: -169.6996,
+            y: 23.3294373,
+            z: -263.373779,
+          },
+          {
+            x: -170.672256,
+            y: 23.3294373,
+            z: -263.606,
+          },
+        ],
+        top: 23.8294373,
+        bottom: 22.8294353,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 44.14279,
+          y: 23.2839966,
+          z: 249.9005,
+        },
+        outline: [
+          {
+            x: 42.7600555,
+            y: 23.2839966,
+            z: 249.436874,
+          },
+          {
+            x: 43.7597046,
+            y: 23.2839966,
+            z: 249.410446,
+          },
+          {
+            x: 43.75971,
+            y: 23.2839966,
+            z: 249.410446,
+          },
+          {
+            x: 43.7861366,
+            y: 23.2839966,
+            z: 250.4101,
+          },
+          {
+            x: 42.7864876,
+            y: 23.2839966,
+            z: 250.436523,
+          },
+          {
+            x: 42.7864838,
+            y: 23.2839966,
+            z: 250.436523,
+          },
+        ],
+        top: 23.7839985,
+        bottom: 22.7839966,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 253.9284,
+          y: 23.2839966,
+          z: 87.3542252,
+        },
+        outline: [
+          {
+            x: 253.675552,
+            y: 23.2839985,
+            z: 87.92253,
+          },
+          {
+            x: 254.545792,
+            y: 23.2839985,
+            z: 87.4299,
+          },
+          {
+            x: 255.038422,
+            y: 23.2839985,
+            z: 88.30014,
+          },
+          {
+            x: 254.168182,
+            y: 23.2839985,
+            z: 88.79277,
+          },
+        ],
+        top: 23.7839985,
+        bottom: 22.7839966,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 410.39032,
+          y: 20.9703865,
+          z: -375.860138,
+        },
+        outline: [
+          {
+            x: 410.288239,
+            y: 20.9062042,
+            z: -376.524384,
+          },
+          {
+            x: 410.9864,
+            y: 20.9062042,
+            z: -377.2365,
+          },
+          {
+            x: 410.991241,
+            y: 20.9062042,
+            z: -377.128754,
+          },
+          {
+            x: 411.702332,
+            y: 20.9062042,
+            z: -376.5428,
+          },
+          {
+            x: 411.707153,
+            y: 20.9062042,
+            z: -376.435028,
+          },
+          {
+            x: 411.009,
+            y: 20.9062042,
+            z: -375.7229,
+          },
+          {
+            x: 411.00415,
+            y: 20.9062042,
+            z: -375.830658,
+          },
+          {
+            x: 410.2931,
+            y: 20.9062042,
+            z: -376.416626,
+          },
+        ],
+        top: 21.4795151,
+        bottom: 20.3328953,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 281.905,
+          y: 23.10414,
+          z: 18.3905926,
+        },
+        outline: [
+          {
+            x: 280.5917,
+            y: 23.10414,
+            z: 17.92662,
+          },
+          {
+            x: 281.5913,
+            y: 23.10414,
+            z: 17.8990517,
+          },
+          {
+            x: 281.6189,
+            y: 23.10414,
+            z: 18.8986721,
+          },
+          {
+            x: 280.619263,
+            y: 23.10414,
+            z: 18.92624,
+          },
+          {
+            x: 280.619263,
+            y: 23.10414,
+            z: 18.926239,
+          },
+        ],
+        top: 23.60414,
+        bottom: 22.60414,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 97.20081,
+          y: 23.1074467,
+          z: 218.936737,
+        },
+        outline: [
+          {
+            x: 97.65574,
+            y: 23.1074467,
+            z: 218.571976,
+          },
+          {
+            x: 98.593544,
+            y: 23.1074467,
+            z: 218.919128,
+          },
+          {
+            x: 98.24638,
+            y: 23.1074467,
+            z: 219.856934,
+          },
+          {
+            x: 97.30858,
+            y: 23.1074467,
+            z: 219.509781,
+          },
+        ],
+        top: 23.6074486,
+        bottom: 22.6074467,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5d49886f77455f9731921',
+          name: '变电站杂物间钥匙',
+          normalizedName: 'power-substation-utility-cabin-key',
+        },
+        needsPower: false,
+        position: {
+          x: -223.115845,
+          y: 22.55412,
+          z: -271.3501,
+        },
+        outline: [
+          {
+            x: -223.139847,
+            y: 22.75572,
+            z: -272.3485,
+          },
+          {
+            x: -223.034241,
+            y: 22.75572,
+            z: -272.3485,
+          },
+          {
+            x: -223.034241,
+            y: 22.75572,
+            z: -271.5805,
+          },
+          {
+            x: -223.139847,
+            y: 22.75572,
+            z: -271.5805,
+          },
+        ],
+        top: 23.60052,
+        bottom: 21.91092,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5e42c71586f7747f245e1343',
+          name: 'ULTRA 医疗仓库钥匙',
+          normalizedName: 'ultra-medical-storage-key',
+        },
+        needsPower: true,
+        position: {
+          x: 67.55801,
+          y: 37.60174,
+          z: 40.891,
+        },
+        outline: null,
+        top: 37.60174,
+        bottom: 37.60174,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5addaffe86f77470b455f900',
+          name: 'KIBA商店格栅门钥匙',
+          normalizedName: 'kiba-arms-inner-grate-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: -9.887001,
+          y: 28.241,
+          z: -33.76517,
+        },
+        outline: [
+          {
+            x: -9.891998,
+            y: 28.241,
+            z: -34.69517,
+          },
+          {
+            x: -9.781999,
+            y: 28.241,
+            z: -34.69517,
+          },
+          {
+            x: -9.781998,
+            y: 28.241,
+            z: -34.69517,
+          },
+          {
+            x: -9.782001,
+            y: 28.241,
+            z: -33.9551735,
+          },
+          {
+            x: -9.892,
+            y: 28.241,
+            z: -33.9551735,
+          },
+        ],
+        top: 28.741,
+        bottom: 27.741,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5d7d286f77450166e0a89',
+          name: 'KIBA商店钥匙',
+          normalizedName: 'kiba-arms-outer-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: -9.444001,
+          y: 28.241,
+          z: -33.709,
+        },
+        outline: null,
+        top: 28.241,
+        bottom: 28.241,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5e42c81886f7742a01529f57',
+          name: 'Object #11SR 钥匙卡',
+          normalizedName: 'object-11sr-keycard',
+        },
+        needsPower: false,
+        position: {
+          x: -51.9328041,
+          y: 22.35359,
+          z: 45.8337746,
+        },
+        outline: [
+          {
+            x: -51.7458038,
+            y: 22.35359,
+            z: 45.6737747,
+          },
+          {
+            x: -50.953804,
+            y: 22.35359,
+            z: 45.6737747,
+          },
+          {
+            x: -50.953804,
+            y: 22.35359,
+            z: 45.933773,
+          },
+          {
+            x: -51.7458038,
+            y: 22.35359,
+            z: 45.9337769,
+          },
+        ],
+        top: 22.7587433,
+        bottom: 21.9484367,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5e42c83786f7742a021fdf3c',
+          name: 'Object #21WS 钥匙卡',
+          normalizedName: 'object-21ws-keycard',
+        },
+        needsPower: false,
+        position: {
+          x: 140.195663,
+          y: 25.2079964,
+          z: 263.315277,
+        },
+        outline: null,
+        top: 25.2079964,
+        bottom: 25.2079964,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.6221828,
+          y: 27.76,
+          z: -256.030029,
+        },
+        outline: [
+          {
+            x: 24.40718,
+            y: 27.82,
+            z: -256.090027,
+          },
+          {
+            x: 24.8371811,
+            y: 27.82,
+            z: -256.090027,
+          },
+          {
+            x: 24.837183,
+            y: 27.82,
+            z: -255.950027,
+          },
+          {
+            x: 24.4071827,
+            y: 27.82,
+            z: -255.950012,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.6221828,
+          y: 27.76,
+          z: -269.569946,
+        },
+        outline: [
+          {
+            x: 24.40718,
+            y: 27.82,
+            z: -269.629944,
+          },
+          {
+            x: 24.8371811,
+            y: 27.82,
+            z: -269.629944,
+          },
+          {
+            x: 24.837183,
+            y: 27.82,
+            z: -269.489929,
+          },
+          {
+            x: 24.4071827,
+            y: 27.82,
+            z: -269.489929,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.6221828,
+          y: 27.76,
+          z: -249.37999,
+        },
+        outline: [
+          {
+            x: 24.40718,
+            y: 27.82,
+            z: -249.439987,
+          },
+          {
+            x: 24.8371811,
+            y: 27.82,
+            z: -249.44,
+          },
+          {
+            x: 24.837183,
+            y: 27.82,
+            z: -249.3,
+          },
+          {
+            x: 24.4071827,
+            y: 27.82,
+            z: -249.299988,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.6221828,
+          y: 27.76,
+          z: -262.87,
+        },
+        outline: [
+          {
+            x: 24.40718,
+            y: 27.82,
+            z: -262.93,
+          },
+          {
+            x: 24.8371811,
+            y: 27.82,
+            z: -262.93,
+          },
+          {
+            x: 24.837183,
+            y: 27.82,
+            z: -262.789978,
+          },
+          {
+            x: 24.4071827,
+            y: 27.82,
+            z: -262.789978,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.6221828,
+          y: 27.76,
+          z: -276.300049,
+        },
+        outline: [
+          {
+            x: 24.40718,
+            y: 27.82,
+            z: -276.360046,
+          },
+          {
+            x: 24.8371811,
+            y: 27.82,
+            z: -276.360046,
+          },
+          {
+            x: 24.837183,
+            y: 27.82,
+            z: -276.220032,
+          },
+          {
+            x: 24.4071827,
+            y: 27.82,
+            z: -276.220032,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.62219,
+          y: 27.76,
+          z: -222.498978,
+        },
+        outline: [
+          {
+            x: 24.4071884,
+            y: 27.82,
+            z: -222.558975,
+          },
+          {
+            x: 24.8371887,
+            y: 27.82,
+            z: -222.55899,
+          },
+          {
+            x: 24.83719,
+            y: 27.82,
+            z: -222.418991,
+          },
+          {
+            x: 24.40719,
+            y: 27.82,
+            z: -222.418976,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.62219,
+          y: 27.76,
+          z: -242.510971,
+        },
+        outline: [
+          {
+            x: 24.4071884,
+            y: 27.82,
+            z: -242.570969,
+          },
+          {
+            x: 24.8371887,
+            y: 27.82,
+            z: -242.570984,
+          },
+          {
+            x: 24.83719,
+            y: 27.82,
+            z: -242.430984,
+          },
+          {
+            x: 24.40719,
+            y: 27.82,
+            z: -242.430969,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.62219,
+          y: 27.76,
+          z: -235.93602,
+        },
+        outline: [
+          {
+            x: 24.4071884,
+            y: 27.82,
+            z: -235.996017,
+          },
+          {
+            x: 24.8371887,
+            y: 27.82,
+            z: -235.996033,
+          },
+          {
+            x: 24.83719,
+            y: 27.82,
+            z: -235.856033,
+          },
+          {
+            x: 24.40719,
+            y: 27.82,
+            z: -235.856018,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.62219,
+          y: 27.76,
+          z: -229.114,
+        },
+        outline: [
+          {
+            x: 24.4071884,
+            y: 27.82,
+            z: -229.174,
+          },
+          {
+            x: 24.8371887,
+            y: 27.82,
+            z: -229.174011,
+          },
+          {
+            x: 24.83719,
+            y: 27.82,
+            z: -229.034012,
+          },
+          {
+            x: 24.40719,
+            y: 27.82,
+            z: -229.034,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.62219,
+          y: 27.76,
+          z: -215.786942,
+        },
+        outline: [
+          {
+            x: 24.4071884,
+            y: 27.82,
+            z: -215.846939,
+          },
+          {
+            x: 24.8371887,
+            y: 27.82,
+            z: -215.846954,
+          },
+          {
+            x: 24.83719,
+            y: 27.82,
+            z: -215.706955,
+          },
+          {
+            x: 24.40719,
+            y: 27.82,
+            z: -215.70694,
+          },
+        ],
+        top: 27.9,
+        bottom: 27.74,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -92.362114,
+          y: 27.7764912,
+          z: -104.179,
+        },
+        outline: [
+          {
+            x: -92.54031,
+            y: 27.89649,
+            z: -104.27034,
+          },
+          {
+            x: -92.19391,
+            y: 27.89649,
+            z: -104.070335,
+          },
+          {
+            x: -92.33391,
+            y: 27.89649,
+            z: -103.82785,
+          },
+          {
+            x: -92.68031,
+            y: 27.89649,
+            z: -104.027847,
+          },
+        ],
+        top: 28.0564919,
+        bottom: 27.73649,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -80.73459,
+          y: 27.776495,
+          z: -68.17702,
+        },
+        outline: [
+          {
+            x: -80.72459,
+            y: 27.8964939,
+            z: -68.37702,
+          },
+          {
+            x: -80.44459,
+            y: 27.8964939,
+            z: -68.37702,
+          },
+          {
+            x: -80.44459,
+            y: 27.8964939,
+            z: -68.3770142,
+          },
+          {
+            x: -80.44459,
+            y: 27.8964939,
+            z: -67.97702,
+          },
+          {
+            x: -80.7245941,
+            y: 27.8964939,
+            z: -67.97702,
+          },
+        ],
+        top: 28.0564957,
+        bottom: 27.7364941,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.592186,
+          y: 27.76,
+          z: -216.305969,
+        },
+        outline: [
+          {
+            x: 26.3621845,
+            y: 27.82,
+            z: -216.320969,
+          },
+          {
+            x: 26.8221855,
+            y: 27.82,
+            z: -216.320969,
+          },
+          {
+            x: 26.8221874,
+            y: 27.82,
+            z: -216.170959,
+          },
+          {
+            x: 26.3621864,
+            y: 27.82,
+            z: -216.170959,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.592186,
+          y: 27.76,
+          z: -229.633026,
+        },
+        outline: [
+          {
+            x: 26.3621845,
+            y: 27.82,
+            z: -229.648026,
+          },
+          {
+            x: 26.8221855,
+            y: 27.82,
+            z: -229.648026,
+          },
+          {
+            x: 26.8221874,
+            y: 27.82,
+            z: -229.498016,
+          },
+          {
+            x: 26.3621864,
+            y: 27.82,
+            z: -229.498016,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.592186,
+          y: 27.76,
+          z: -236.455048,
+        },
+        outline: [
+          {
+            x: 26.3621845,
+            y: 27.82,
+            z: -236.470047,
+          },
+          {
+            x: 26.8221855,
+            y: 27.82,
+            z: -236.470047,
+          },
+          {
+            x: 26.8221874,
+            y: 27.82,
+            z: -236.320038,
+          },
+          {
+            x: 26.3621864,
+            y: 27.82,
+            z: -236.320038,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.592186,
+          y: 27.76,
+          z: -243.03,
+        },
+        outline: [
+          {
+            x: 26.3621845,
+            y: 27.82,
+            z: -243.045,
+          },
+          {
+            x: 26.8221855,
+            y: 27.82,
+            z: -243.045,
+          },
+          {
+            x: 26.8221874,
+            y: 27.82,
+            z: -242.894989,
+          },
+          {
+            x: 26.3621864,
+            y: 27.82,
+            z: -242.894989,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.592186,
+          y: 27.76,
+          z: -223.018,
+        },
+        outline: [
+          {
+            x: 26.3621845,
+            y: 27.82,
+            z: -223.033,
+          },
+          {
+            x: 26.8221855,
+            y: 27.82,
+            z: -223.033,
+          },
+          {
+            x: 26.8221874,
+            y: 27.82,
+            z: -222.883,
+          },
+          {
+            x: 26.3621864,
+            y: 27.82,
+            z: -222.883,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.5921783,
+          y: 27.76,
+          z: -276.819061,
+        },
+        outline: [
+          {
+            x: 26.3621769,
+            y: 27.82,
+            z: -276.834045,
+          },
+          {
+            x: 26.8221779,
+            y: 27.82,
+            z: -276.834045,
+          },
+          {
+            x: 26.82218,
+            y: 27.82,
+            z: -276.684052,
+          },
+          {
+            x: 26.3621788,
+            y: 27.82,
+            z: -276.684052,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.5921783,
+          y: 27.76,
+          z: -263.389,
+        },
+        outline: [
+          {
+            x: 26.3621769,
+            y: 27.82,
+            z: -263.404,
+          },
+          {
+            x: 26.8221779,
+            y: 27.82,
+            z: -263.404,
+          },
+          {
+            x: 26.82218,
+            y: 27.82,
+            z: -263.254,
+          },
+          {
+            x: 26.3621788,
+            y: 27.82,
+            z: -263.254,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.5921783,
+          y: 27.76,
+          z: -249.899017,
+        },
+        outline: [
+          {
+            x: 26.3621769,
+            y: 27.82,
+            z: -249.914017,
+          },
+          {
+            x: 26.8221779,
+            y: 27.82,
+            z: -249.914017,
+          },
+          {
+            x: 26.82218,
+            y: 27.82,
+            z: -249.764,
+          },
+          {
+            x: 26.3621788,
+            y: 27.82,
+            z: -249.764,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.5921783,
+          y: 27.76,
+          z: -256.549042,
+        },
+        outline: [
+          {
+            x: 26.3621769,
+            y: 27.82,
+            z: -256.564026,
+          },
+          {
+            x: 26.8221779,
+            y: 27.82,
+            z: -256.564026,
+          },
+          {
+            x: 26.82218,
+            y: 27.82,
+            z: -256.414032,
+          },
+          {
+            x: 26.3621788,
+            y: 27.82,
+            z: -256.414032,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 26.5921783,
+          y: 27.76,
+          z: -270.088959,
+        },
+        outline: [
+          {
+            x: 26.3621769,
+            y: 27.82,
+            z: -270.103943,
+          },
+          {
+            x: 26.8221779,
+            y: 27.82,
+            z: -270.103943,
+          },
+          {
+            x: 26.82218,
+            y: 27.82,
+            z: -269.953949,
+          },
+          {
+            x: 26.3621788,
+            y: 27.82,
+            z: -269.953949,
+          },
+        ],
+        top: 27.885,
+        bottom: 27.755,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -22.0699,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: -22.12991,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: -21.9899082,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: -21.9898911,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: -22.12989,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -3.10987759,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: -3.169887,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: -3.0298872,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: -3.02986813,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: -3.16986823,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -31.4499626,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: -31.5099716,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: -31.36997,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: -31.3699532,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: -31.5099525,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -12.4899435,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: -12.5499535,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: -12.4099531,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: -12.409934,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: -12.5499344,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -49.9599724,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: -50.01998,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: -49.879982,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: -49.8799629,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: -50.0199623,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 25.5200043,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: 25.4599953,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: 25.5999966,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: 25.6000137,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: 25.4600143,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -40.5799065,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: -40.6399155,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: -40.4999161,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: -40.499897,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: -40.6398964,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 15.9400492,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: 15.8800392,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: 16.02004,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: 16.0200577,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: 15.8800583,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 6.55998325,
+          y: 27.77,
+          z: 99.57,
+        },
+        outline: [
+          {
+            x: 6.499974,
+            y: 27.83,
+            z: 99.355,
+          },
+          {
+            x: 6.63997364,
+            y: 27.83,
+            z: 99.3549957,
+          },
+          {
+            x: 6.63999271,
+            y: 27.83,
+            z: 99.784996,
+          },
+          {
+            x: 6.499993,
+            y: 27.83,
+            z: 99.785,
+          },
+        ],
+        top: 27.91,
+        bottom: 27.75,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -95.88899,
+          y: 28.1000023,
+          z: 31.5300369,
+        },
+        outline: [
+          {
+            x: -95.95399,
+            y: 28.1600018,
+            z: 31.3050365,
+          },
+          {
+            x: -95.74399,
+            y: 28.1600018,
+            z: 31.3050365,
+          },
+          {
+            x: -95.74399,
+            y: 28.1600018,
+            z: 31.7550373,
+          },
+          {
+            x: -95.95399,
+            y: 28.1600018,
+            z: 31.7550373,
+          },
+        ],
+        top: 28.2300034,
+        bottom: 28.0900021,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -89.228,
+          y: 28.1010017,
+          z: 32.8160324,
+        },
+        outline: [
+          {
+            x: -89.373,
+            y: 28.1610012,
+            z: 32.5910339,
+          },
+          {
+            x: -89.163,
+            y: 28.1610012,
+            z: 32.5910339,
+          },
+          {
+            x: -89.163,
+            y: 28.1610012,
+            z: 33.04103,
+          },
+          {
+            x: -89.373,
+            y: 28.1610012,
+            z: 33.04103,
+          },
+        ],
+        top: 28.2310028,
+        bottom: 28.0910015,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -89.228,
+          y: 28.101,
+          z: 37.6970444,
+        },
+        outline: [
+          {
+            x: -89.373,
+            y: 28.161,
+            z: 37.4720459,
+          },
+          {
+            x: -89.163,
+            y: 28.161,
+            z: 37.4720459,
+          },
+          {
+            x: -89.163,
+            y: 28.161,
+            z: 37.9220428,
+          },
+          {
+            x: -89.373,
+            y: 28.161,
+            z: 37.9220428,
+          },
+        ],
+        top: 28.231,
+        bottom: 28.091,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 80.77603,
+          y: 28.1008835,
+          z: -294.292,
+        },
+        outline: [
+          {
+            x: 80.55103,
+            y: 28.1608829,
+            z: -294.436981,
+          },
+          {
+            x: 81.00103,
+            y: 28.1608829,
+            z: -294.436981,
+          },
+          {
+            x: 81.00103,
+            y: 28.1608829,
+            z: -294.227,
+          },
+          {
+            x: 80.55103,
+            y: 28.1608829,
+            z: -294.227,
+          },
+        ],
+        top: 28.2308826,
+        bottom: 28.0908833,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -57.0515823,
+          y: 27.8368759,
+          z: -100.4599,
+        },
+        outline: [
+          {
+            x: -57.2495,
+            y: 27.8968754,
+            z: -100.585106,
+          },
+          {
+            x: -56.81738,
+            y: 27.8968754,
+            z: -100.459526,
+          },
+          {
+            x: -56.8759842,
+            y: 27.8968754,
+            z: -100.257866,
+          },
+          {
+            x: -57.3081055,
+            y: 27.8968754,
+            z: -100.383453,
+          },
+        ],
+        top: 27.9668751,
+        bottom: 27.8268757,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 68.07676,
+          y: 22.5304565,
+          z: -257.210419,
+        },
+        outline: [
+          {
+            x: 67.97263,
+            y: 22.590456,
+            z: -257.457,
+          },
+          {
+            x: 68.1795,
+            y: 22.590456,
+            z: -257.420868,
+          },
+          {
+            x: 68.10208,
+            y: 22.590456,
+            z: -256.9776,
+          },
+          {
+            x: 67.89521,
+            y: 22.590456,
+            z: -257.0137,
+          },
+        ],
+        top: 22.6604557,
+        bottom: 22.5204563,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 68.10306,
+          y: 22.5304565,
+          z: -258.82196,
+        },
+        outline: [
+          {
+            x: 67.95805,
+            y: 22.590456,
+            z: -259.046967,
+          },
+          {
+            x: 68.16805,
+            y: 22.590456,
+            z: -259.046967,
+          },
+          {
+            x: 68.16805,
+            y: 22.590456,
+            z: -258.596954,
+          },
+          {
+            x: 67.95805,
+            y: 22.590456,
+            z: -258.596954,
+          },
+        ],
+        top: 22.6604557,
+        bottom: 22.5204563,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7242b86f7740a6a3abd43',
+          name: 'IDEA收银机钥匙',
+          normalizedName: 'idea-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 78.97584,
+          y: 28.1008835,
+          z: -294.297638,
+        },
+        outline: [
+          {
+            x: 78.72335,
+            y: 28.1608829,
+            z: -294.386536,
+          },
+          {
+            x: 79.1610947,
+            y: 28.1608829,
+            z: -294.490845,
+          },
+          {
+            x: 79.20977,
+            y: 28.1608829,
+            z: -294.28656,
+          },
+          {
+            x: 78.7720261,
+            y: 28.1608829,
+            z: -294.182251,
+          },
+        ],
+        top: 28.2308826,
+        bottom: 28.0908833,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -41.09899,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: -41.1140022,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: -40.964,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: -40.96398,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: -41.1139832,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 6.04089642,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: 6.025886,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: 6.175886,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: 6.17590666,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: 6.02590656,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 15.4209623,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: 15.4059525,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: 15.5559521,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: 15.5559721,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: 15.4059725,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: 25.0009174,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: 24.9859085,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: 25.1359081,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: 25.13593,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: 24.9859276,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -22.5889874,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: -22.6039963,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: -22.4539967,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: -22.4539757,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: -22.6039772,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -3.62896442,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: -3.64397454,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: -3.49397469,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: -3.49395442,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: -3.64395428,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -31.96905,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: -31.9840584,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: -31.8340588,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: -31.8340378,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: -31.98404,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -13.00903,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: -13.02404,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: -12.8740406,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: -12.8740206,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: -13.02402,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7217186f7746744498875',
+          name: 'OLI收银机钥匙',
+          normalizedName: 'oli-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -50.4790573,
+          y: 27.77,
+          z: 97.60002,
+        },
+        outline: [
+          {
+            x: -50.49407,
+            y: 27.83,
+            z: 97.3700256,
+          },
+          {
+            x: -50.3440666,
+            y: 27.83,
+            z: 97.37002,
+          },
+          {
+            x: -50.3440475,
+            y: 27.83,
+            z: 97.83002,
+          },
+          {
+            x: -50.49405,
+            y: 27.83,
+            z: 97.8300247,
+          },
+        ],
+        top: 27.895,
+        bottom: 27.765,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -82.9019852,
+          y: 27.7764912,
+          z: -108.0699,
+        },
+        outline: [
+          {
+            x: -83.09935,
+            y: 27.8564911,
+            z: -108.167236,
+          },
+          {
+            x: -82.6908646,
+            y: 27.8564911,
+            z: -108.131973,
+          },
+          {
+            x: -82.70291,
+            y: 27.8564911,
+            z: -107.992493,
+          },
+          {
+            x: -83.11139,
+            y: 27.8564911,
+            z: -108.027756,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.40048,
+          y: 27.7764912,
+          z: -104.292892,
+        },
+        outline: [
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -104.372894,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -104.372894,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -104.232895,
+          },
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -104.232895,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.40048,
+          y: 27.7764912,
+          z: -98.66789,
+        },
+        outline: [
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -98.7478943,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -98.7478943,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -98.6078949,
+          },
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -98.6078949,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -20.4,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -20.48,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -20.48,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -20.3399982,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -20.34,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -87.5038452,
+          y: 27.776495,
+          z: -49.0153542,
+        },
+        outline: [
+          {
+            x: -87.71625,
+            y: 27.8564949,
+            z: -49.07289,
+          },
+          {
+            x: -87.30862,
+            y: 27.8564949,
+            z: -49.1168938,
+          },
+          {
+            x: -87.2935944,
+            y: 27.8564949,
+            z: -48.9777031,
+          },
+          {
+            x: -87.7012253,
+            y: 27.8564949,
+            z: -48.9337,
+          },
+        ],
+        top: 27.941494,
+        bottom: 27.7714939,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -84.46201,
+          y: 27.7764912,
+          z: -124.023407,
+        },
+        outline: [
+          {
+            x: -84.66309,
+            y: 27.8564911,
+            z: -124.095467,
+          },
+          {
+            x: -84.2538147,
+            y: 27.8564911,
+            z: -124.071144,
+          },
+          {
+            x: -84.2621155,
+            y: 27.8564911,
+            z: -123.931389,
+          },
+          {
+            x: -84.6713943,
+            y: 27.8564911,
+            z: -123.955711,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -30.1569958,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -30.2369957,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -30.2369957,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -30.0969944,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -30.0969963,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -22.876997,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -22.9569969,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -22.9569969,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -22.8169956,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -22.8169975,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -84.3212,
+          y: 27.776495,
+          z: -66.45119,
+        },
+        outline: [
+          {
+            x: -84.53992,
+            y: 27.8564949,
+            z: -66.4754,
+          },
+          {
+            x: -84.14389,
+            y: 27.8564949,
+            z: -66.58152,
+          },
+          {
+            x: -84.10766,
+            y: 27.8564949,
+            z: -66.44629,
+          },
+          {
+            x: -84.503685,
+            y: 27.8564949,
+            z: -66.34018,
+          },
+        ],
+        top: 27.941494,
+        bottom: 27.7714939,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.62959,
+          y: 27.7765026,
+          z: 9.555013,
+        },
+        outline: [
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 9.475013,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 9.475013,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 9.615012,
+          },
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 9.615012,
+          },
+        ],
+        top: 27.9415016,
+        bottom: 27.7715015,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.70695,
+          y: 27.7764931,
+          z: -50.30275,
+        },
+        outline: [
+          {
+            x: -83.92053,
+            y: 27.856493,
+            z: -50.30003,
+          },
+          {
+            x: -83.52854,
+            y: 27.856493,
+            z: -50.4202042,
+          },
+          {
+            x: -83.4875,
+            y: 27.856493,
+            z: -50.28635,
+          },
+          {
+            x: -83.87949,
+            y: 27.856493,
+            z: -50.16618,
+          },
+        ],
+        top: 27.9414921,
+        bottom: 27.771492,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -32.6340027,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -32.714,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -32.714,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -32.574,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -32.574,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.62959,
+          y: 27.7765026,
+          z: 7.08700657,
+        },
+        outline: [
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 7.00700665,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 7.00700665,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 7.14700651,
+          },
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 7.14700651,
+          },
+        ],
+        top: 27.9415016,
+        bottom: 27.7715015,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.26354,
+          y: 27.7764835,
+          z: -122.391174,
+        },
+        outline: [
+          {
+            x: -83.43822,
+            y: 27.8564835,
+            z: -122.525009,
+          },
+          {
+            x: -83.04438,
+            y: 27.8564835,
+            z: -122.411026,
+          },
+          {
+            x: -83.0833054,
+            y: 27.8564835,
+            z: -122.276543,
+          },
+          {
+            x: -83.47714,
+            y: 27.8564835,
+            z: -122.390526,
+          },
+        ],
+        top: 27.9414825,
+        bottom: 27.7714825,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -25.3969936,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -25.4769936,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -25.4769936,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -25.3369923,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -25.3369942,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.62959,
+          y: 27.7765026,
+          z: 4.674012,
+        },
+        outline: [
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 4.59401226,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 4.59401226,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 4.734012,
+          },
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 4.734012,
+          },
+        ],
+        top: 27.9415016,
+        bottom: 27.7715015,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.40048,
+          y: 27.7764912,
+          z: -95.97089,
+        },
+        outline: [
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -96.05089,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -96.05089,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -95.91089,
+          },
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -95.91089,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.40048,
+          y: 27.7764912,
+          z: -101.475891,
+        },
+        outline: [
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -101.555893,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -101.555893,
+          },
+          {
+            x: -83.19548,
+            y: 27.8564911,
+            z: -101.415894,
+          },
+          {
+            x: -83.605484,
+            y: 27.8564911,
+            z: -101.415894,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -27.873991,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -27.95399,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -27.95399,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -27.81399,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -27.8139915,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -18.1169949,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -18.1969948,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -18.1969948,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -18.0569935,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -18.0569954,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.62959,
+          y: 27.7765,
+          z: -0.466994464,
+        },
+        outline: [
+          {
+            x: -83.8345947,
+            y: 27.8565,
+            z: -0.546994448,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565,
+            z: -0.546994448,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565,
+            z: -0.406994462,
+          },
+          {
+            x: -83.8345947,
+            y: 27.8565,
+            z: -0.406994462,
+          },
+        ],
+        top: 27.9415,
+        bottom: 27.7715,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.86401,
+          y: 27.7764912,
+          z: -118.549377,
+        },
+        outline: [
+          {
+            x: -83.72828,
+            y: 27.8564911,
+            z: -118.722588,
+          },
+          {
+            x: -83.65702,
+            y: 27.8564911,
+            z: -118.602081,
+          },
+          {
+            x: -84.0099258,
+            y: 27.8564911,
+            z: -118.393387,
+          },
+          {
+            x: -84.08119,
+            y: 27.8564911,
+            z: -118.513885,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -82.89711,
+          y: 27.7764912,
+          z: -72.61372,
+        },
+        outline: [
+          {
+            x: -82.7595749,
+            y: 27.8564911,
+            z: -72.78551,
+          },
+          {
+            x: -82.6895752,
+            y: 27.8564911,
+            z: -72.66426,
+          },
+          {
+            x: -83.04465,
+            y: 27.8564911,
+            z: -72.45927,
+          },
+          {
+            x: -83.11465,
+            y: 27.8564911,
+            z: -72.58051,
+          },
+        ],
+        top: 27.94149,
+        bottom: 27.77149,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.62959,
+          y: 27.7765026,
+          z: 2.1070106,
+        },
+        outline: [
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 2.02701068,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 2.02701068,
+          },
+          {
+            x: -83.42459,
+            y: 27.8565025,
+            z: 2.16701078,
+          },
+          {
+            x: -83.8345947,
+            y: 27.8565025,
+            z: 2.16701078,
+          },
+        ],
+        top: 27.9415016,
+        bottom: 27.7715015,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -83.51459,
+          y: 27.7764988,
+          z: -15.6399975,
+        },
+        outline: [
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -15.7199984,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -15.7199974,
+          },
+          {
+            x: -83.3095856,
+            y: 27.8564987,
+            z: -15.5799971,
+          },
+          {
+            x: -83.71959,
+            y: 27.8564987,
+            z: -15.579998,
+          },
+        ],
+        top: 27.9414978,
+        bottom: 27.7714977,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5ad7247386f7747487619dc3',
+          name: 'Goshan收银机钥匙',
+          normalizedName: 'goshan-cash-register-key',
+        },
+        needsPower: false,
+        position: {
+          x: -84.3846,
+          y: 27.7764835,
+          z: -126.089035,
+        },
+        outline: [
+          {
+            x: -84.5896,
+            y: 27.8564835,
+            z: -126.149033,
+          },
+          {
+            x: -84.1796,
+            y: 27.8564835,
+            z: -126.149048,
+          },
+          {
+            x: -84.1795959,
+            y: 27.8564835,
+            z: -126.009048,
+          },
+          {
+            x: -84.5896,
+            y: 27.8564835,
+            z: -126.009033,
+          },
+        ],
+        top: 27.9414825,
+        bottom: 27.7714825,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -53.2254944,
+          y: 29.0856476,
+          z: -70.3720856,
+        },
+        outline: [
+          {
+            x: -54.67588,
+            y: 29.0856476,
+            z: -70.52468,
+          },
+          {
+            x: -53.7057724,
+            y: 29.0856476,
+            z: -70.76735,
+          },
+          {
+            x: -53.70577,
+            y: 29.0856476,
+            z: -70.76735,
+          },
+          {
+            x: -53.4631,
+            y: 29.0856476,
+            z: -69.79724,
+          },
+          {
+            x: -54.43321,
+            y: 29.0856476,
+            z: -69.55457,
+          },
+        ],
+        top: 29.5856476,
+        bottom: 28.5856476,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5d64486f774079b080af8',
+          name: '药房钥匙',
+          normalizedName: 'necruspharm-pharmacy-key',
+        },
+        needsPower: false,
+        position: {
+          x: 68.53804,
+          y: 22.4947357,
+          z: -255.424225,
+        },
+        outline: [
+          {
+            x: 68.43804,
+            y: 22.4947357,
+            z: -255.267715,
+          },
+          {
+            x: 68.6980438,
+            y: 22.4947357,
+            z: -255.267715,
+          },
+          {
+            x: 68.6980438,
+            y: 22.4947357,
+            z: -254.604843,
+          },
+          {
+            x: 68.43804,
+            y: 22.4947357,
+            z: -254.604843,
+          },
+        ],
+        top: 22.9159355,
+        bottom: 22.0735359,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5db3786f7743568421cce',
+          name: 'EMERCOM医疗区钥匙',
+          normalizedName: 'emercom-medical-unit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 24.136982,
+          y: 28.4790325,
+          z: -112.8551,
+        },
+        outline: [
+          {
+            x: 22.91698,
+            y: 28.1090317,
+            z: -112.955109,
+          },
+          {
+            x: 23.91698,
+            y: 28.1090317,
+            z: -112.955109,
+          },
+          {
+            x: 23.91698,
+            y: 28.1090317,
+            z: -112.755104,
+          },
+          {
+            x: 22.91698,
+            y: 28.1090317,
+            z: -112.755104,
+          },
+        ],
+        top: 28.8840313,
+        bottom: 27.3340321,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5db3786f7743568421cce',
+          name: 'EMERCOM医疗区钥匙',
+          normalizedName: 'emercom-medical-unit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 34.14116,
+          y: 28.4790325,
+          z: -108.287651,
+        },
+        outline: [
+          {
+            x: 34.0361557,
+            y: 28.4790325,
+            z: -109.547653,
+          },
+          {
+            x: 34.2461548,
+            y: 28.4790325,
+            z: -109.547653,
+          },
+          {
+            x: 34.2461548,
+            y: 28.4790325,
+            z: -108.547653,
+          },
+          {
+            x: 34.0361557,
+            y: 28.4790325,
+            z: -108.547653,
+          },
+        ],
+        top: 29.3440323,
+        bottom: 27.6140327,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5db3786f7743568421cce',
+          name: 'EMERCOM医疗区钥匙',
+          normalizedName: 'emercom-medical-unit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 6.732233,
+          y: 28.4790344,
+          z: -107.304314,
+        },
+        outline: [
+          {
+            x: 6.389286,
+            y: 28.4790344,
+            z: -107.109863,
+          },
+          {
+            x: 6.537779,
+            y: 28.4790344,
+            z: -106.961365,
+          },
+          {
+            x: 5.83067226,
+            y: 28.4790344,
+            z: -106.254257,
+          },
+          {
+            x: 5.68217945,
+            y: 28.4790344,
+            z: -106.402756,
+          },
+        ],
+        top: 29.3390331,
+        bottom: 27.6190338,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -158.200043,
+          y: 23.2835026,
+          z: 57.2228241,
+        },
+        outline: [
+          {
+            x: -159.463181,
+            y: 23.2835026,
+            z: 56.493866,
+          },
+          {
+            x: -158.696686,
+            y: 23.2835026,
+            z: 55.85161,
+          },
+          {
+            x: -158.054443,
+            y: 23.2835026,
+            z: 56.6180954,
+          },
+          {
+            x: -158.820923,
+            y: 23.2835026,
+            z: 57.2603531,
+          },
+        ],
+        top: 23.7835026,
+        bottom: 22.7835026,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -90.1167145,
+          y: 23.29,
+          z: 114.827461,
+        },
+        outline: [
+          {
+            x: -91.3827057,
+            y: 23.29,
+            z: 114.103485,
+          },
+          {
+            x: -90.61876,
+            y: 23.29,
+            z: 113.458206,
+          },
+          {
+            x: -89.97348,
+            y: 23.29,
+            z: 114.222168,
+          },
+          {
+            x: -89.97349,
+            y: 23.29,
+            z: 114.222168,
+          },
+          {
+            x: -90.73744,
+            y: 23.29,
+            z: 114.867432,
+          },
+        ],
+        top: 23.79,
+        bottom: 22.79,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5cfbd86f7742c825d6104',
+          name: 'OLI物流部钥匙',
+          normalizedName: 'oli-logistics-department-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: 83.1990051,
+          y: 28.1199989,
+          z: 115.673004,
+        },
+        outline: [
+          {
+            x: 83.09901,
+            y: 28.12,
+            z: 115.843,
+          },
+          {
+            x: 83.0990143,
+            y: 28.12,
+            z: 115.843,
+          },
+          {
+            x: 83.35901,
+            y: 28.12,
+            z: 115.843,
+          },
+          {
+            x: 83.35901,
+            y: 28.12,
+            z: 116.563,
+          },
+          {
+            x: 83.09901,
+            y: 28.12,
+            z: 116.563,
+          },
+        ],
+        top: 28.525,
+        bottom: 27.715,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5d20586f77449be26d877',
+          name: 'OLI超市杂物间钥匙',
+          normalizedName: 'oli-outlet-utility-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -102.823967,
+          y: 28.12,
+          z: 80.48102,
+        },
+        outline: [
+          {
+            x: -103.713982,
+            y: 28.1199989,
+            z: 80.38103,
+          },
+          {
+            x: -103.713982,
+            y: 28.1199989,
+            z: 80.38102,
+          },
+          {
+            x: -102.99398,
+            y: 28.1199989,
+            z: 80.38102,
+          },
+          {
+            x: -102.99398,
+            y: 28.1199989,
+            z: 80.64102,
+          },
+          {
+            x: -103.713982,
+            y: 28.1199989,
+            z: 80.64102,
+          },
+        ],
+        top: 28.525,
+        bottom: 27.715,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ad5ccd186f774446d5706e9',
+          name: 'OLI管理员办公室钥匙',
+          normalizedName: 'oli-administration-office-key',
+        },
+        needsPower: false,
+        position: {
+          x: 85.18402,
+          y: 28.1199989,
+          z: 104.638214,
+        },
+        outline: [
+          {
+            x: 84.29402,
+            y: 28.12,
+            z: 104.538216,
+          },
+          {
+            x: 85.01402,
+            y: 28.12,
+            z: 104.538216,
+          },
+          {
+            x: 85.0140152,
+            y: 28.12,
+            z: 104.798218,
+          },
+          {
+            x: 84.29402,
+            y: 28.12,
+            z: 104.798218,
+          },
+        ],
+        top: 28.525,
+        bottom: 27.715,
+      },
+    ],
+    switches: [
+      {
+        id: 'b6ebc39ee29cb6659334df309194b696bbfef555',
+        name: 'Mall Main Power Switch',
+        switchType: 'Close',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: -201.108,
+          y: 23.1857,
+          z: -357.8291,
+        },
+      },
+      {
+        id: '6b9023f26446d73433823e872e6d69688083beaf',
+        name: 'Non-Kiba Alarms Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: -46.555,
+          y: 37.347,
+          z: -55.202,
+        },
+      },
+      {
+        id: '7850544cf54bb60c9d259b6b0583f53082637bf3',
+        name: 'Alarms Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: -67.1342545,
+          y: 27.9506,
+          z: 53.7422676,
+        },
+      },
+      {
+        id: '42d13e53ae13417e3ee1dab2606e9b2fa4ff6147',
+        name: 'Saferoom Exfil Switch',
+        switchType: 'Close',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: '9570d4e280d97bd1a43756135036f3212eb6d8a8',
+              name: '安全屋撤离点',
+              faction: 'pmc',
+            },
+          },
+        ],
+        position: {
+          x: -50.6210022,
+          y: 22.632,
+          z: 45.617,
+        },
+      },
+      {
+        id: '5173fd12df8e7445613e130233e235a94d94b70d',
+        name: 'Saferoom Exfil Unlock Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: -51.547,
+          y: 36.86,
+          z: -125.440712,
+        },
+      },
+      {
+        id: 'a91897cf1f9ab86c1376fec5fdf8a921e491a1a4',
+        name: 'Object 14 Container Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: -47.698,
+          y: 22.891,
+          z: 42.6198,
+        },
       },
     ],
     hazards: [],
@@ -65749,6 +86495,7 @@ export default [
         ],
       },
     ],
+    nameId: 'laboratory',
     spawns: [
       {
         zoneName: '00a92ab8-28d7-4c1c-87a5-ef1c480e9900',
@@ -67837,6 +88584,886 @@ export default [
         ],
         top: 11.7320433,
         bottom: -0.652356148,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1e2a1e86f77431ea0ea84c',
+          name: '实验室钥匙·经理办公室',
+          normalizedName: 'terragroup-labs-managers-office-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -165.246277,
+          y: 5.131374,
+          z: -349.197,
+        },
+        outline: [
+          {
+            x: -165.326279,
+            y: 5.131374,
+            z: -348.607,
+          },
+          {
+            x: -165.166275,
+            y: 5.131374,
+            z: -348.607,
+          },
+          {
+            x: -165.166275,
+            y: 5.131374,
+            z: -347.907,
+          },
+          {
+            x: -165.326279,
+            y: 5.131374,
+            z: -347.907,
+          },
+        ],
+        top: 5.551374,
+        bottom: 4.711374,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1e2a1e86f77431ea0ea84c',
+          name: '实验室钥匙·经理办公室',
+          normalizedName: 'terragroup-labs-managers-office-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -165.242874,
+          y: 5.135374,
+          z: -338.086,
+        },
+        outline: [
+          {
+            x: -165.322876,
+            y: 5.135374,
+            z: -337.496,
+          },
+          {
+            x: -165.162872,
+            y: 5.135374,
+            z: -337.496,
+          },
+          {
+            x: -165.162872,
+            y: 5.135374,
+            z: -336.796,
+          },
+          {
+            x: -165.322876,
+            y: 5.135374,
+            z: -336.796,
+          },
+        ],
+        top: 5.555374,
+        bottom: 4.715374,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1e2d1f86f77431e9280bee',
+          name: '实验室钥匙·实验区（武器）',
+          normalizedName: 'terragroup-labs-weapon-testing-area-key',
+        },
+        needsPower: false,
+        position: {
+          x: -181.966461,
+          y: 1.37873685,
+          z: -318.226044,
+        },
+        outline: [
+          {
+            x: -182.881454,
+            y: 1.37873685,
+            z: -318.406036,
+          },
+          {
+            x: -182.37146,
+            y: 1.37873685,
+            z: -318.406036,
+          },
+          {
+            x: -182.37146,
+            y: 1.37873685,
+            z: -318.046051,
+          },
+          {
+            x: -182.881454,
+            y: 1.37873685,
+            z: -318.046021,
+          },
+          {
+            x: -182.881454,
+            y: 1.37873685,
+            z: -318.046051,
+          },
+        ],
+        top: 1.87873709,
+        bottom: 0.878736734,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1e2d1f86f77431e9280bee',
+          name: '实验室钥匙·实验区（武器）',
+          normalizedName: 'terragroup-labs-weapon-testing-area-key',
+        },
+        needsPower: false,
+        position: {
+          x: -179.862,
+          y: 1.37899876,
+          z: -310.3296,
+        },
+        outline: [
+          {
+            x: -180.041992,
+            y: 1.37899864,
+            z: -311.244568,
+          },
+          {
+            x: -179.682,
+            y: 1.37899864,
+            z: -311.244568,
+          },
+          {
+            x: -179.682,
+            y: 1.37899864,
+            z: -310.7346,
+          },
+          {
+            x: -180.041992,
+            y: 1.37899864,
+            z: -310.7346,
+          },
+        ],
+        top: 1.87899876,
+        bottom: 0.878998637,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0c5f86f7744bb2683cf0',
+          name: '实验室钥匙卡·蓝',
+          normalizedName: 'terragroup-labs-keycard-blue',
+        },
+        needsPower: false,
+        position: {
+          x: -123.229095,
+          y: 1.03631592,
+          z: -406.524384,
+        },
+        outline: [
+          {
+            x: -124.1141,
+            y: 1.03630829,
+            z: -406.73938,
+          },
+          {
+            x: -124.11409,
+            y: 1.03630829,
+            z: -406.73938,
+          },
+          {
+            x: -123.5641,
+            y: 1.03630829,
+            z: -406.73938,
+          },
+          {
+            x: -123.564095,
+            y: 1.03630829,
+            z: -406.73938,
+          },
+          {
+            x: -123.564095,
+            y: 1.03630829,
+            z: -406.1894,
+          },
+          {
+            x: -123.5641,
+            y: 1.03630829,
+            z: -406.1894,
+          },
+          {
+            x: -124.11409,
+            y: 1.03630829,
+            z: -406.1894,
+          },
+          {
+            x: -124.1141,
+            y: 1.03630829,
+            z: -406.1894,
+          },
+        ],
+        top: 1.53631592,
+        bottom: 0.5363083,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0dc586f7744baf2e7b79',
+          name: '实验室钥匙卡·绿 ',
+          normalizedName: 'terragroup-labs-keycard-green',
+        },
+        needsPower: false,
+        position: {
+          x: -135.89798,
+          y: 5.185806,
+          z: -346.9675,
+        },
+        outline: [
+          {
+            x: -137.222977,
+            y: 5.185804,
+            z: -347.1725,
+          },
+          {
+            x: -136.572983,
+            y: 5.185804,
+            z: -347.1725,
+          },
+          {
+            x: -136.572983,
+            y: 5.185804,
+            z: -346.8225,
+          },
+          {
+            x: -137.222977,
+            y: 5.185804,
+            z: -346.8225,
+          },
+        ],
+        top: 5.685806,
+        bottom: 4.685804,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0dc586f7744baf2e7b79',
+          name: '实验室钥匙卡·绿 ',
+          normalizedName: 'terragroup-labs-keycard-green',
+        },
+        needsPower: false,
+        position: {
+          x: -138.6131,
+          y: 5.25222349,
+          z: -346.966125,
+        },
+        outline: [
+          {
+            x: -137.8981,
+            y: 5.2522254,
+            z: -347.286133,
+          },
+          {
+            x: -137.2681,
+            y: 5.2522254,
+            z: -347.286133,
+          },
+          {
+            x: -137.2681,
+            y: 5.2522254,
+            z: -346.646149,
+          },
+          {
+            x: -137.8981,
+            y: 5.2522254,
+            z: -346.646149,
+          },
+        ],
+        top: 5.7522254,
+        bottom: 4.75222349,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5efde6b4f5448336730dbd61',
+          name: '蓝色记号钥匙卡',
+          normalizedName: 'keycard-with-a-blue-marking',
+        },
+        needsPower: false,
+        position: {
+          x: -130.268463,
+          y: 5.15560675,
+          z: -339.944275,
+        },
+        outline: [
+          {
+            x: -131.148468,
+            y: 5.15560675,
+            z: -340.119263,
+          },
+          {
+            x: -130.408478,
+            y: 5.15560675,
+            z: -340.119263,
+          },
+          {
+            x: -130.408463,
+            y: 5.15560675,
+            z: -340.119263,
+          },
+          {
+            x: -130.408463,
+            y: 5.15560675,
+            z: -339.769257,
+          },
+          {
+            x: -131.148468,
+            y: 5.15560675,
+            z: -339.769257,
+          },
+        ],
+        top: 5.65560675,
+        bottom: 4.655603,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0d6d86f7744bb2683e1f',
+          name: '实验室钥匙卡·黄 ',
+          normalizedName: 'terragroup-labs-keycard-yellow',
+        },
+        needsPower: false,
+        position: {
+          x: -212.695,
+          y: 5.145301,
+          z: -376.538,
+        },
+        outline: [
+          {
+            x: -212.555008,
+            y: 5.14530039,
+            z: -376.713,
+          },
+          {
+            x: -211.815,
+            y: 5.14530039,
+            z: -376.713,
+          },
+          {
+            x: -211.815,
+            y: 5.14530039,
+            z: -376.363,
+          },
+          {
+            x: -212.555,
+            y: 5.14530039,
+            z: -376.363,
+          },
+        ],
+        top: 5.645301,
+        bottom: 4.6453,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0f4986f7744bb01837fa',
+          name: '实验室钥匙卡·黑',
+          normalizedName: 'terragroup-labs-keycard-black',
+        },
+        needsPower: false,
+        position: {
+          x: -132.893,
+          y: 1.43501759,
+          z: -348.72,
+        },
+        outline: [
+          {
+            x: -133.013016,
+            y: 1.10501671,
+            z: -350.01,
+          },
+          {
+            x: -132.833008,
+            y: 1.10501671,
+            z: -350.01,
+          },
+          {
+            x: -132.833008,
+            y: 1.10501671,
+            z: -349.01,
+          },
+          {
+            x: -133.013,
+            y: 1.10501671,
+            z: -349.01,
+          },
+        ],
+        top: 1.60501766,
+        bottom: 0.6050167,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0f4986f7744bb01837fa',
+          name: '实验室钥匙卡·黑',
+          normalizedName: 'terragroup-labs-keycard-black',
+        },
+        needsPower: false,
+        position: {
+          x: -128.794,
+          y: 1.43701744,
+          z: -349.91507,
+        },
+        outline: [
+          {
+            x: -128.854,
+            y: 1.10701752,
+            z: -349.625061,
+          },
+          {
+            x: -128.674011,
+            y: 1.10701752,
+            z: -349.625061,
+          },
+          {
+            x: -128.674,
+            y: 1.10701752,
+            z: -348.625061,
+          },
+          {
+            x: -128.854,
+            y: 1.10701752,
+            z: -348.625061,
+          },
+        ],
+        top: 1.60701752,
+        bottom: 0.6070175,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1e495a86f7743109743dfb',
+          name: '实验室钥匙卡·紫',
+          normalizedName: 'terragroup-labs-keycard-violet',
+        },
+        needsPower: false,
+        position: {
+          x: -261.993,
+          y: 5.147805,
+          z: -317.240021,
+        },
+        outline: [
+          {
+            x: -262.16803,
+            y: 5.147805,
+            z: -318.12,
+          },
+          {
+            x: -261.818024,
+            y: 5.147805,
+            z: -318.12,
+          },
+          {
+            x: -261.818024,
+            y: 5.147805,
+            z: -317.38,
+          },
+          {
+            x: -262.16803,
+            y: 5.147805,
+            z: -317.38,
+          },
+        ],
+        top: 5.647806,
+        bottom: 4.647805,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1d0efb86f7744baf2e7b7b',
+          name: '实验室钥匙卡·红',
+          normalizedName: 'terragroup-labs-keycard-red',
+        },
+        needsPower: false,
+        position: {
+          x: -257.222015,
+          y: 5.24803066,
+          z: -322.925018,
+        },
+        outline: [
+          {
+            x: -257.257019,
+            y: 5.24802971,
+            z: -322.635,
+          },
+          {
+            x: -257.127,
+            y: 5.24802971,
+            z: -322.635,
+          },
+          {
+            x: -257.127,
+            y: 5.24802971,
+            z: -321.89502,
+          },
+          {
+            x: -257.257019,
+            y: 5.24802971,
+            z: -321.89502,
+          },
+        ],
+        top: 5.74803066,
+        bottom: 4.74802971,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5c1f79a086f7746ed066fb8f',
+          name: '实验室钥匙·军械库储备室',
+          normalizedName: 'terragroup-labs-arsenal-storage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -250.839066,
+          y: 5.097125,
+          z: -326.758667,
+        },
+        outline: [
+          {
+            x: -251.779251,
+            y: 5.00733662,
+            z: -326.823425,
+          },
+          {
+            x: -251.778961,
+            y: 5.00733662,
+            z: -326.82373,
+          },
+          {
+            x: -251.078964,
+            y: 5.00733662,
+            z: -326.8238,
+          },
+          {
+            x: -251.079254,
+            y: 5.00733662,
+            z: -326.8235,
+          },
+          {
+            x: -251.078949,
+            y: 5.00733662,
+            z: -326.6938,
+          },
+          {
+            x: -251.079239,
+            y: 5.00733662,
+            z: -326.693481,
+          },
+          {
+            x: -251.779236,
+            y: 5.00733662,
+            z: -326.693451,
+          },
+          {
+            x: -251.778946,
+            y: 5.00733662,
+            z: -326.693726,
+          },
+        ],
+        top: 5.40748549,
+        bottom: 4.60718775,
+      },
+    ],
+    switches: [
+      {
+        id: '014e9122e0fad99bcff6f93161712c3c6e1a2a75',
+        name: 'Med Elevator Power Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'd1d16f043cea7be35b2729c5e1e1dd648c6dee13',
+              name: 'Med Elevator Call Button',
+              switchType: 'Open',
+            },
+          },
+        ],
+        position: {
+          x: -124.758,
+          y: -2.31599617,
+          z: -313.806,
+        },
+      },
+      {
+        id: '72848c177c54e2913e7d0259f23fba929d14ebf5',
+        name: 'Main Elevator Call Button',
+        switchType: 'Open',
+        activatedBy: {
+          id: '911ef57b76415c1d42fdba3b5c8fdb587dd229a7',
+          name: 'Main Elevator Power Button',
+          switchType: 'Open',
+        },
+        activates: [],
+        position: {
+          x: -281.022,
+          y: -2.83799934,
+          z: -335.477,
+        },
+      },
+      {
+        id: 'd1d16f043cea7be35b2729c5e1e1dd648c6dee13',
+        name: 'Med Elevator Call Button',
+        switchType: 'Open',
+        activatedBy: {
+          id: '014e9122e0fad99bcff6f93161712c3c6e1a2a75',
+          name: 'Med Elevator Power Button',
+          switchType: 'Open',
+        },
+        activates: [],
+        position: {
+          x: -114.112,
+          y: -2.84599972,
+          z: -343.2,
+        },
+      },
+      {
+        id: '40ec0101fbf68e6d1b762a72080b9b9b9c91f6f1',
+        name: 'Hangar Gate Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: '6499ac7374cd238366b977944e305a08afd2e9e3',
+              name: '机库大门',
+              faction: 'pmc',
+            },
+          },
+        ],
+        position: {
+          x: -170.18,
+          y: 5.185,
+          z: -281.508,
+        },
+      },
+      {
+        id: '8e6aa12e37d1b09a56e1ae19ab203832b0e78df9',
+        name: 'Cargo Elevator Call Button',
+        switchType: 'Open',
+        activatedBy: {
+          id: 'c39cf1e7caac3b830c00b539ee12dfddeb061e2b',
+          name: 'Cargo Elevator Power Button',
+          switchType: 'Open',
+        },
+        activates: [],
+        position: {
+          x: -114.037,
+          y: 5.31399727,
+          z: -406.427979,
+        },
+      },
+      {
+        id: '558a518a272f611d2e6879b917adb407f428977f',
+        name: 'Cargo Elevator Extract Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Lock',
+            target: {
+              id: '8e6aa12e37d1b09a56e1ae19ab203832b0e78df9',
+              name: 'Cargo Elevator Call Button',
+              switchType: 'Open',
+            },
+          },
+          {
+            operation: 'Unlock',
+            target: {
+              id: '4cfc8fb5003e428d6cb9f8492690068afba50c71',
+              name: '货运电梯',
+              faction: 'shared',
+            },
+          },
+        ],
+        position: {
+          x: -112.378006,
+          y: 5.353998,
+          z: -406.806,
+        },
+      },
+      {
+        id: '911ef57b76415c1d42fdba3b5c8fdb587dd229a7',
+        name: 'Main Elevator Power Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: '72848c177c54e2913e7d0259f23fba929d14ebf5',
+              name: 'Main Elevator Call Button',
+              switchType: 'Open',
+            },
+          },
+        ],
+        position: {
+          x: -271.439,
+          y: -2.380001,
+          z: -366.10498,
+        },
+      },
+      {
+        id: 'e7096cec97efb58f59f78f048792235f89318a94',
+        name: 'Water Level Switch',
+        switchType: 'Open',
+        activatedBy: {
+          id: 'a948c3ba250ffcaaa508230d0b3392bf09cb6964',
+          name: 'Sewage Conduit Pump Button',
+          switchType: 'Open',
+        },
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'c846e13f4bf7afe28c0cf214bd9e7b4685ba592f',
+              name: '污水管道',
+              faction: 'pmc',
+            },
+          },
+        ],
+        position: {
+          x: -129.519989,
+          y: -6.7559967,
+          z: -244.764511,
+        },
+      },
+      {
+        id: '89170f110a27deb607f63b2382f28c25ba75e861',
+        name: 'Main Elevator Extract Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: '1a5ae89d5401d277f8b317c18951dfe0e1bfd695',
+              name: '主电梯',
+              faction: 'shared',
+            },
+          },
+        ],
+        position: {
+          x: -282.361,
+          y: -2.91199875,
+          z: -335.86,
+        },
+      },
+      {
+        id: '07fe694c3915c1363b5fa1faa604c68fe5849aba',
+        name: 'Parking Gate Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Lock',
+            target: {
+              id: 'd5f297a1f5aee9dc19f1e4f54946850b99dca5e9',
+              name: 'Alarm Switch',
+              switchType: 'Open',
+            },
+          },
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'c5c6f818755ac844b4723b1a2cf057569da410ee',
+              name: '停车场大门',
+              faction: 'pmc',
+            },
+          },
+        ],
+        position: {
+          x: -243.443,
+          y: 5.076,
+          z: -382.513,
+        },
+      },
+      {
+        id: 'a948c3ba250ffcaaa508230d0b3392bf09cb6964',
+        name: 'Sewage Conduit Pump Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Open',
+            target: {
+              id: 'e7096cec97efb58f59f78f048792235f89318a94',
+              name: 'Water Level Switch',
+              switchType: 'Open',
+            },
+          },
+        ],
+        position: {
+          x: -136.76,
+          y: -2.825999,
+          z: -254.510513,
+        },
+      },
+      {
+        id: 'c39cf1e7caac3b830c00b539ee12dfddeb061e2b',
+        name: 'Cargo Elevator Power Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: '8e6aa12e37d1b09a56e1ae19ab203832b0e78df9',
+              name: 'Cargo Elevator Call Button',
+              switchType: 'Open',
+            },
+          },
+        ],
+        position: {
+          x: -121.007996,
+          y: -2.83698225,
+          z: -353.548,
+        },
+      },
+      {
+        id: '5077fd224eb1bb588b65e4d3c0b4b5719bdebb66',
+        name: 'Med Elevator Extract Button',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'ed029f26c9d60bf00d926b4d7e7876b0591b411a',
+              name: '医疗区电梯',
+              faction: 'shared',
+            },
+          },
+        ],
+        position: {
+          x: -112.802,
+          y: -2.84599972,
+          z: -342.762,
+        },
+      },
+      {
+        id: 'd5f297a1f5aee9dc19f1e4f54946850b99dca5e9',
+        name: 'Alarm Switch',
+        switchType: 'Open',
+        activatedBy: {
+          id: '07fe694c3915c1363b5fa1faa604c68fe5849aba',
+          name: 'Parking Gate Switch',
+          switchType: 'Open',
+        },
+        activates: [],
+        position: {
+          x: -220.756,
+          y: 5.249,
+          z: -381.263,
+        },
       },
     ],
     hazards: [],
@@ -71524,14 +93151,12 @@ export default [
     wiki: 'https://escapefromtarkov.fandom.com/wiki/Lighthouse',
     description: '位于达尔尼海角的灯塔是通往塔科夫的路上极为重要的一处战略据点。在契约战争期间，灯塔曾是USEC们的主要登陆地点，同时也作为他们的行动基地。冲突结束之后，Scav们看中了这里，直到灯塔的老东家们回到这里，这些人打算驻扎在塔科夫，建立属于他们的新秩序。',
     enemies: [
-      'Scav',
-      '狙击手',
       'Zryachiy',
       'Zryachiy Guard',
       'Death Knight',
-      '游荡者',
       'Big Pipe',
       'Birdeye',
+      '游荡者',
     ],
     raidDuration: 40,
     players: '10-12',
@@ -71561,7 +93186,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/death-knight-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/death-knight-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'Zone_TreatmentContainers',
@@ -71695,6 +93320,7 @@ export default [
         ],
       },
     ],
+    nameId: 'Lighthouse',
     spawns: [
       {
         zoneName: 'Zone_LongRoad',
@@ -71753,7 +93379,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -71917,7 +93542,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -74938,6 +96562,1069 @@ export default [
         ],
         top: 14.4583473,
         bottom: 12.2290764,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '61a64428a8c6aa1b795f0ba1',
+          name: '灯塔便利店存储间',
+          normalizedName: 'convenience-store-storage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -58.5892944,
+          y: 6.55390024,
+          z: -292.9962,
+        },
+        outline: [
+          {
+            x: -59.5596123,
+            y: 6.74983025,
+            z: -293.075531,
+          },
+          {
+            x: -59.55961,
+            y: 6.74983025,
+            z: -293.075531,
+          },
+          {
+            x: -58.81321,
+            y: 6.74983025,
+            z: -293.0755,
+          },
+          {
+            x: -58.8132172,
+            y: 6.74983025,
+            z: -292.97287,
+          },
+          {
+            x: -59.5596161,
+            y: 6.74983025,
+            z: -292.9729,
+          },
+        ],
+        top: 7.5708704,
+        bottom: 5.92879,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '62987dfc402c7f69bf010923',
+          name: '套间符号钥匙',
+          normalizedName: 'shared-bedroom-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: 328.6411,
+          y: 6.041643,
+          z: 487.244019,
+        },
+        outline: [
+          {
+            x: 327.745819,
+            y: 6.041643,
+            z: 487.302734,
+          },
+          {
+            x: 328.4606,
+            y: 6.041643,
+            z: 487.1112,
+          },
+          {
+            x: 328.551178,
+            y: 6.041643,
+            z: 487.44928,
+          },
+          {
+            x: 327.8364,
+            y: 6.041643,
+            z: 487.6408,
+          },
+        ],
+        top: 6.541643,
+        bottom: 5.541643,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '62987cb98081af308d7558c8',
+          name: '会议室钥匙',
+          normalizedName: 'conference-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 333.8,
+          y: 6.0705,
+          z: 519.1168,
+        },
+        outline: [
+          {
+            x: 332.9047,
+            y: 6.0705,
+            z: 519.175537,
+          },
+          {
+            x: 333.619476,
+            y: 6.0705,
+            z: 518.984,
+          },
+          {
+            x: 333.710052,
+            y: 6.0705,
+            z: 519.3221,
+          },
+          {
+            x: 332.99527,
+            y: 6.0705,
+            z: 519.5136,
+          },
+        ],
+        top: 6.5705,
+        bottom: 5.5705,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 19.1901855,
+          y: 7.981,
+          z: -76.01572,
+        },
+        outline: [
+          {
+            x: 17.827446,
+            y: 7.981,
+            z: -75.49625,
+          },
+          {
+            x: 17.827446,
+            y: 7.981,
+            z: -75.49626,
+          },
+          {
+            x: 18.58311,
+            y: 7.981,
+            z: -76.1512146,
+          },
+          {
+            x: 19.2380714,
+            y: 7.981,
+            z: -75.39555,
+          },
+          {
+            x: 18.4824066,
+            y: 7.981,
+            z: -74.7406,
+          },
+        ],
+        top: 8.481001,
+        bottom: 7.480999,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -1.45558548,
+          y: 7.943998,
+          z: -172.401062,
+        },
+        outline: [
+          {
+            x: -1.3762188,
+            y: 7.94399834,
+            z: -173.018,
+          },
+          {
+            x: -0.503046036,
+            y: 7.94399834,
+            z: -173.5054,
+          },
+          {
+            x: -0.0156345367,
+            y: 7.94399834,
+            z: -172.632233,
+          },
+          {
+            x: -0.8888054,
+            y: 7.94399834,
+            z: -172.144836,
+          },
+          {
+            x: -0.8888073,
+            y: 7.94399834,
+            z: -172.144836,
+          },
+        ],
+        top: 8.444,
+        bottom: 7.443998,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 6.9435463,
+          y: 7.85299873,
+          z: -259.427948,
+        },
+        outline: [
+          {
+            x: 6.525276,
+            y: 7.85299873,
+            z: -258.96756,
+          },
+          {
+            x: 7.50608826,
+            y: 7.85299873,
+            z: -259.1625,
+          },
+          {
+            x: 7.701046,
+            y: 7.85299873,
+            z: -258.1817,
+          },
+          {
+            x: 6.72023773,
+            y: 7.85299873,
+            z: -257.986755,
+          },
+        ],
+        top: 8.352999,
+        bottom: 7.35299873,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -88.0648041,
+          y: 6.581002,
+          z: -444.045349,
+        },
+        outline: [
+          {
+            x: -87.4825439,
+            y: 6.581002,
+            z: -444.26416,
+          },
+          {
+            x: -86.64296,
+            y: 6.581002,
+            z: -443.720917,
+          },
+          {
+            x: -87.1862,
+            y: 6.581002,
+            z: -442.881317,
+          },
+          {
+            x: -88.02578,
+            y: 6.581002,
+            z: -443.424561,
+          },
+        ],
+        top: 7.081002,
+        bottom: 6.08100128,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 15.5395126,
+          y: 6.06201267,
+          z: 96.42709,
+        },
+        outline: [
+          {
+            x: 14.2172127,
+            y: 6.062013,
+            z: 97.04224,
+          },
+          {
+            x: 14.9243279,
+            y: 6.062013,
+            z: 96.335144,
+          },
+          {
+            x: 14.9243355,
+            y: 6.062013,
+            z: 96.335144,
+          },
+          {
+            x: 15.6314316,
+            y: 6.062013,
+            z: 97.04227,
+          },
+          {
+            x: 15.631424,
+            y: 6.062013,
+            z: 97.04227,
+          },
+          {
+            x: 14.9243126,
+            y: 6.062013,
+            z: 97.74936,
+          },
+          {
+            x: 14.924305,
+            y: 6.062013,
+            z: 97.74936,
+          },
+          {
+            x: 14.2172165,
+            y: 6.062013,
+            z: 97.04227,
+          },
+        ],
+        top: 6.56201649,
+        bottom: 5.56200933,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 37.3760452,
+          y: 12.5040007,
+          z: -887.032959,
+        },
+        outline: [
+          {
+            x: 35.9176941,
+            y: 12.5040007,
+            z: -887.0226,
+          },
+          {
+            x: 36.85462,
+            y: 12.5040007,
+            z: -887.3721,
+          },
+          {
+            x: 37.2041321,
+            y: 12.5040007,
+            z: -886.4352,
+          },
+          {
+            x: 36.2671967,
+            y: 12.5040007,
+            z: -886.085632,
+          },
+        ],
+        top: 13.0040007,
+        bottom: 12.0040007,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5b518f5e7a39b41416e2',
+          name: 'Merin小轿车后备箱钥匙',
+          normalizedName: 'merin-car-trunk-key',
+        },
+        needsPower: false,
+        position: {
+          x: 91.1099854,
+          y: 8.382999,
+          z: -130.918991,
+        },
+        outline: [
+          {
+            x: 90.6099854,
+            y: 8.202999,
+            z: -130.638992,
+          },
+          {
+            x: 91.6099854,
+            y: 8.202999,
+            z: -130.638992,
+          },
+          {
+            x: 91.6099854,
+            y: 8.202999,
+            z: -130.099,
+          },
+          {
+            x: 90.6099854,
+            y: 8.202999,
+            z: -130.099,
+          },
+        ],
+        top: 8.482998,
+        bottom: 7.92299652,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '62987c658081af308d7558c6',
+          name: '雷达站指挥室钥匙',
+          normalizedName: 'radar-station-commandant-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 355.204,
+          y: 16.545002,
+          z: 549.386963,
+        },
+        outline: [
+          {
+            x: 355.029022,
+            y: 16.545002,
+            z: 549.527,
+          },
+          {
+            x: 355.379028,
+            y: 16.545002,
+            z: 549.527,
+          },
+          {
+            x: 355.379028,
+            y: 16.545002,
+            z: 550.266968,
+          },
+          {
+            x: 355.029022,
+            y: 16.545002,
+            z: 550.266968,
+          },
+        ],
+        top: 17.045002,
+        bottom: 16.045002,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '66265d7be65f224b2e17c6aa',
+          name: 'USEC cottage room key',
+          normalizedName: 'usec-cottage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -110.259476,
+          y: 21.9736633,
+          z: -14.4287949,
+        },
+        outline: [
+          {
+            x: -111.124329,
+            y: 21.9736633,
+            z: -14.9108047,
+          },
+          {
+            x: -111.049332,
+            y: 21.9736633,
+            z: -15.0407066,
+          },
+          {
+            x: -111.049332,
+            y: 21.9736633,
+            z: -15.04071,
+          },
+          {
+            x: -110.183304,
+            y: 21.9736633,
+            z: -14.54071,
+          },
+          {
+            x: -110.2583,
+            y: 21.9736633,
+            z: -14.4108047,
+          },
+        ],
+        top: 23.0136642,
+        bottom: 20.9336643,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5ba8018e9821b7368da9',
+          name: 'USEC灯塔二号保险箱钥匙',
+          normalizedName: 'usec-cottage-second-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -81.3475952,
+          y: 22.3309937,
+          z: -57.37899,
+        },
+        outline: [
+          {
+            x: -81.397644,
+            y: 22.3309937,
+            z: -57.84899,
+          },
+          {
+            x: -81.29761,
+            y: 22.3309937,
+            z: -57.84899,
+          },
+          {
+            x: -81.29761,
+            y: 22.3309937,
+            z: -57.44899,
+          },
+          {
+            x: -81.397644,
+            y: 22.3309937,
+            z: -57.44899,
+          },
+        ],
+        top: 22.6659966,
+        bottom: 21.9959946,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5b7db225ac1ead7957c1',
+          name: 'USEC灯塔一号保险箱钥匙',
+          normalizedName: 'usec-cottage-first-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -81.3510742,
+          y: 22.3279266,
+          z: -90.73244,
+        },
+        outline: [
+          {
+            x: -81.40112,
+            y: 22.3279266,
+            z: -91.20244,
+          },
+          {
+            x: -81.30109,
+            y: 22.3279266,
+            z: -91.20244,
+          },
+          {
+            x: -81.30109,
+            y: 22.3279266,
+            z: -90.80243,
+          },
+          {
+            x: -81.40112,
+            y: 22.3279266,
+            z: -90.80243,
+          },
+        ],
+        top: 22.66293,
+        bottom: 21.9929276,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -189.270111,
+          y: 6.59927368,
+          z: -436.019836,
+        },
+        outline: [
+          {
+            x: -190.237457,
+            y: 6.59927368,
+            z: -437.111237,
+          },
+          {
+            x: -189.357788,
+            y: 6.59927368,
+            z: -436.63562,
+          },
+          {
+            x: -189.8334,
+            y: 6.59927368,
+            z: -435.755951,
+          },
+          {
+            x: -190.713043,
+            y: 6.59927368,
+            z: -436.231567,
+          },
+        ],
+        top: 7.09927368,
+        bottom: 6.09927368,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -89.34777,
+          y: 7.35629845,
+          z: -282.132172,
+        },
+        outline: [
+          {
+            x: -90.0843658,
+            y: 7.345393,
+            z: -283.398041,
+          },
+          {
+            x: -90.0762939,
+            y: 7.345393,
+            z: -283.388153,
+          },
+          {
+            x: -89.31606,
+            y: 7.345393,
+            z: -282.7581,
+          },
+          {
+            x: -89.30799,
+            y: 7.345393,
+            z: -282.748169,
+          },
+          {
+            x: -89.94803,
+            y: 7.345393,
+            z: -281.979858,
+          },
+          {
+            x: -89.95609,
+            y: 7.345393,
+            z: -281.989746,
+          },
+          {
+            x: -90.71633,
+            y: 7.345393,
+            z: -282.6198,
+          },
+          {
+            x: -90.7243958,
+            y: 7.345393,
+            z: -282.6297,
+          },
+        ],
+        top: 7.85284042,
+        bottom: 6.837946,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '664d3de85f2355673b09aed5',
+          name: "Leon's hideout key",
+          normalizedName: 'leons-hideout-key',
+        },
+        needsPower: false,
+        position: {
+          x: -75.38905,
+          y: 10.1110191,
+          z: -290.63913,
+        },
+        outline: [
+          {
+            x: -75.45946,
+            y: 10.1210194,
+            z: -291.5926,
+          },
+          {
+            x: -75.24954,
+            y: 10.1210194,
+            z: -291.5982,
+          },
+          {
+            x: -75.22424,
+            y: 10.1210194,
+            z: -290.648529,
+          },
+          {
+            x: -75.43417,
+            y: 10.1210194,
+            z: -290.642944,
+          },
+        ],
+        top: 11.17602,
+        bottom: 9.066019,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '61a6444b8c141d68246e2d2f',
+          name: '山边小屋钥匙',
+          normalizedName: 'hillside-house-key',
+        },
+        needsPower: false,
+        position: {
+          x: -147.043427,
+          y: 12.66918,
+          z: -243.326172,
+        },
+        outline: [
+          {
+            x: -147.148438,
+            y: 12.8691807,
+            z: -242.906174,
+          },
+          {
+            x: -146.998444,
+            y: 12.8691807,
+            z: -242.906174,
+          },
+          {
+            x: -146.998444,
+            y: 12.8691807,
+            z: -242.306168,
+          },
+          {
+            x: -147.148438,
+            y: 12.8691807,
+            z: -242.306168,
+          },
+        ],
+        top: 13.4691811,
+        bottom: 12.26918,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '62987da96188c076bc0d8c51',
+          name: '操作间钥匙',
+          normalizedName: 'operating-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: 32.899,
+          y: 5.93999767,
+          z: -636.186,
+        },
+        outline: [
+          {
+            x: 32.009,
+            y: 5.93999767,
+            z: -636.286,
+          },
+          {
+            x: 32.7289963,
+            y: 5.93999767,
+            z: -636.286,
+          },
+          {
+            x: 32.7289963,
+            y: 5.93999767,
+            z: -636.026,
+          },
+          {
+            x: 32.009,
+            y: 5.93999767,
+            z: -636.026,
+          },
+        ],
+        top: 6.34499836,
+        bottom: 5.534998,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '62987e26a77ec735f90a2995',
+          name: '污水处理厂储藏室钥匙',
+          normalizedName: 'water-treatment-plant-storage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -120.901962,
+          y: 5.938982,
+          z: -736.4641,
+        },
+        outline: [
+          {
+            x: -121.791962,
+            y: 5.938982,
+            z: -736.564148,
+          },
+          {
+            x: -121.07196,
+            y: 5.938982,
+            z: -736.564148,
+          },
+          {
+            x: -121.07196,
+            y: 5.938982,
+            z: -736.304138,
+          },
+          {
+            x: -121.791962,
+            y: 5.938982,
+            z: -736.304138,
+          },
+        ],
+        top: 6.343981,
+        bottom: 5.53398132,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '62a9cb937377a65d7b070cef',
+          name: '叛乱USEC营房钥匙',
+          normalizedName: 'rogue-usec-barrack-key',
+        },
+        needsPower: false,
+        position: {
+          x: -176.519043,
+          y: 5.939995,
+          z: -654.164063,
+        },
+        outline: [
+          {
+            x: -176.349045,
+            y: 5.939995,
+            z: -654.324036,
+          },
+          {
+            x: -175.629044,
+            y: 5.939995,
+            z: -654.324036,
+          },
+          {
+            x: -175.629044,
+            y: 5.939995,
+            z: -654.064,
+          },
+          {
+            x: -176.349045,
+            y: 5.939995,
+            z: -654.064,
+          },
+        ],
+        top: 6.3449955,
+        bottom: 5.534995,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '61aa5aed32a4743c3453d319',
+          name: '灯塔警用卡车客舱钥匙',
+          normalizedName: 'police-truck-cabin-key',
+        },
+        needsPower: false,
+        position: {
+          x: 83.79875,
+          y: 6.61099958,
+          z: -553.2562,
+        },
+        outline: [
+          {
+            x: 83.18353,
+            y: 6.61099958,
+            z: -554.5785,
+          },
+          {
+            x: 83.8906555,
+            y: 6.61099958,
+            z: -553.8714,
+          },
+          {
+            x: 83.18358,
+            y: 6.61099958,
+            z: -553.164246,
+          },
+          {
+            x: 82.4764557,
+            y: 6.61099958,
+            z: -553.871338,
+          },
+        ],
+        top: 7.11099958,
+        bottom: 6.11099958,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '61aa81fcb225ac1ead7957c3',
+          name: '叛乱USEC工作间钥匙',
+          normalizedName: 'rogue-usec-workshop-key',
+        },
+        needsPower: false,
+        position: {
+          x: -168.6745,
+          y: 5.798998,
+          z: -497.287079,
+        },
+        outline: [
+          {
+            x: -168.88562,
+            y: 6.01899767,
+            z: -498.193,
+          },
+          {
+            x: -168.535629,
+            y: 6.01899767,
+            z: -498.1915,
+          },
+          {
+            x: -168.538742,
+            y: 6.01899767,
+            z: -497.461517,
+          },
+          {
+            x: -168.538757,
+            y: 6.01899767,
+            z: -497.461517,
+          },
+          {
+            x: -168.888733,
+            y: 6.01899767,
+            z: -497.463,
+          },
+        ],
+        top: 6.383998,
+        bottom: 5.65399742,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '61a64492ba05ef10d62adcc1',
+          name: '叛乱USEC仓库钥匙',
+          normalizedName: 'rogue-usec-stash-key',
+        },
+        needsPower: false,
+        position: {
+          x: 47.3759,
+          y: 5.67344,
+          z: -553.3956,
+        },
+        outline: [
+          {
+            x: 47.23977,
+            y: 5.89344025,
+            z: -553.2215,
+          },
+          {
+            x: 47.58976,
+            y: 5.89344025,
+            z: -553.219238,
+          },
+          {
+            x: 47.5850143,
+            y: 5.89344025,
+            z: -552.489258,
+          },
+          {
+            x: 47.2350235,
+            y: 5.89344025,
+            z: -552.4915,
+          },
+        ],
+        top: 6.258441,
+        bottom: 5.52844048,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: 206.066315,
+          y: 3.78110647,
+          z: 521.8363,
+        },
+        outline: [
+          {
+            x: 204.604218,
+            y: 3.774939,
+            z: 521.8448,
+          },
+          {
+            x: 204.611786,
+            y: 3.774939,
+            z: 521.8448,
+          },
+          {
+            x: 205.54158,
+            y: 3.774939,
+            z: 521.4965,
+          },
+          {
+            x: 205.549133,
+            y: 3.774939,
+            z: 521.4965,
+          },
+          {
+            x: 205.897415,
+            y: 3.774939,
+            z: 522.4339,
+          },
+          {
+            x: 205.889847,
+            y: 3.774939,
+            z: 522.4339,
+          },
+          {
+            x: 204.960052,
+            y: 3.774939,
+            z: 522.782166,
+          },
+          {
+            x: 204.952484,
+            y: 3.774939,
+            z: 522.782166,
+          },
+        ],
+        top: 4.27978563,
+        bottom: 3.27009177,
+      },
+    ],
+    switches: [
+      {
+        id: '989f65d4cd4d4cd9e49fa6254fe97cb1d0e4f72d',
+        name: 'Lightkeeper Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: 445.3035,
+          y: 33.391,
+          z: 457.5599,
+        },
+      },
+      {
+        id: 'a7e6ca8bfddbc8335d7a16e9d9416e794e1db598',
+        name: 'Lightkeeper Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [],
+        position: {
+          x: 444.6317,
+          y: 33.391,
+          z: 457.6145,
+        },
       },
     ],
     hazards: [
@@ -98072,61 +120759,15 @@ export default [
     description: '根据都市传说，这个联邦国家储备局的秘密基地有足够维持多年的物资，包括食物、药物和其他资源，足以在全面核战争中生存下来。',
     enemies: [
       'Scav',
-      'Shturman',
-      'Sanitar',
       'Glukhar',
+      'Glukhar Guard (Assault)',
       'Glukhar Guard (Security)',
-      'Death Knight',
-      'Big Pipe',
-      'Birdeye',
-      'Killa',
-      'Tagilla',
-      'Reshala',
-      'Reshala Guard',
-      'Kollontay',
-      'Kaban',
-      ' 保镖',
-      '邪教徒牧师',
-      '邪教徒战士',
+      'Glukhar Guard (Scout)',
       '掠夺者',
     ],
     raidDuration: 40,
     players: '9-11',
     bosses: [
-      {
-        boss: {
-          id: 'bossKojaniy',
-          name: 'Shturman',
-          normalizedName: 'shturman',
-          imagePortraitLink: 'https://assets.tarkov.dev/shturman-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/shturman-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
-          {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
-          },
-        ],
-      },
-      {
-        boss: {
-          id: 'bossSanitar',
-          name: 'Sanitar',
-          normalizedName: 'sanitar',
-          imagePortraitLink: 'https://assets.tarkov.dev/sanitar-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/sanitar-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
-          {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
-          },
-        ],
-      },
       {
         boss: {
           id: 'bossGluhar',
@@ -98135,114 +120776,27 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/glukhar-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/glukhar-poster.jpg',
         },
-        spawnChance: 1,
+        spawnChance: 0.4,
         spawnLocations: [
           {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
+            spawnKey: 'ZoneRailStrorage',
+            name: 'K Buildings',
+            chance: 0.25,
           },
-        ],
-      },
-      {
-        boss: {
-          id: 'bossKnight',
-          name: 'Death Knight',
-          normalizedName: 'death-knight',
-          imagePortraitLink: 'https://assets.tarkov.dev/death-knight-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/death-knight-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
           {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
+            spawnKey: 'ZonePTOR2',
+            name: 'White Knight',
+            chance: 0.25,
           },
-        ],
-      },
-      {
-        boss: {
-          id: 'bossKilla',
-          name: 'Killa',
-          normalizedName: 'killa',
-          imagePortraitLink: 'https://assets.tarkov.dev/killa-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/killa-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
           {
             spawnKey: 'ZoneBarrack',
             name: 'Barracks',
-            chance: 1,
+            chance: 0.25,
           },
-        ],
-      },
-      {
-        boss: {
-          id: 'bossBully',
-          name: 'Reshala',
-          normalizedName: 'reshala',
-          imagePortraitLink: 'https://assets.tarkov.dev/reshala-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/reshala-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
           {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
-          },
-        ],
-      },
-      {
-        boss: {
-          id: 'bossKolontay',
-          name: 'Kollontay',
-          normalizedName: 'kollontay',
-          imagePortraitLink: 'https://assets.tarkov.dev/kollontay-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/kollontay-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
-          {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
-          },
-        ],
-      },
-      {
-        boss: {
-          id: 'bossBoar',
-          name: 'Kaban',
-          normalizedName: 'kaban',
-          imagePortraitLink: 'https://assets.tarkov.dev/kaban-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/kaban-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
-          {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
-          },
-        ],
-      },
-      {
-        boss: {
-          id: 'sectantPriest',
-          name: '邪教徒牧师',
-          normalizedName: 'cultist-priest',
-          imagePortraitLink: 'https://assets.tarkov.dev/cultist-priest-portrait.png',
-          imagePosterLink: 'https://assets.tarkov.dev/cultist-priest-poster.jpg',
-        },
-        spawnChance: 1,
-        spawnLocations: [
-          {
-            spawnKey: 'ZoneBarrack',
-            name: 'Barracks',
-            chance: 1,
+            spawnKey: 'ZoneSubStorage',
+            name: 'Storage Bunker',
+            chance: 0.25,
           },
         ],
       },
@@ -98315,6 +120869,7 @@ export default [
         ],
       },
     ],
+    nameId: 'RezervBase',
     spawns: [
       {
         zoneName: '00c42177-c407-4f54-9382-2d1044cc5970',
@@ -100915,6 +123470,1441 @@ export default [
         ],
         top: -2.92,
         bottom: -4.92,
+      },
+    ],
+    locks: [
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c66d86f774405611c7d6',
+          name: 'RB-AO钥匙',
+          normalizedName: 'rb-ao-key',
+        },
+        needsPower: false,
+        position: {
+          x: 194.756973,
+          y: -5.801999,
+          z: -203.553268,
+        },
+        outline: [
+          {
+            x: 193.861664,
+            y: -5.801999,
+            z: -203.494537,
+          },
+          {
+            x: 194.576447,
+            y: -5.801999,
+            z: -203.686066,
+          },
+          {
+            x: 194.667038,
+            y: -5.801999,
+            z: -203.347992,
+          },
+          {
+            x: 193.952255,
+            y: -5.801999,
+            z: -203.156464,
+          },
+        ],
+        top: -5.301999,
+        bottom: -6.301999,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c62a86f7744036212b3f',
+          name: 'RB-VO钥匙',
+          normalizedName: 'rb-vo-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: 189.6508,
+          y: -5.8030014,
+          z: -224.790009,
+        },
+        outline: [
+          {
+            x: 189.518,
+            y: -5.8030014,
+            z: -224.609482,
+          },
+          {
+            x: 189.856079,
+            y: -5.8030014,
+            z: -224.700073,
+          },
+          {
+            x: 190.0476,
+            y: -5.8030014,
+            z: -223.985291,
+          },
+          {
+            x: 189.709534,
+            y: -5.8030014,
+            z: -223.8947,
+          },
+        ],
+        top: -5.3030014,
+        bottom: -6.3030014,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d8e0e0e86f774321140eb56',
+          name: 'RB-KPRL钥匙',
+          normalizedName: 'rb-kprl-key',
+        },
+        needsPower: false,
+        position: {
+          x: -40.4498749,
+          y: 19.66215,
+          z: 173.891434,
+        },
+        outline: [
+          {
+            x: -39.8064079,
+            y: 19.6621475,
+            z: 173.035843,
+          },
+          {
+            x: -39.5942764,
+            y: 19.6621475,
+            z: 173.247971,
+          },
+          {
+            x: -40.15996,
+            y: 19.6621475,
+            z: 173.81366,
+          },
+          {
+            x: -40.3720932,
+            y: 19.6621475,
+            z: 173.601532,
+          },
+        ],
+        top: 20.06215,
+        bottom: 19.2621479,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d8e0e0e86f774321140eb56',
+          name: 'RB-KPRL钥匙',
+          normalizedName: 'rb-kprl-key',
+        },
+        needsPower: false,
+        position: {
+          x: -44.2896843,
+          y: 19.6481476,
+          z: 171.655853,
+        },
+        outline: [
+          {
+            x: -44.439682,
+            y: 19.6481476,
+            z: 171.915848,
+          },
+          {
+            x: -44.1396828,
+            y: 19.6481476,
+            z: 171.915848,
+          },
+          {
+            x: -44.1396828,
+            y: 19.6481476,
+            z: 172.715851,
+          },
+          {
+            x: -44.439682,
+            y: 19.6481476,
+            z: 172.715851,
+          },
+        ],
+        top: 20.04815,
+        bottom: 19.248148,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d9f1fa686f774726974a992',
+          name: 'RB-ST钥匙',
+          normalizedName: 'rb-st-key',
+        },
+        needsPower: false,
+        position: {
+          x: 100.7764,
+          y: -6.714003,
+          z: 43.67282,
+        },
+        outline: [
+          {
+            x: 101.02224,
+            y: -5.636003,
+            z: 43.4644,
+          },
+          {
+            x: 101.818985,
+            y: -5.636003,
+            z: 43.2503548,
+          },
+          {
+            x: 101.890335,
+            y: -5.636003,
+            z: 43.5159378,
+          },
+          {
+            x: 101.09359,
+            y: -5.636003,
+            z: 43.7299843,
+          },
+        ],
+        top: -5.196003,
+        bottom: -6.076003,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d947d3886f774447b415893',
+          name: 'RB-SMP钥匙',
+          normalizedName: 'rb-smp-key',
+        },
+        needsPower: false,
+        position: {
+          x: -78.7131653,
+          y: -3.78035355,
+          z: -29.4600983,
+        },
+        outline: [
+          {
+            x: -78.38373,
+            y: -2.7203536,
+            z: -29.77613,
+          },
+          {
+            x: -77.90077,
+            y: -2.7203536,
+            z: -29.90554,
+          },
+          {
+            x: -77.81795,
+            y: -2.7203536,
+            z: -29.5964432,
+          },
+          {
+            x: -78.30091,
+            y: -2.7203536,
+            z: -29.4670334,
+          },
+        ],
+        top: -2.2203536,
+        bottom: -3.2203536,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d947d4e86f774447b415895',
+          name: 'RB-KSM钥匙',
+          normalizedName: 'rb-ksm-key',
+        },
+        needsPower: false,
+        position: {
+          x: -60.01116,
+          y: -3.78035355,
+          z: -34.5081,
+        },
+        outline: [
+          {
+            x: -59.6817322,
+            y: -2.720354,
+            z: -34.82413,
+          },
+          {
+            x: -59.19877,
+            y: -2.720354,
+            z: -34.95354,
+          },
+          {
+            x: -59.1159477,
+            y: -2.720354,
+            z: -34.6444435,
+          },
+          {
+            x: -59.59891,
+            y: -2.720354,
+            z: -34.5150337,
+          },
+        ],
+        top: -2.2203536,
+        bottom: -3.220354,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80cb3886f77440556dbf09',
+          name: 'RB-PSP1钥匙',
+          normalizedName: 'rb-psp1-key',
+        },
+        needsPower: false,
+        position: {
+          x: 71.1095,
+          y: -11.128006,
+          z: -146.997528,
+        },
+        outline: [
+          {
+            x: 71.3169556,
+            y: -11.128006,
+            z: -147.2084,
+          },
+          {
+            x: 71.90619,
+            y: -11.128006,
+            z: -147.366272,
+          },
+          {
+            x: 71.9838257,
+            y: -11.128006,
+            z: -147.0765,
+          },
+          {
+            x: 71.39459,
+            y: -11.128006,
+            z: -146.91864,
+          },
+        ],
+        top: -10.628006,
+        bottom: -11.628006,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d95d6fa86f77424484aa5e9',
+          name: 'RB-PSP2钥匙',
+          normalizedName: 'rb-psp2-key',
+        },
+        needsPower: false,
+        position: {
+          x: 83.5344238,
+          y: -11.1000061,
+          z: -100.622009,
+        },
+        outline: [
+          {
+            x: 83.74188,
+            y: -11.1000061,
+            z: -100.832886,
+          },
+          {
+            x: 84.3311157,
+            y: -11.1000061,
+            z: -100.990753,
+          },
+          {
+            x: 84.40875,
+            y: -11.1000061,
+            z: -100.700989,
+          },
+          {
+            x: 83.81952,
+            y: -11.1000061,
+            z: -100.543121,
+          },
+        ],
+        top: -10.6000061,
+        bottom: -11.6000061,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d95d6be86f77424444eb3a7',
+          name: 'RB-PS82钥匙',
+          normalizedName: 'rb-psv2-key',
+        },
+        needsPower: false,
+        position: {
+          x: 42.9962158,
+          y: -11.1259995,
+          z: -114.069916,
+        },
+        outline: [
+          {
+            x: 42.1218872,
+            y: -11.1259995,
+            z: -113.990906,
+          },
+          {
+            x: 42.71106,
+            y: -11.1259995,
+            z: -114.1488,
+          },
+          {
+            x: 42.7887573,
+            y: -11.1259995,
+            z: -113.859009,
+          },
+          {
+            x: 42.1995239,
+            y: -11.1259995,
+            z: -113.701141,
+          },
+        ],
+        top: -10.6259995,
+        bottom: -11.6259995,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80cb5686f77440545d1286',
+          name: 'RB-PS81钥匙',
+          normalizedName: 'rb-psv1-key',
+        },
+        needsPower: false,
+        position: {
+          x: 50.81842,
+          y: -11.1000061,
+          z: -91.86203,
+        },
+        outline: [
+          {
+            x: 51.02594,
+            y: -11.1000061,
+            z: -92.07291,
+          },
+          {
+            x: 51.6151733,
+            y: -11.1000061,
+            z: -92.2307739,
+          },
+          {
+            x: 51.69281,
+            y: -11.1000061,
+            z: -91.94101,
+          },
+          {
+            x: 51.1035767,
+            y: -11.1000061,
+            z: -91.78314,
+          },
+        ],
+        top: -10.6000061,
+        bottom: -11.6000061,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80cb3886f77440556dbf09',
+          name: 'RB-PSP1钥匙',
+          normalizedName: 'rb-psp1-key',
+        },
+        needsPower: false,
+        position: {
+          x: 80.91522,
+          y: -11.128006,
+          z: -124.236908,
+        },
+        outline: [
+          {
+            x: 80.04089,
+            y: -11.128006,
+            z: -124.157928,
+          },
+          {
+            x: 80.63013,
+            y: -11.128006,
+            z: -124.315796,
+          },
+          {
+            x: 80.70776,
+            y: -11.128006,
+            z: -124.026031,
+          },
+          {
+            x: 80.11853,
+            y: -11.128006,
+            z: -123.868164,
+          },
+        ],
+        top: -10.628006,
+        bottom: -11.628006,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d95d6be86f77424444eb3a7',
+          name: 'RB-PS82钥匙',
+          normalizedName: 'rb-psv2-key',
+        },
+        needsPower: false,
+        position: {
+          x: 38.3938,
+          y: -11.128006,
+          z: -138.232147,
+        },
+        outline: [
+          {
+            x: 38.6012573,
+            y: -11.128006,
+            z: -138.443024,
+          },
+          {
+            x: 39.19049,
+            y: -11.128006,
+            z: -138.600891,
+          },
+          {
+            x: 39.2681274,
+            y: -11.128006,
+            z: -138.311127,
+          },
+          {
+            x: 38.678894,
+            y: -11.128006,
+            z: -138.153259,
+          },
+        ],
+        top: -10.628006,
+        bottom: -11.628006,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c78786f774403a401e3e',
+          name: 'RB-AK钥匙',
+          normalizedName: 'rb-ak-key',
+        },
+        needsPower: false,
+        position: {
+          x: -134.622513,
+          y: -2.13919544,
+          z: -12.8279257,
+        },
+        outline: [
+          {
+            x: -134.532578,
+            y: -2.13919544,
+            z: -13.0331984,
+          },
+          {
+            x: -133.8178,
+            y: -2.13919544,
+            z: -13.2247257,
+          },
+          {
+            x: -133.7272,
+            y: -2.13919544,
+            z: -12.886652,
+          },
+          {
+            x: -134.441986,
+            y: -2.13919544,
+            z: -12.6951246,
+          },
+          {
+            x: -134.441986,
+            y: -2.13919544,
+            z: -12.6951256,
+          },
+        ],
+        top: -1.63919544,
+        bottom: -2.63919544,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c88d86f77440556dbf07',
+          name: 'RB-AM钥匙',
+          normalizedName: 'rb-am-key',
+        },
+        needsPower: false,
+        position: {
+          x: -133.289352,
+          y: -5.13899755,
+          z: -16.0929947,
+        },
+        outline: [
+          {
+            x: -133.42215,
+            y: -5.138997,
+            z: -15.9124708,
+          },
+          {
+            x: -133.42215,
+            y: -5.138997,
+            z: -15.9124727,
+          },
+          {
+            x: -133.084076,
+            y: -5.138997,
+            z: -16.0030613,
+          },
+          {
+            x: -133.084076,
+            y: -5.138997,
+            z: -16.00306,
+          },
+          {
+            x: -132.892548,
+            y: -5.138997,
+            z: -15.2882757,
+          },
+          {
+            x: -132.892548,
+            y: -5.138997,
+            z: -15.2882738,
+          },
+          {
+            x: -133.230621,
+            y: -5.138997,
+            z: -15.1976862,
+          },
+          {
+            x: -133.230621,
+            y: -5.138997,
+            z: -15.1976881,
+          },
+        ],
+        top: -4.638996,
+        bottom: -5.63899755,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c6fc86f774403a401e3c',
+          name: 'RB-TB钥匙',
+          normalizedName: 'rb-tb-key',
+        },
+        needsPower: false,
+        position: {
+          x: -162.7683,
+          y: -8.171001,
+          z: 65.7317047,
+        },
+        outline: [
+          {
+            x: -162.820541,
+            y: -8.171,
+            z: 65.94241,
+          },
+          {
+            x: -162.820541,
+            y: -8.171,
+            z: 65.9424057,
+          },
+          {
+            x: -162.714279,
+            y: -8.171,
+            z: 65.91394,
+          },
+          {
+            x: -162.522766,
+            y: -8.171,
+            z: 66.62872,
+          },
+          {
+            x: -162.629013,
+            y: -8.171,
+            z: 66.657196,
+          },
+        ],
+        top: -7.670999,
+        bottom: -8.67100048,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80ccdd86f77474f7575e02',
+          name: 'RB-ORB2钥匙',
+          normalizedName: 'rb-orb2-key',
+        },
+        needsPower: false,
+        position: {
+          x: -123.018578,
+          y: -2.36699772,
+          z: 98.53613,
+        },
+        outline: [
+          {
+            x: -123.264107,
+            y: -2.36699677,
+            z: 97.6391144,
+          },
+          {
+            x: -123.15786,
+            y: -2.36699677,
+            z: 97.61064,
+          },
+          {
+            x: -123.157852,
+            y: -2.36699677,
+            z: 97.61064,
+          },
+          {
+            x: -122.966331,
+            y: -2.36699677,
+            z: 98.3254242,
+          },
+          {
+            x: -123.072586,
+            y: -2.36699677,
+            z: 98.3539,
+          },
+        ],
+        top: -1.86699724,
+        bottom: -2.86699772,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c6c586f77440351beef1',
+          name: 'RB-OB钥匙',
+          normalizedName: 'rb-ob-key',
+        },
+        needsPower: false,
+        position: {
+          x: -167.807968,
+          y: 0.525999069,
+          z: 34.4820557,
+        },
+        outline: [
+          {
+            x: -167.940765,
+            y: 0.525999069,
+            z: 34.6625748,
+          },
+          {
+            x: -167.602692,
+            y: 0.525999069,
+            z: 34.57199,
+          },
+          {
+            x: -167.411163,
+            y: 0.525999069,
+            z: 35.2867775,
+          },
+          {
+            x: -167.749237,
+            y: 0.525999069,
+            z: 35.3773651,
+          },
+        ],
+        top: 1.026,
+        bottom: 0.02599907,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80cd1a86f77402aa362f42',
+          name: 'RB-ORB3钥匙',
+          normalizedName: 'rb-orb3-key',
+        },
+        needsPower: false,
+        position: {
+          x: -170.236115,
+          y: -2.36400938,
+          z: 33.9814758,
+        },
+        outline: [
+          {
+            x: -169.3391,
+            y: -2.36400986,
+            z: 33.7359467,
+          },
+          {
+            x: -169.310623,
+            y: -2.36400986,
+            z: 33.8421974,
+          },
+          {
+            x: -169.310623,
+            y: -2.36400986,
+            z: 33.8422,
+          },
+          {
+            x: -170.0254,
+            y: -2.36400986,
+            z: 34.0337219,
+          },
+          {
+            x: -170.053879,
+            y: -2.36400986,
+            z: 33.92747,
+          },
+          {
+            x: -170.053879,
+            y: -2.36400986,
+            z: 33.9274673,
+          },
+        ],
+        top: -1.8640089,
+        bottom: -2.86401033,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80ccac86f77470841ff452',
+          name: 'RB-ORB1钥匙',
+          normalizedName: 'rb-orb1-key',
+        },
+        needsPower: false,
+        position: {
+          x: -122.855316,
+          y: 3.43500519,
+          z: 97.5226746,
+        },
+        outline: [
+          {
+            x: -122.907562,
+            y: 3.43500519,
+            z: 97.7333755,
+          },
+          {
+            x: -122.801315,
+            y: 3.43500519,
+            z: 97.70491,
+          },
+          {
+            x: -122.609787,
+            y: 3.43500519,
+            z: 98.41969,
+          },
+          {
+            x: -122.716042,
+            y: 3.43500519,
+            z: 98.4481659,
+          },
+        ],
+        top: 3.93500614,
+        bottom: 2.93500423,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c60f86f77440373c4ece',
+          name: 'RB-BK钥匙',
+          normalizedName: 'rb-bk-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: -157.878387,
+          y: -8.188297,
+          z: 72.86379,
+        },
+        outline: [
+          {
+            x: -158.163208,
+            y: -8.178498,
+            z: 71.9712,
+          },
+          {
+            x: -158.163208,
+            y: -8.178498,
+            z: 71.97119,
+          },
+          {
+            x: -157.964417,
+            y: -8.178498,
+            z: 71.91793,
+          },
+          {
+            x: -157.72345,
+            y: -8.178498,
+            z: 72.817215,
+          },
+          {
+            x: -157.723465,
+            y: -8.178498,
+            z: 72.817215,
+          },
+          {
+            x: -157.922241,
+            y: -8.178498,
+            z: 72.8704758,
+          },
+        ],
+        top: -7.144595,
+        bottom: -9.212401,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5da5cdcd86f774529238fb9b',
+          name: 'RB-RH钥匙',
+          normalizedName: 'rb-rh-key',
+        },
+        needsPower: false,
+        position: {
+          x: -51.4290428,
+          y: 0.3399992,
+          z: 19.6974564,
+        },
+        outline: [
+          {
+            x: -51.8258438,
+            y: 0.339998245,
+            z: 18.8927345,
+          },
+          {
+            x: -51.48777,
+            y: 0.339998245,
+            z: 18.8021469,
+          },
+          {
+            x: -51.29624,
+            y: 0.339998245,
+            z: 19.5169334,
+          },
+          {
+            x: -51.6343155,
+            y: 0.339998245,
+            z: 19.6075211,
+          },
+        ],
+        top: 0.840000153,
+        bottom: -0.1600008,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c8f586f77440373c4ed0',
+          name: 'RB-OP钥匙',
+          normalizedName: 'rb-op-key',
+        },
+        needsPower: false,
+        position: {
+          x: -68.47772,
+          y: -9.729001,
+          z: 22.4145622,
+        },
+        outline: [
+          {
+            x: -68.87452,
+            y: -9.729001,
+            z: 21.60984,
+          },
+          {
+            x: -68.5364456,
+            y: -9.729001,
+            z: 21.5192528,
+          },
+          {
+            x: -68.34492,
+            y: -9.729001,
+            z: 22.23404,
+          },
+          {
+            x: -68.68299,
+            y: -9.729001,
+            z: 22.3246269,
+          },
+        ],
+        top: -9.229001,
+        bottom: -10.229001,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d8e3ecc86f774414c78d05e',
+          name: 'RB-GN钥匙',
+          normalizedName: 'rb-gn-key',
+        },
+        needsPower: false,
+        position: {
+          x: -62.8870544,
+          y: -9.723853,
+          z: 31.4578876,
+        },
+        outline: [
+          {
+            x: -63.3062935,
+            y: -9.723853,
+            z: 30.4728279,
+          },
+          {
+            x: -63.0165176,
+            y: -9.723853,
+            z: 30.3951817,
+          },
+          {
+            x: -63.0165176,
+            y: -9.723853,
+            z: 30.3951836,
+          },
+          {
+            x: -62.8094635,
+            y: -9.723853,
+            z: 31.167923,
+          },
+          {
+            x: -62.8094635,
+            y: -9.723853,
+            z: 31.1679249,
+          },
+          {
+            x: -63.0992355,
+            y: -9.723853,
+            z: 31.24557,
+          },
+        ],
+        top: -9.32385349,
+        bottom: -10.1238537,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d8e0db586f7744450412a42',
+          name: 'RB-KORL钥匙',
+          normalizedName: 'rb-korl-key',
+        },
+        needsPower: false,
+        position: {
+          x: -2.507956,
+          y: 23.420002,
+          z: 174.912,
+        },
+        outline: [
+          {
+            x: -2.682962,
+            y: 23.420002,
+            z: 174.032,
+          },
+          {
+            x: -2.68296146,
+            y: 23.420002,
+            z: 174.032,
+          },
+          {
+            x: -2.332962,
+            y: 23.420002,
+            z: 174.032,
+          },
+          {
+            x: -2.33296156,
+            y: 23.420002,
+            z: 174.032,
+          },
+          {
+            x: -2.33295679,
+            y: 23.420002,
+            z: 174.772,
+          },
+          {
+            x: -2.33295727,
+            y: 23.420002,
+            z: 174.772,
+          },
+          {
+            x: -2.6829567,
+            y: 23.420002,
+            z: 174.772,
+          },
+          {
+            x: -2.68295717,
+            y: 23.420002,
+            z: 174.772,
+          },
+        ],
+        top: 23.920002,
+        bottom: 22.920002,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5da46e3886f774653b7a83fe',
+          name: 'RB-RS钥匙',
+          normalizedName: 'rb-rs-key',
+        },
+        needsPower: false,
+        position: {
+          x: -0.7069602,
+          y: 23.42,
+          z: 182.247,
+        },
+        outline: [
+          {
+            x: -1.58696079,
+            y: 23.42,
+            z: 182.072,
+          },
+          {
+            x: -0.846961,
+            y: 23.42,
+            z: 182.071991,
+          },
+          {
+            x: -0.846960545,
+            y: 23.42,
+            z: 182.071991,
+          },
+          {
+            x: -0.8469596,
+            y: 23.42,
+            z: 182.422,
+          },
+          {
+            x: -1.58695936,
+            y: 23.42,
+            z: 182.422,
+          },
+          {
+            x: -1.58695984,
+            y: 23.42,
+            z: 182.422,
+          },
+        ],
+        top: 23.92,
+        bottom: 22.92,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ede7b0c6d23e5473e6e8c66',
+          name: 'RB-RLSSA 钥匙',
+          normalizedName: 'rb-rlsa-key',
+        },
+        needsPower: false,
+        position: {
+          x: -10.9659786,
+          y: 23.420002,
+          z: 180.645,
+        },
+        outline: [
+          {
+            x: -11.1409855,
+            y: 23.42,
+            z: 179.765,
+          },
+          {
+            x: -11.1409836,
+            y: 23.42,
+            z: 179.765,
+          },
+          {
+            x: -10.7909842,
+            y: 23.42,
+            z: 179.765,
+          },
+          {
+            x: -10.7909794,
+            y: 23.42,
+            z: 180.505,
+          },
+          {
+            x: -11.14098,
+            y: 23.42,
+            z: 180.505,
+          },
+        ],
+        top: 23.920002,
+        bottom: 22.92,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80cbd886f77470855c26c2',
+          name: 'RB-MP13钥匙',
+          normalizedName: 'rb-mp13-key',
+        },
+        needsPower: false,
+        position: {
+          x: 87.58351,
+          y: -5.82550049,
+          z: -37.0245056,
+        },
+        outline: [
+          {
+            x: 87.4472656,
+            y: -5.81549835,
+            z: -36.76024,
+          },
+          {
+            x: 87.75636,
+            y: -5.81549835,
+            z: -36.84306,
+          },
+          {
+            x: 87.96859,
+            y: -5.81549835,
+            z: -36.0510025,
+          },
+          {
+            x: 87.6595,
+            y: -5.81549835,
+            z: -35.9681778,
+          },
+        ],
+        top: -5.40049744,
+        bottom: -6.23049927,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80ca9086f774403a401e40',
+          name: 'RB-MP21钥匙',
+          normalizedName: 'rb-mp21-key',
+        },
+        needsPower: false,
+        position: {
+          x: 10.9685087,
+          y: -2.99313354,
+          z: -7.38929558,
+        },
+        outline: [
+          {
+            x: 10.4966774,
+            y: -2.99313354,
+            z: -8.184267,
+          },
+          {
+            x: 10.9216852,
+            y: -2.99313354,
+            z: -8.298147,
+          },
+          {
+            x: 11.08733,
+            y: -2.99313354,
+            z: -7.67995262,
+          },
+          {
+            x: 10.662322,
+            y: -2.99313354,
+            z: -7.56607246,
+          },
+        ],
+        top: -2.518135,
+        bottom: -3.468132,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c95986f77440351beef3',
+          name: 'RB-MP12钥匙',
+          normalizedName: 'rb-mp12-key',
+        },
+        needsPower: false,
+        position: {
+          x: 8.245274,
+          y: -5.851448,
+          z: -17.522274,
+        },
+        outline: [
+          {
+            x: 7.778267,
+            y: -5.851448,
+            z: -18.3200836,
+          },
+          {
+            x: 8.203955,
+            y: -5.851448,
+            z: -18.4313889,
+          },
+          {
+            x: 8.365852,
+            y: -5.851448,
+            z: -17.8122063,
+          },
+          {
+            x: 7.94016266,
+            y: -5.851448,
+            z: -17.700901,
+          },
+        ],
+        top: -5.37644958,
+        bottom: -6.32644653,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80c93086f7744036212b41',
+          name: 'RB-MP11钥匙',
+          normalizedName: 'rb-mp11-key',
+        },
+        needsPower: false,
+        position: {
+          x: 8.266094,
+          y: -3.00213623,
+          z: -17.478508,
+        },
+        outline: [
+          {
+            x: 7.881012,
+            y: -2.992134,
+            z: -18.452013,
+          },
+          {
+            x: 8.190107,
+            y: -2.992134,
+            z: -18.5348358,
+          },
+          {
+            x: 8.40234,
+            y: -2.992134,
+            z: -17.742775,
+          },
+          {
+            x: 8.093243,
+            y: -2.992134,
+            z: -17.6599541,
+          },
+        ],
+        top: -2.57713318,
+        bottom: -3.407135,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d80cab086f77440535be201',
+          name: 'RB-MP22钥匙',
+          normalizedName: 'rb-mp22-key',
+        },
+        needsPower: false,
+        position: {
+          x: 87.5893555,
+          y: -2.98300171,
+          z: -37.00447,
+        },
+        outline: [
+          {
+            x: 87.45086,
+            y: -2.97299957,
+            z: -36.7485962,
+          },
+          {
+            x: 87.75996,
+            y: -2.97299957,
+            z: -36.83142,
+          },
+          {
+            x: 87.9638062,
+            y: -2.97299957,
+            z: -36.07065,
+          },
+          {
+            x: 87.65471,
+            y: -2.97299957,
+            z: -35.9878235,
+          },
+        ],
+        top: -2.55800629,
+        bottom: -3.38800049,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5ede7a8229445733cb4c18e2',
+          name: 'RB-PKPM 钥匙',
+          normalizedName: 'rb-pkpm-marked-key',
+        },
+        needsPower: false,
+        position: {
+          x: -120.251823,
+          y: -13.483,
+          z: 27.7044983,
+        },
+        outline: [
+          {
+            x: -120.648621,
+            y: -13.483,
+            z: 26.8997765,
+          },
+          {
+            x: -120.648621,
+            y: -13.483,
+            z: 26.8997746,
+          },
+          {
+            x: -120.310547,
+            y: -13.483,
+            z: 26.8091888,
+          },
+          {
+            x: -120.119019,
+            y: -13.483,
+            z: 27.5239735,
+          },
+          {
+            x: -120.119019,
+            y: -13.483,
+            z: 27.5239754,
+          },
+          {
+            x: -120.457092,
+            y: -13.483,
+            z: 27.6145611,
+          },
+        ],
+        top: -12.983,
+        bottom: -13.983,
+      },
+    ],
+    switches: [
+      {
+        id: '2c4a9ff1d031afefbd0965b189f58e3834cdb367',
+        name: 'Bunker Hermetic Door Power Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'bf8015e63fa543ce72fe16f5c3476be29ba80fcc',
+              name: '地堡密闭门',
+              faction: 'shared',
+            },
+          },
+        ],
+        position: {
+          x: -60.7597275,
+          y: -5.55217171,
+          z: 78.22821,
+        },
+      },
+      {
+        id: '9cad024bc31223f02f7296c3cb1834c5f6fa2fe2',
+        name: 'D-2 Power Switch',
+        switchType: 'Open',
+        activatedBy: null,
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: 'fa1f22e776e4724582eb1dbb18ae864a9303cc5a',
+              name: 'D-2 Door Switch',
+              switchType: 'Close',
+            },
+          },
+        ],
+        position: {
+          x: -117.184174,
+          y: -12.954,
+          z: 22.6676826,
+        },
+      },
+      {
+        id: 'fa1f22e776e4724582eb1dbb18ae864a9303cc5a',
+        name: 'D-2 Door Switch',
+        switchType: 'Close',
+        activatedBy: {
+          id: '9cad024bc31223f02f7296c3cb1834c5f6fa2fe2',
+          name: 'D-2 Power Switch',
+          switchType: 'Open',
+        },
+        activates: [
+          {
+            operation: 'Unlock',
+            target: {
+              id: '6b678e71f8042cf7af291a87bcd1e6b629ff8b5a',
+              name: 'D-2',
+              faction: 'pmc',
+            },
+          },
+        ],
+        position: {
+          x: -117.449867,
+          y: -16.9842987,
+          z: 168.546936,
+        },
       },
     ],
     hazards: [
@@ -113073,7 +137063,7 @@ export default [
     author: 'Shebuka',
     authorLink: 'https://github.com/TarkovTracker/tarkovdata/',
     svgPath: 'https://assets.tarkov.dev/maps/svg/Shoreline-Ground_Level.svg',
-    tilePath: 'https://assets.tarkov.dev/maps/shoreline/main/{z}/{x}/{y}.png',
+    tilePath: 'https://assets.tarkov.dev/maps/shoreline/main_spring/{z}/{x}/{y}.png',
     layers: [
       {
         name: 'Underground',
@@ -113329,8 +137319,9 @@ export default [
     wiki: 'https://escapefromtarkov.fandom.com/wiki/Shoreline',
     description: '临近港口的海岸线占塔科夫郊区的很大一部分。 \n\n这个区域包含被废弃的村庄、现代化私人住宅、遍布海岸线的船运设施、加油站、气象观测站、通讯基站及其他商业设施。海岸线的核心区域是“Azure Coast”疗养院。这个疗养院由数栋奢华的建筑组成，由附近的水电站提供独立供电。为了准备塔科夫港口的撤离行动，这里曾被TerraGroup及其相关部门用作临时员工宿舍。',
     enemies: [
-      'Scav',
-      '狙击手',
+      'Death Knight',
+      'Big Pipe',
+      'Birdeye',
       'Sanitar',
       'Sanitar Guard',
       '邪教徒牧师',
@@ -113341,13 +137332,30 @@ export default [
     bosses: [
       {
         boss: {
+          id: 'bossKnight',
+          name: 'Death Knight',
+          normalizedName: 'death-knight',
+          imagePortraitLink: 'https://assets.tarkov.dev/death-knight-portrait.png',
+          imagePosterLink: 'https://assets.tarkov.dev/death-knight-poster.jpg',
+        },
+        spawnChance: 0.4,
+        spawnLocations: [
+          {
+            spawnKey: 'ZoneMeteoStation',
+            name: 'Weather Station',
+            chance: 1,
+          },
+        ],
+      },
+      {
+        boss: {
           id: 'bossSanitar',
           name: 'Sanitar',
           normalizedName: 'sanitar',
           imagePortraitLink: 'https://assets.tarkov.dev/sanitar-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/sanitar-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneGreenHouses',
@@ -113399,6 +137407,7 @@ export default [
         ],
       },
     ],
+    nameId: 'Shoreline',
     spawns: [
       {
         zoneName: '012debaa-649e-4aae-bcd1-c479bf8efbe0',
@@ -114737,7 +138746,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -114822,7 +138830,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -115190,6 +139197,7 @@ export default [
         ],
         categories: [
           'bot',
+          'boss',
         ],
       },
       {
@@ -115499,6 +139507,7 @@ export default [
         ],
         categories: [
           'bot',
+          'boss',
         ],
       },
       {
@@ -115919,7 +139928,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -116019,6 +140027,7 @@ export default [
         ],
         categories: [
           'bot',
+          'boss',
         ],
       },
       {
@@ -116118,6 +140127,7 @@ export default [
         ],
         categories: [
           'bot',
+          'boss',
         ],
       },
       {
@@ -116542,7 +140552,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -117273,6 +141282,1473 @@ export default [
         bottom: -15.6386852,
       },
     ],
+    locks: [
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5448ba0b4bdc2d02308b456c',
+          name: '工厂出口钥匙',
+          normalizedName: 'factory-emergency-exit-key',
+        },
+        needsPower: false,
+        position: {
+          x: -608.8308,
+          y: -57.6626854,
+          z: 479.043945,
+        },
+        outline: [
+          {
+            x: -610.147339,
+            y: -57.6967125,
+            z: 478.381836,
+          },
+          {
+            x: -610.1067,
+            y: -57.6967125,
+            z: 478.372253,
+          },
+          {
+            x: -609.1559,
+            y: -57.6967125,
+            z: 478.506531,
+          },
+          {
+            x: -609.115234,
+            y: -57.6967125,
+            z: 478.496918,
+          },
+          {
+            x: -609.2395,
+            y: -57.6967125,
+            z: 479.489075,
+          },
+          {
+            x: -609.280151,
+            y: -57.6967125,
+            z: 479.4987,
+          },
+          {
+            x: -610.230957,
+            y: -57.6967125,
+            z: 479.36438,
+          },
+          {
+            x: -610.2715,
+            y: -57.6967125,
+            z: 479.374,
+          },
+        ],
+        top: -57.1703033,
+        bottom: -58.2231178,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '664d3ddfdda2e85aca370d75',
+          name: "Voron's hideout key",
+          normalizedName: 'vorons-hideout-key',
+        },
+        needsPower: false,
+        position: {
+          x: -239.812943,
+          y: -39.7856979,
+          z: 197.039825,
+        },
+        outline: [
+          {
+            x: -239.984116,
+            y: -39.5656967,
+            z: 197.2085,
+          },
+          {
+            x: -239.557419,
+            y: -39.5656967,
+            z: 197.224609,
+          },
+          {
+            x: -239.585,
+            y: -39.5656967,
+            z: 197.954086,
+          },
+          {
+            x: -240.011673,
+            y: -39.5656967,
+            z: 197.937973,
+          },
+        ],
+        top: -39.200695,
+        bottom: -39.9306946,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d8e15b686f774445103b190',
+          name: '海岸线水电站仓库钥匙',
+          normalizedName: 'hep-station-storage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -220.38063,
+          y: -33.858,
+          z: 185.880585,
+        },
+        outline: [
+          {
+            x: -221.2784,
+            y: -33.638,
+            z: 185.67215,
+          },
+          {
+            x: -220.548935,
+            y: -33.638,
+            z: 185.699692,
+          },
+          {
+            x: -220.565964,
+            y: -33.638,
+            z: 186.151566,
+          },
+          {
+            x: -221.295456,
+            y: -33.638,
+            z: 186.124023,
+          },
+        ],
+        top: -33.273,
+        bottom: -34.003,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5d8e15b686f774445103b190',
+          name: '海岸线水电站仓库钥匙',
+          normalizedName: 'hep-station-storage-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -220.703171,
+          y: -33.8470345,
+          z: 193.687332,
+        },
+        outline: [
+          {
+            x: -221.6566,
+            y: -33.6270332,
+            z: 193.340088,
+          },
+          {
+            x: -220.927048,
+            y: -33.6270332,
+            z: 193.365616,
+          },
+          {
+            x: -220.9449,
+            y: -33.6270332,
+            z: 193.875946,
+          },
+          {
+            x: -221.674454,
+            y: -33.6270332,
+            z: 193.850433,
+          },
+        ],
+        top: -33.2620354,
+        bottom: -33.9920349,
+      },
+      {
+        lockType: 'trunk',
+        key: {
+          id: '5a0eb38b86f774153b320eb0',
+          name: 'SMW车钥匙',
+          normalizedName: 'smw-car-key',
+        },
+        needsPower: false,
+        position: {
+          x: 157.352051,
+          y: -47.3859329,
+          z: 133.891,
+        },
+        outline: [
+          {
+            x: 156.852051,
+            y: -47.515934,
+            z: 134.176,
+          },
+          {
+            x: 157.852051,
+            y: -47.515934,
+            z: 134.176,
+          },
+          {
+            x: 157.852051,
+            y: -47.515934,
+            z: 134.586,
+          },
+          {
+            x: 156.852051,
+            y: -47.515934,
+            z: 134.586,
+          },
+        ],
+        top: -47.3109322,
+        bottom: -47.720932,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0eb6ac86f7743124037a28',
+          name: '别墅后门钥匙',
+          normalizedName: 'cottage-back-door-key',
+        },
+        needsPower: false,
+        position: {
+          x: 102.532318,
+          y: -47.2590027,
+          z: 102.731339,
+        },
+        outline: [
+          {
+            x: 102.918716,
+            y: -47.075,
+            z: 102.689941,
+          },
+          {
+            x: 103.470718,
+            y: -47.075,
+            z: 102.689941,
+          },
+          {
+            x: 103.470718,
+            y: -47.075,
+            z: 102.827927,
+          },
+          {
+            x: 102.918716,
+            y: -47.075,
+            z: 102.827942,
+          },
+        ],
+        top: -46.5230026,
+        bottom: -47.6270027,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a144dfd86f77445cb5a0982',
+          name: '西楼203房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-203-key',
+        },
+        needsPower: false,
+        position: {
+          x: -229.608261,
+          y: 0.137084961,
+          z: -92.90662,
+        },
+        outline: [
+          {
+            x: -230.528244,
+            y: 0.137084961,
+            z: -93.06662,
+          },
+          {
+            x: -229.808273,
+            y: 0.137084961,
+            z: -93.06662,
+          },
+          {
+            x: -229.808273,
+            y: 0.137084961,
+            z: -92.80661,
+          },
+          {
+            x: -230.528244,
+            y: 0.137084961,
+            z: -92.80661,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ee30786f774023b6ee08f',
+          name: '西楼216房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-216-key',
+        },
+        needsPower: false,
+        position: {
+          x: -179.379257,
+          y: 0.137084961,
+          z: -80.91263,
+        },
+        outline: [
+          {
+            x: -180.299271,
+            y: 0.137084961,
+            z: -81.0726,
+          },
+          {
+            x: -179.579269,
+            y: 0.137084961,
+            z: -81.0726,
+          },
+          {
+            x: -179.579269,
+            y: 0.137084961,
+            z: -80.81259,
+          },
+          {
+            x: -180.299271,
+            y: 0.137084961,
+            z: -80.81259,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a13f46386f7741dd7384b04',
+          name: '西楼306房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-306-key',
+        },
+        needsPower: false,
+        position: {
+          x: -216.905258,
+          y: 3.03088379,
+          z: -92.90662,
+        },
+        outline: [
+          {
+            x: -217.825272,
+            y: 3.03088379,
+            z: -93.06662,
+          },
+          {
+            x: -217.10527,
+            y: 3.03088379,
+            z: -93.06662,
+          },
+          {
+            x: -217.10527,
+            y: 3.03088379,
+            z: -92.80661,
+          },
+          {
+            x: -217.825272,
+            y: 3.03088379,
+            z: -92.80661,
+          },
+        ],
+        top: 3.45127869,
+        bottom: 2.61049652,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ee34586f774023b6ee092',
+          name: '西楼220房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-220-key',
+        },
+        needsPower: false,
+        position: {
+          x: -166.686264,
+          y: 0.137084961,
+          z: -80.91263,
+        },
+        outline: [
+          {
+            x: -167.606247,
+            y: 0.137084961,
+            z: -81.0726,
+          },
+          {
+            x: -166.886276,
+            y: 0.137084961,
+            z: -81.0726,
+          },
+          {
+            x: -166.886276,
+            y: 0.137084961,
+            z: -80.81259,
+          },
+          {
+            x: -167.606247,
+            y: 0.137084961,
+            z: -80.81259,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ee4b586f7743698200d22',
+          name: '东楼206房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-206-key',
+        },
+        needsPower: false,
+        position: {
+          x: -285.857239,
+          y: 0.134880066,
+          z: -92.88861,
+        },
+        outline: [
+          {
+            x: -286.777283,
+            y: 0.134880066,
+            z: -93.0486145,
+          },
+          {
+            x: -286.057251,
+            y: 0.134880066,
+            z: -93.0486145,
+          },
+          {
+            x: -286.057251,
+            y: 0.134880066,
+            z: -92.7886047,
+          },
+          {
+            x: -286.777283,
+            y: 0.134880066,
+            z: -92.7886047,
+          },
+        ],
+        top: 0.555274963,
+        bottom: -0.2855072,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a144bdb86f7741d374bbde0',
+          name: '东楼205房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-205-key',
+        },
+        needsPower: false,
+        position: {
+          x: -281.692261,
+          y: 0.134880066,
+          z: -92.88861,
+        },
+        outline: [
+          {
+            x: -282.6123,
+            y: 0.134880066,
+            z: -93.0486145,
+          },
+          {
+            x: -281.892273,
+            y: 0.134880066,
+            z: -93.0486145,
+          },
+          {
+            x: -281.892273,
+            y: 0.134880066,
+            z: -92.7886047,
+          },
+          {
+            x: -282.6123,
+            y: 0.134880066,
+            z: -92.7886047,
+          },
+        ],
+        top: 0.555274963,
+        bottom: -0.2855072,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0eecf686f7740350630097',
+          name: '东楼313房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-313-key',
+        },
+        needsPower: false,
+        position: {
+          x: -313.835754,
+          y: 3.02988434,
+          z: -84.47537,
+        },
+        outline: [
+          {
+            x: -313.635742,
+            y: 3.02988434,
+            z: -84.57538,
+          },
+          {
+            x: -312.915771,
+            y: 3.02988434,
+            z: -84.57538,
+          },
+          {
+            x: -312.915771,
+            y: 3.02988434,
+            z: -84.3154,
+          },
+          {
+            x: -313.635742,
+            y: 3.02988434,
+            z: -84.3154,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ea79b86f7741d4a35298e',
+          name: '疗养院杂物间钥匙',
+          normalizedName: 'health-resort-universal-utility-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -142.583267,
+          y: 3.05788422,
+          z: -79.9176,
+        },
+        outline: [
+          {
+            x: -143.503281,
+            y: 3.05788422,
+            z: -80.07761,
+          },
+          {
+            x: -142.783249,
+            y: 3.05788422,
+            z: -80.07761,
+          },
+          {
+            x: -142.783249,
+            y: 3.05788422,
+            z: -79.8176,
+          },
+          {
+            x: -143.503281,
+            y: 3.05788422,
+            z: -79.8176,
+          },
+        ],
+        top: 3.478279,
+        bottom: 2.637497,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a13eebd86f7746fd639aa93',
+          name: '西楼218房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-218-key',
+        },
+        needsPower: false,
+        position: {
+          x: -173.983749,
+          y: 0.137084961,
+          z: -84.50137,
+        },
+        outline: [
+          {
+            x: -173.783768,
+            y: 0.137084961,
+            z: -84.60138,
+          },
+          {
+            x: -173.063766,
+            y: 0.137084961,
+            z: -84.60138,
+          },
+          {
+            x: -173.063766,
+            y: 0.137084961,
+            z: -84.34137,
+          },
+          {
+            x: -173.783768,
+            y: 0.137084961,
+            z: -84.34137,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0eee1486f77402aa773226',
+          name: '东楼328房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-328-key',
+        },
+        needsPower: false,
+        position: {
+          x: -357.303284,
+          y: 3.02988434,
+          z: -79.9165955,
+        },
+        outline: [
+          {
+            x: -358.223267,
+            y: 3.02988434,
+            z: -80.07663,
+          },
+          {
+            x: -357.5033,
+            y: 3.02988434,
+            z: -80.07663,
+          },
+          {
+            x: -357.5033,
+            y: 3.02988434,
+            z: -79.81662,
+          },
+          {
+            x: -358.223267,
+            y: 3.02988434,
+            z: -79.81662,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a13f35286f77413ef1436b0',
+          name: '东楼226房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-226-key',
+        },
+        needsPower: false,
+        position: {
+          x: -351.9118,
+          y: 0.134880066,
+          z: -84.47537,
+        },
+        outline: [
+          {
+            x: -351.7118,
+            y: 0.134880066,
+            z: -84.57538,
+          },
+          {
+            x: -350.99176,
+            y: 0.134880066,
+            z: -84.57538,
+          },
+          {
+            x: -350.99176,
+            y: 0.134880066,
+            z: -84.31537,
+          },
+          {
+            x: -351.7118,
+            y: 0.134880066,
+            z: -84.31537,
+          },
+        ],
+        top: 0.555274963,
+        bottom: -0.2855072,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ea64786f7741707720468',
+          name: '东楼107办公室钥匙',
+          normalizedName: 'health-resort-east-wing-office-room-107-key',
+        },
+        needsPower: false,
+        position: {
+          x: -333.767029,
+          y: -2.70200348,
+          z: -79.95798,
+        },
+        outline: [
+          {
+            x: -333.627,
+            y: -2.70200348,
+            z: -80.1329956,
+          },
+          {
+            x: -332.887024,
+            y: -2.70200348,
+            z: -80.1329956,
+          },
+          {
+            x: -332.887024,
+            y: -2.70200348,
+            z: -79.78299,
+          },
+          {
+            x: -333.627,
+            y: -2.70200348,
+            z: -79.78299,
+          },
+        ],
+        top: -2.20200348,
+        bottom: -3.20200348,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ec6d286f7742c0b518fb5',
+          name: '西楼205房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-205-key',
+        },
+        needsPower: false,
+        position: {
+          x: -221.073288,
+          y: 0.137084961,
+          z: -92.90662,
+        },
+        outline: [
+          {
+            x: -221.993271,
+            y: 0.137084961,
+            z: -93.06662,
+          },
+          {
+            x: -221.27327,
+            y: 0.137084961,
+            z: -93.06662,
+          },
+          {
+            x: -221.27327,
+            y: 0.137084961,
+            z: -92.80661,
+          },
+          {
+            x: -221.993271,
+            y: 0.137084961,
+            z: -92.80661,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a13f24186f77410e57c5626',
+          name: '东楼222房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-222-key',
+        },
+        needsPower: false,
+        position: {
+          x: -343.3838,
+          y: 0.134880066,
+          z: -84.47537,
+        },
+        outline: [
+          {
+            x: -343.183777,
+            y: 0.134880066,
+            z: -84.57538,
+          },
+          {
+            x: -342.463745,
+            y: 0.134880066,
+            z: -84.57538,
+          },
+          {
+            x: -342.463745,
+            y: 0.134880066,
+            z: -84.31537,
+          },
+          {
+            x: -343.183777,
+            y: 0.134880066,
+            z: -84.31537,
+          },
+        ],
+        top: 0.555274963,
+        bottom: -0.2855072,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0dc95c86f77452440fc675',
+          name: '西楼112办公室钥匙',
+          normalizedName: 'health-resort-west-wing-office-room-112-key',
+        },
+        needsPower: false,
+        position: {
+          x: -189.173019,
+          y: -2.69580078,
+          z: -85.4490051,
+        },
+        outline: [
+          {
+            x: -190.053024,
+            y: -2.69580078,
+            z: -85.62399,
+          },
+          {
+            x: -189.313,
+            y: -2.69580078,
+            z: -85.62399,
+          },
+          {
+            x: -189.313,
+            y: -2.69580078,
+            z: -85.27399,
+          },
+          {
+            x: -190.053024,
+            y: -2.69580078,
+            z: -85.27399,
+          },
+        ],
+        top: -2.19580078,
+        bottom: -3.19580078,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0dc45586f7742f6b0b73e3',
+          name: '西楼104办公室钥匙',
+          normalizedName: 'health-resort-west-wing-office-room-104-key',
+        },
+        needsPower: false,
+        position: {
+          x: -157.433029,
+          y: -2.69580078,
+          z: -85.4490051,
+        },
+        outline: [
+          {
+            x: -158.313034,
+            y: -2.69580078,
+            z: -85.62399,
+          },
+          {
+            x: -157.573013,
+            y: -2.69580078,
+            z: -85.62399,
+          },
+          {
+            x: -157.573013,
+            y: -2.69580078,
+            z: -85.27399,
+          },
+          {
+            x: -158.313034,
+            y: -2.69580078,
+            z: -85.27399,
+          },
+        ],
+        top: -2.19580078,
+        bottom: -3.19580078,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a13ef0686f7746e5a411744',
+          name: '西楼219房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-219-key',
+        },
+        needsPower: false,
+        position: {
+          x: -170.853256,
+          y: 0.137084961,
+          z: -80.91263,
+        },
+        outline: [
+          {
+            x: -171.77327,
+            y: 0.137084961,
+            z: -81.0726,
+          },
+          {
+            x: -171.053268,
+            y: 0.137084961,
+            z: -81.0726,
+          },
+          {
+            x: -171.053268,
+            y: 0.137084961,
+            z: -80.81259,
+          },
+          {
+            x: -171.77327,
+            y: 0.137084961,
+            z: -80.81259,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a145d7b86f7744cbb6f4a13',
+          name: '东楼308房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-308-key',
+        },
+        needsPower: false,
+        position: {
+          x: -294.3863,
+          y: 3.02988434,
+          z: -92.88861,
+        },
+        outline: [
+          {
+            x: -295.306274,
+            y: 3.02988434,
+            z: -93.0486145,
+          },
+          {
+            x: -294.5863,
+            y: 3.02988434,
+            z: -93.0486145,
+          },
+          {
+            x: -294.5863,
+            y: 3.02988434,
+            z: -92.7886047,
+          },
+          {
+            x: -295.306274,
+            y: 3.02988434,
+            z: -92.7886047,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0eec9686f77402ac5c39f2',
+          name: '东楼310房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-310-key',
+        },
+        needsPower: false,
+        position: {
+          x: -303.411255,
+          y: 3.02988434,
+          z: -81.46161,
+        },
+        outline: [
+          {
+            x: -304.3313,
+            y: 3.02988434,
+            z: -81.62161,
+          },
+          {
+            x: -303.611267,
+            y: 3.02988434,
+            z: -81.62161,
+          },
+          {
+            x: -303.611267,
+            y: 3.02988434,
+            z: -81.3616,
+          },
+          {
+            x: -304.3313,
+            y: 3.02988434,
+            z: -81.3616,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a13ef7e86f7741290491063',
+          name: '西楼301房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-301-key',
+        },
+        needsPower: false,
+        position: {
+          x: -229.202621,
+          y: 3.03088379,
+          z: -100.151733,
+        },
+        outline: [
+          {
+            x: -229.362656,
+            y: 3.03088379,
+            z: -99.95175,
+          },
+          {
+            x: -229.102646,
+            y: 3.03088379,
+            z: -99.95175,
+          },
+          {
+            x: -229.102646,
+            y: 3.03088379,
+            z: -99.23175,
+          },
+          {
+            x: -229.362656,
+            y: 3.03088379,
+            z: -99.23175,
+          },
+        ],
+        top: 3.45127869,
+        bottom: 2.61049652,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a1452ee86f7746f33111763',
+          name: '西楼222房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-222-key',
+        },
+        needsPower: false,
+        position: {
+          x: -161.293747,
+          y: 0.137084961,
+          z: -84.50137,
+        },
+        outline: [
+          {
+            x: -161.093765,
+            y: 0.137084961,
+            z: -84.60138,
+          },
+          {
+            x: -160.373764,
+            y: 0.137084961,
+            z: -84.60138,
+          },
+          {
+            x: -160.373764,
+            y: 0.137084961,
+            z: -84.34137,
+          },
+          {
+            x: -161.093765,
+            y: 0.137084961,
+            z: -84.34137,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ea79b86f7741d4a35298e',
+          name: '疗养院杂物间钥匙',
+          normalizedName: 'health-resort-universal-utility-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -142.583267,
+          y: 0.164085388,
+          z: -79.9176,
+        },
+        outline: [
+          {
+            x: -143.503281,
+            y: 0.164085388,
+            z: -80.07761,
+          },
+          {
+            x: -142.783249,
+            y: 0.164085388,
+            z: -80.07761,
+          },
+          {
+            x: -142.783249,
+            y: 0.164085388,
+            z: -79.8176,
+          },
+          {
+            x: -143.503281,
+            y: 0.164085388,
+            z: -79.8176,
+          },
+        ],
+        top: 0.584472656,
+        bottom: -0.25630188,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a145d4786f7744cbb6f4a12',
+          name: '东楼306房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-306-key',
+        },
+        needsPower: false,
+        position: {
+          x: -285.857239,
+          y: 3.02988434,
+          z: -92.88861,
+        },
+        outline: [
+          {
+            x: -286.777283,
+            y: 3.02988434,
+            z: -93.0486145,
+          },
+          {
+            x: -286.057251,
+            y: 3.02988434,
+            z: -93.0486145,
+          },
+          {
+            x: -286.057251,
+            y: 3.02988434,
+            z: -92.7886047,
+          },
+          {
+            x: -286.777283,
+            y: 3.02988434,
+            z: -92.7886047,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ea79b86f7741d4a35298e',
+          name: '疗养院杂物间钥匙',
+          normalizedName: 'health-resort-universal-utility-room-key',
+        },
+        needsPower: false,
+        position: {
+          x: -360.193237,
+          y: 3.04288483,
+          z: -79.8936157,
+        },
+        outline: [
+          {
+            x: -361.113281,
+            y: 3.04288483,
+            z: -80.05362,
+          },
+          {
+            x: -360.39325,
+            y: 3.04288483,
+            z: -80.05362,
+          },
+          {
+            x: -360.39325,
+            y: 3.04288483,
+            z: -79.79361,
+          },
+          {
+            x: -361.113281,
+            y: 3.04288483,
+            z: -79.79361,
+          },
+        ],
+        top: 3.463272,
+        bottom: 2.62249,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a145ebb86f77458f1796f05',
+          name: '东楼316房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-316-key',
+        },
+        needsPower: false,
+        position: {
+          x: -323.389282,
+          y: 3.02988434,
+          z: -80.8936157,
+        },
+        outline: [
+          {
+            x: -324.309265,
+            y: 3.02988434,
+            z: -81.05362,
+          },
+          {
+            x: -323.5893,
+            y: 3.02988434,
+            z: -81.05362,
+          },
+          {
+            x: -323.5893,
+            y: 3.02988434,
+            z: -80.79361,
+          },
+          {
+            x: -324.309265,
+            y: 3.02988434,
+            z: -80.79361,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0eed4386f77405112912aa',
+          name: '东楼314房间钥匙',
+          normalizedName: 'health-resort-east-wing-room-314-key',
+        },
+        needsPower: false,
+        position: {
+          x: -317.992737,
+          y: 3.02988434,
+          z: -84.47537,
+        },
+        outline: [
+          {
+            x: -317.792725,
+            y: 3.02988434,
+            z: -84.57538,
+          },
+          {
+            x: -317.072754,
+            y: 3.02988434,
+            z: -84.57538,
+          },
+          {
+            x: -317.072754,
+            y: 3.02988434,
+            z: -84.3154,
+          },
+          {
+            x: -317.792725,
+            y: 3.02988434,
+            z: -84.3154,
+          },
+        ],
+        top: 3.45027161,
+        bottom: 2.60948944,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5eff09cd30a7dc22fd1ddfed',
+          name: '粘有胶带的钥匙',
+          normalizedName: 'health-resort-office-key-with-a-blue-tape',
+        },
+        needsPower: false,
+        position: {
+          x: -323.547,
+          y: -2.70200348,
+          z: -79.961,
+        },
+        outline: [
+          {
+            x: -323.407043,
+            y: -2.70200348,
+            z: -80.13602,
+          },
+          {
+            x: -322.667053,
+            y: -2.70200348,
+            z: -80.13602,
+          },
+          {
+            x: -322.667053,
+            y: -2.70200348,
+            z: -79.78601,
+          },
+          {
+            x: -323.407043,
+            y: -2.70200348,
+            z: -79.78601,
+          },
+        ],
+        top: -2.20200348,
+        bottom: -3.20200348,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '5a0ee37f86f774023657a86f',
+          name: '西楼221房间钥匙',
+          normalizedName: 'health-resort-west-wing-room-221-key',
+        },
+        needsPower: false,
+        position: {
+          x: -165.451767,
+          y: 0.137084961,
+          z: -84.50137,
+        },
+        outline: [
+          {
+            x: -165.251755,
+            y: 0.137084961,
+            z: -84.60138,
+          },
+          {
+            x: -164.531784,
+            y: 0.137084961,
+            z: -84.60138,
+          },
+          {
+            x: -164.531784,
+            y: 0.137084961,
+            z: -84.34137,
+          },
+          {
+            x: -165.251755,
+            y: 0.137084961,
+            z: -84.34137,
+          },
+        ],
+        top: 0.5574722,
+        bottom: -0.2833023,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5a0f08bc86f77478f33b84c2',
+          name: '疗养院经理办公室保险箱钥匙',
+          normalizedName: 'health-resort-management-office-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -266.10675,
+          y: -0.3202896,
+          z: -147.65097,
+        },
+        outline: [
+          {
+            x: -266.157776,
+            y: -0.3202896,
+            z: -147.5817,
+          },
+          {
+            x: -266.057739,
+            y: -0.3202896,
+            z: -147.580261,
+          },
+          {
+            x: -266.063538,
+            y: -0.3202896,
+            z: -147.1803,
+          },
+          {
+            x: -266.1635,
+            y: -0.3202896,
+            z: -147.181732,
+          },
+        ],
+        top: 0.0147171021,
+        bottom: -0.6552887,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5a0eff2986f7741fd654e684',
+          name: '疗养院321房间保险箱钥匙',
+          normalizedName: 'health-resort-west-wing-room-321-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -165.664047,
+          y: 2.53099823,
+          z: -89.05765,
+        },
+        outline: [
+          {
+            x: -165.5865,
+            y: 2.53099823,
+            z: -89.09482,
+          },
+          {
+            x: -165.19249,
+            y: 2.53099823,
+            z: -89.02594,
+          },
+          {
+            x: -165.2097,
+            y: 2.53099823,
+            z: -88.92743,
+          },
+          {
+            x: -165.603714,
+            y: 2.53099823,
+            z: -88.99631,
+          },
+        ],
+        top: 2.866005,
+        bottom: 2.19599915,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5a0f068686f7745b0d4ea242',
+          name: '别墅保险箱钥匙',
+          normalizedName: 'cottage-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: 93.71925,
+          y: -45.01355,
+          z: 111.979019,
+        },
+        outline: [
+          {
+            x: 93.66823,
+            y: -45.01355,
+            z: 112.048294,
+          },
+          {
+            x: 93.7682343,
+            y: -45.01355,
+            z: 112.049744,
+          },
+          {
+            x: 93.7624359,
+            y: -45.01355,
+            z: 112.449692,
+          },
+          {
+            x: 93.66246,
+            y: -45.01355,
+            z: 112.448242,
+          },
+        ],
+        top: -44.67855,
+        bottom: -45.3485527,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5a0f0f5886f7741c4e32a472',
+          name: '疗养院仓库保险箱钥匙',
+          normalizedName: 'health-resort-management-warehouse-safe-key',
+        },
+        needsPower: false,
+        position: {
+          x: -242.451981,
+          y: -0.3202896,
+          z: -153.367249,
+        },
+        outline: [
+          {
+            x: -242.381271,
+            y: -0.3202896,
+            z: -153.416229,
+          },
+          {
+            x: -241.981308,
+            y: -0.3202896,
+            z: -153.410461,
+          },
+          {
+            x: -241.982742,
+            y: -0.3202896,
+            z: -153.310455,
+          },
+          {
+            x: -242.3827,
+            y: -0.3202896,
+            z: -153.316223,
+          },
+        ],
+        top: 0.0147171021,
+        bottom: -0.6552887,
+      },
+    ],
+    switches: [],
     hazards: [
       {
         hazardType: 'sniper',
@@ -127280,10 +152756,7 @@ export default [
     wiki: 'https://escapefromtarkov.fandom.com/wiki/Woods',
     description: 'Priozersk自然保护区最近被西北联邦行政区纳入特区野生动物保护区。',
     enemies: [
-      'Scav',
-      '狙击手',
       'Death Knight',
-      '游荡者',
       'Big Pipe',
       'Birdeye',
       'Shturman',
@@ -127302,7 +152775,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/death-knight-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/death-knight-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneScavBase2',
@@ -127319,7 +152792,7 @@ export default [
           imagePortraitLink: 'https://assets.tarkov.dev/shturman-portrait.png',
           imagePosterLink: 'https://assets.tarkov.dev/shturman-poster.jpg',
         },
-        spawnChance: 0.15,
+        spawnChance: 0.4,
         spawnLocations: [
           {
             spawnKey: 'ZoneWoodCutter',
@@ -127351,6 +152824,7 @@ export default [
         ],
       },
     ],
+    nameId: 'Woods',
     spawns: [
       {
         zoneName: '007293cc-b2a3-4b23-a094-f0b2c77535e0',
@@ -128377,7 +153851,6 @@ export default [
         ],
         categories: [
           'bot',
-          'sniper',
         ],
       },
       {
@@ -131397,6 +156870,181 @@ export default [
         bottom: 0.7264141,
       },
     ],
+    locks: [
+      {
+        lockType: 'trunk',
+        key: {
+          id: '591ae8f986f77406f854be45',
+          name: 'Yotota车钥匙',
+          normalizedName: 'yotota-car-key',
+        },
+        needsPower: false,
+        position: {
+          x: -0.1508789,
+          y: -0.680201769,
+          z: -61.946167,
+        },
+        outline: [
+          {
+            x: -1.32824707,
+            y: -0.449476957,
+            z: -62.6814575,
+          },
+          {
+            x: -1.33746338,
+            y: -0.449476957,
+            z: -62.70282,
+          },
+          {
+            x: -0.35760498,
+            y: -0.449476957,
+            z: -62.5037231,
+          },
+          {
+            x: -0.348327637,
+            y: -0.449476957,
+            z: -62.48236,
+          },
+          {
+            x: -0.556884766,
+            y: -0.449476957,
+            z: -61.5239868,
+          },
+          {
+            x: -0.547668457,
+            y: -0.449476957,
+            z: -61.5026245,
+          },
+          {
+            x: -1.52752686,
+            y: -0.449476957,
+            z: -61.70166,
+          },
+          {
+            x: -1.5368042,
+            y: -0.449476957,
+            z: -61.7230835,
+          },
+        ],
+        top: 0.06659722,
+        bottom: -0.965551138,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '591afe0186f77431bd616a11',
+          name: 'ZB-014钥匙',
+          normalizedName: 'zb-014-key',
+        },
+        needsPower: false,
+        position: {
+          x: 448.623047,
+          y: -13.269,
+          z: 65.5839844,
+        },
+        outline: [
+          {
+            x: 447.394165,
+            y: -13.2689991,
+            z: 65.50543,
+          },
+          {
+            x: 448.041016,
+            y: -13.2689991,
+            z: 65.50543,
+          },
+          {
+            x: 448.041016,
+            y: -13.2689991,
+            z: 65.73645,
+          },
+          {
+            x: 447.394165,
+            y: -13.2689991,
+            z: 65.73645,
+          },
+        ],
+        top: -12.9086647,
+        bottom: -13.6293344,
+      },
+      {
+        lockType: 'door',
+        key: {
+          id: '664d3db6db5dea2bad286955',
+          name: "Shatun's hideout",
+          normalizedName: 'shatuns-hideout-key',
+        },
+        needsPower: false,
+        position: {
+          x: -513.133,
+          y: 16.5528336,
+          z: -388.476959,
+        },
+        outline: [
+          {
+            x: -513.128,
+            y: 16.5626545,
+            z: -388.521973,
+          },
+          {
+            x: -512.178,
+            y: 16.5626545,
+            z: -388.521973,
+          },
+          {
+            x: -512.178,
+            y: 16.5626545,
+            z: -388.311981,
+          },
+          {
+            x: -513.128,
+            y: 16.5626545,
+            z: -388.311981,
+          },
+        ],
+        top: 17.5986633,
+        bottom: 15.5266438,
+      },
+      {
+        lockType: 'container',
+        key: {
+          id: '5d08d21286f774736e7c94c3',
+          name: 'Shturman 钥匙',
+          normalizedName: 'shturmans-stash-key',
+        },
+        needsPower: false,
+        position: {
+          x: 25.1087952,
+          y: -1.47199988,
+          z: -29.55574,
+        },
+        outline: [
+          {
+            x: 24.9741955,
+            y: -1.482,
+            z: -30.0394821,
+          },
+          {
+            x: 25.1433849,
+            y: -1.482,
+            z: -29.9150848,
+          },
+          {
+            x: 24.7761116,
+            y: -1.482,
+            z: -29.4155731,
+          },
+          {
+            x: 24.6069221,
+            y: -1.482,
+            z: -29.53997,
+          },
+        ],
+        top: -1.35199988,
+        bottom: -1.612,
+      },
+    ],
+    switches: [],
     hazards: [
       {
         hazardType: 'sniper',

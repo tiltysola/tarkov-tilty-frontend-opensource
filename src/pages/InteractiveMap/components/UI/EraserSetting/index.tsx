@@ -1,4 +1,8 @@
 import Slider from 'rc-slider';
+import { useRecoilState } from 'recoil';
+
+import useI18N from '@/i18n';
+import langState from '@/store/lang';
 
 import './style.less';
 
@@ -10,10 +14,14 @@ export interface EraserSettingProps {
 const Index = (props: EraserSettingProps) => {
   const { eraserWidth, onEraserWidthChange } = props;
 
+  const [lang] = useRecoilState(langState);
+
+  const { t } = useI18N(lang);
+
   return (
     <div className="im-quicktools-modal-erasersetting" onMouseDown={(e) => e.stopPropagation()}>
       <div className="im-quicktools-modal-erasersetting-title">
-        <span>橡皮宽度</span>
+        <span>{t('others.eraserWidth')}</span>
       </div>
       <div className="im-quicktools-modal-erasersetting-block">
         <Slider

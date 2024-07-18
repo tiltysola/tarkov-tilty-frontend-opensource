@@ -13,17 +13,43 @@ const Index = (props: BaseMapProps) => {
   const { id, baseMap, activeLayer, status, coordinateRotation = 180, resolution } = props;
 
   if (baseMap && status === 'loaded') {
-    return (
-      <Image
-        id={id}
-        image={baseMap}
-        rotation={coordinateRotation - 180}
-        offset={{ x: coordinateRotation === 90 ? baseMap.width : 0, y: 0 }}
-        scaleX={coordinateRotation === 90 ? Math.abs(baseMap.height / baseMap.width) : 1}
-        scaleY={coordinateRotation === 90 ? Math.abs(baseMap.width / baseMap.height) : 1}
-        opacity={activeLayer ? 0.1 : 1}
-      />
-    );
+    if (coordinateRotation === 90) {
+      return (
+        <Image
+          id={id}
+          image={baseMap}
+          rotation={coordinateRotation - 180}
+          offset={{ x: baseMap.width, y: 0 }}
+          scaleX={Math.abs(baseMap.height / baseMap.width)}
+          scaleY={Math.abs(baseMap.width / baseMap.height)}
+          opacity={activeLayer ? 0.1 : 1}
+        />
+      );
+    } else if (coordinateRotation === 180) {
+      return (
+        <Image
+          id={id}
+          image={baseMap}
+          rotation={coordinateRotation - 180}
+          offset={{ x: 0, y: 0 }}
+          scaleX={1}
+          scaleY={1}
+          opacity={activeLayer ? 0.1 : 1}
+        />
+      );
+    } else if (coordinateRotation === 270) {
+      return (
+        <Image
+          id={id}
+          image={baseMap}
+          rotation={coordinateRotation - 180}
+          offset={{ x: 0, y: baseMap.height }}
+          scaleX={Math.abs(baseMap.height / baseMap.width)}
+          scaleY={Math.abs(baseMap.width / baseMap.height)}
+          opacity={activeLayer ? 0.1 : 1}
+        />
+      );
+    }
   } else if (status === 'loading') {
     return (
       <Text

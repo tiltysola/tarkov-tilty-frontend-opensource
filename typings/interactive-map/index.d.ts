@@ -12,6 +12,7 @@ declare namespace InteractiveMap {
     bosses: Boss[];
     spawns: Spawn[];
     extracts: Extract[];
+    locks: Lock[];
     hazards: Hazard[];
     lootContainers: LootContainer[];
     stationaryWeapons: StationaryWeapon[];
@@ -66,6 +67,20 @@ declare namespace InteractiveMap {
     bottom: number;
   }
 
+  interface Lock {
+    lockType: string;
+    key: {
+      id: string;
+      name: string;
+      normalizedName: string;
+    };
+    needsPower: boolean;
+    position: Position;
+    outline: Position[];
+    top: number;
+    bottom: number;
+  }
+
   interface Hazard {
     hazardType: string;
     name: string;
@@ -93,56 +108,11 @@ declare namespace InteractiveMap {
     position: Position;
   }
 
-  interface TaskSimple {
-    id: string;
-  }
-
-  interface Task {
-    id: string;
-    name: string;
-    normalizedName: string;
-    trader: string;
-    map: string;
-    experience: number;
-    wikiLink: string;
-    taskImageLink: string;
-    minPlayerLevel: number;
-    taskRequirements: any; //
-    objectives: TaskObjective[];
-    startRewards: any; //
-    finishRewards: any; //
-    restartable: boolean;
-    kappaRequired: boolean;
-    lightkeeperRequired: boolean;
-    taskForwards: any; //
-  }
-
-  interface TaskObjective {
-    id: string;
-    type: string;
-    description: string;
-    maps: { id: string }[];
-    optional: boolean;
-    possibleLocations: PossibleLocation[];
-    zones: TaskZone[];
-  }
-
   interface PossibleLocation {
     map: {
       id: string;
     }
     positions: Position[];
-  }
-
-  interface TaskZone {
-    id: string;
-    map: {
-      id: string;
-    }
-    position: Position;
-    outline: Position[];
-    top: number;
-    bottom: number;
   }
 
   interface Position {
@@ -196,7 +166,7 @@ declare namespace InteractiveMap {
   }
 
   interface UtilProps {
-    baseMapStatus: MapStatus,
+    baseMapStatus: MapStatus;
     baseScale: number;
     mapScale: number;
     activeLayer: Layer | undefined;
@@ -218,9 +188,43 @@ declare namespace InteractiveMap {
     tool: string;
     points: number[];
     name?: string;
-    socketId: string;
     member: boolean;
     updatedAt: number;
+  }
+
+  interface RaidLogProps {
+    profileId: string;
+    status: string;
+    raidMode: string;
+    ip: string;
+    port: string;
+    location: string;
+    sid: string;
+    gameMode: string;
+    shortId: string;
+    realTime: string | null;
+  }
+
+  interface ProfileLogProps {
+    profileId: string;
+    accountId: string;
+  }
+
+  interface UserConfirmedLogProps {
+    type: string;
+    eventId: string;
+    profileid: string;
+    profileToken: string;
+    status: string;
+    ip: string;
+    port: number;
+    sid: string;
+    version: string;
+    location: string;
+    raidMode: string;
+    mode: string;
+    shortId: string;
+    additional_info: any[];
   }
 
   type Faction = 'pmc' | 'scav' | 'shared';
@@ -230,5 +234,6 @@ declare namespace InteractiveMap {
   type StrokeType = 'drag' | 'draw' | 'eraser' | 3 | 'ruler';
   type OperationType = -1 | 0 | 1 | 2;
 
-  type QuickTools = 'marker' | 'task' | 'draw' | 'eraser' | 'setting';
+  type QuickTools = 'marker' | 'draw' | 'eraser' | 'setting';
+  type AdditionFunc = 'tradertimer';
 }

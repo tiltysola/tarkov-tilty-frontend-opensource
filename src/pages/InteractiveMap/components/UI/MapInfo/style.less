@@ -17,20 +17,20 @@
   }
   &-item {
     font-size: 14px;
-    &:not(:last-child) {
-      margin-bottom: 16px;
-    }
-    &.active {
-      .goon-alert {
-        color: #ffffff;
-        text-shadow: 0 0 2px #ffffff;
-        animation: goon-alert 16s linear infinite;
-      }
+    &:not(:first-child) {
+      margin-top: 16px;
     }
     &-title {
       display: inline-block;
       width: 96px;
       color: #888888;
+      &.warning {
+        width: 100%;
+        color: #ff8828;
+      }
+    }
+    * {
+      vertical-align: top;
     }
   }
   .tarkov-time {

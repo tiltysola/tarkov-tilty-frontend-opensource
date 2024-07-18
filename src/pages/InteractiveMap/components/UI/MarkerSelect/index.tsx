@@ -1,4 +1,8 @@
 import classNames from 'classnames';
+import { useRecoilState } from 'recoil';
+
+import useI18N from '@/i18n';
+import langState from '@/store/lang';
 
 import { getIconCDN, getLoot } from '@/pages/InteractiveMap/utils';
 
@@ -6,12 +10,14 @@ import './style.less';
 
 export interface MarkerSelectProps {
   extracts: string[];
+  locks: string[];
   lootKeys: string[];
   spawns: string[];
   hazards: string[];
   stationaryWeapons: string[];
   lootContainers: InteractiveMap.LootContainer[];
   onExtractsChange: (extracts: InteractiveMap.Faction[]) => void;
+  onLocksChange: (locks: string[]) => void;
   onLootKeysChange: (lootKeys: string[]) => void;
   onSpawnsChange: (hazards: string[]) => void;
   onHazardsChange: (hazards: string[]) => void;
@@ -21,23 +27,37 @@ export interface MarkerSelectProps {
 const Index = (props: MarkerSelectProps) => {
   const {
     extracts,
+    locks,
     lootKeys,
     spawns,
     hazards,
     stationaryWeapons,
     lootContainers,
     onExtractsChange,
+    onLocksChange,
     onLootKeysChange,
     onSpawnsChange,
     onHazardsChange,
     onStationaryWeaponsChange,
   } = props;
 
+  const [lang] = useRecoilState(langState);
+
+  const { t } = useI18N(lang);
+
   const handleToggleExtract = (_extract: string) => {
     if (extracts.includes(_extract)) {
       onExtractsChange?.(extracts.filter((e) => e !== _extract) as InteractiveMap.Faction[]);
     } else {
       onExtractsChange?.([...extracts, _extract] as InteractiveMap.Faction[]);
+    }
+  };
+
+  const handleToggleLock = (_lock: string) => {
+    if (locks.includes(_lock)) {
+      onLocksChange?.(locks.filter((e) => e !== _lock));
+    } else {
+      onLocksChange?.([...locks, _lock]);
     }
   };
 
@@ -76,7 +96,7 @@ const Index = (props: MarkerSelectProps) => {
   return (
     <div className="im-quicktools-modal-marker" onMouseDown={(e) => e.stopPropagation()}>
       <div className="im-quicktools-modal-marker-title">
-        <span>撤离点</span>
+        <span>{t('marker.extracts')}</span>
       </div>
       <div className="im-quicktools-modal-marker-block">
         <div className="im-quicktools-modal-marker-block-list">
@@ -94,7 +114,7 @@ const Index = (props: MarkerSelectProps) => {
         </div>
       </div>
       <div className="im-quicktools-modal-marker-title">
-        <span>图例</span>
+        <span>{t('marker.legends')}</span>
       </div>
       {['Valuable', 'Good', 'Common'].map((type) => {
         return (
@@ -121,7 +141,7 @@ const Index = (props: MarkerSelectProps) => {
         );
       })}
       <div className="im-quicktools-modal-marker-title">
-        <span>出生点</span>
+        <span>{t('marker.spawns')}</span>
       </div>
       <div className="im-quicktools-modal-marker-block">
         <div className="im-quicktools-modal-marker-block-list">
@@ -139,10 +159,21 @@ const Index = (props: MarkerSelectProps) => {
         </div>
       </div>
       <div className="im-quicktools-modal-marker-title">
-        <span>危险区</span>
+        <span>{t('marker.others')}</span>
       </div>
       <div className="im-quicktools-modal-marker-block">
         <div className="im-quicktools-modal-marker-block-list">
+          {['lock'].map((lock) => {
+            return (
+              <img
+                className={classNames({
+                  active: locks.includes(lock),
+                })}
+                src={getIconCDN('lock')}
+                onClick={() => handleToggleLock(lock)}
+              />
+            );
+          })}
           {['hazard'].map((hazard) => {
             return (
               <img
@@ -154,13 +185,6 @@ const Index = (props: MarkerSelectProps) => {
               />
             );
           })}
-        </div>
-      </div>
-      <div className="im-quicktools-modal-marker-title">
-        <span>固定武器</span>
-      </div>
-      <div className="im-quicktools-modal-marker-block">
-        <div className="im-quicktools-modal-marker-block-list">
           {['stationaryWeapon'].map((stationaryWeapon) => {
             return (
               <img

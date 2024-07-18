@@ -25,7 +25,7 @@ const Index = (props: DrawLinesProps & InteractiveMap.DrawProps & InteractiveMap
     show,
   } = props;
 
-  if (baseMapStatus === 'loaded' && drawLines.length > 0 && show.length > 0) {
+  if (baseMapStatus === 'loaded' && drawLines?.length > 0 && show.length > 0) {
     return (
       <Group>
         {drawLines
