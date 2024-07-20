@@ -1,42 +1,58 @@
-# Escape From Tarkov & Interactive Map
+![LOGO](https://cdn.mahoutsukai.cn/uploads/tilty/gallery/18c9a3866cc04d8a89549c29dc78a9fd/18c9a3866cc04d8a89549c29dc78a9fd.webp)
 
-> If you love this project, please leave a Star!!!
+<p align="center">
+  <a href="https://github.com/tiltysola/tarkov-tilty-frontend-opensource" alt="GitHub Repo stars">
+    <img src="https://img.shields.io/github/stars/tiltysola/tarkov-tilty-frontend-opensource" />
+  </a>
+</p>
 
-### Opensource Version. 1.0.0
+# 逃离塔科夫·缇尔蒂助手 - 开源版本 <small>[Escape From Tarkov & Tilty Assistant]</small>
+
+> 如果你喜欢这个项目，请给本项目一个Star！  
+> If you love this project, you can leave a star to engage the author!!!  
+
+### 简述 <small>[Summary]</small>
+
+开源版本号: Version.1.0.1-OpenSource
+
+OpenSource Version: Version.1.0.1-OpenSource
 
 Copyright 2022-2024, TiltySola.
 
-![预览图片](https://github.com/tiltysola/tarkov-tilty-frontend-opensource/blob/master/git/tarkov-tilty-frontend-opensource.png?raw=true)
+![Preview Image](https://cdn.mahoutsukai.cn/uploads/tilty/gallery/c8a403def818467b8891ad10afdbc13d/c8a403def818467b8891ad10afdbc13d.webp)
 
-### Updates:
+### 更新日志 <small>[Updates]</small>
 
 ```
 Version.1.0.1-OpenSource
 
-1. Add Location Quaternion.
-2. Add auto-switch maps, when Tarkov Game Path selected.
+1. 新增实时坐标方向计算。
+2. 新增选择塔科夫游戏目录功能，实现自动切换地图。
+
+1. Add location quaternion.
+2. Add map auto-switch, you should select your Tarkov game path to enable this feature.
 ```
 
-### Installation scripts
+### 安装脚本 <small>[Installation Scripts]</small>
 
 ```
-$ npm i
+$ npm i --registry=https://registry.npmmirror.com
 ```
 
-### Development mode
+### 开发模式 <small>[Development Mode]</small>
 
 ```
 $ npm run dev
 ```
 
-### Build scripts
+### 构建脚本 <small>[Build Scripts]</small>
 
 ```
 $ npm run build
 ```
 
-### Warning: Opensource & GPL v3
+### 开源协议 & GPL v3 <small>[Opensource & GPL v3]</small>
 
-Please don't fake tilty's website in any way.
+本项目以 GPL v3 协议进行开源，请严格遵守开源协议。
 
-More details: LICENSE.MD
+This project is opensource under GPL v3 License.
